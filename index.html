@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Centermap</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/one-page-wonder.css" rel="stylesheet">
+
+    
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script> -->
+    <script type="text/javascript">
+        
+      $(function() {
+        var moveLeft = 20;
+        var moveDown = 10;
+        
+          $('div#pop-up').hide();
+          
+        $('a#trigger').hover(function(e) {
+          $('div#pop-up').show();
+          //.css('top', e.pageY + moveDown)
+          //.css('left', e.pageX + moveLeft)
+          //.appendTo('body');
+        }, function() {
+          $('div#pop-up').hide();
+        });
+        
+        $('a#trigger').mousemove(function(e) {
+          $("div#pop-up").css('top', e.pageY - 400 + moveDown).css('left', e.pageX + moveLeft);
+        });
+        
+      });
+    </script>
+    
+    
+    
+      <script type="text/javascript">
+      $(function() {
+        var moveLeft = 20;
+        var moveDown = 10;
+        
+          $('div#pop-upa').hide();
+          
+        $('a#triggera').hover(function(e) {
+          $('div#pop-upa').show();
+          //.css('top', e.pageY + moveDown)
+          //.css('left', e.pageX + moveLeft)
+          //.appendTo('body');
+        }, function() {
+          $('div#pop-upa').hide();
+        });
+        
+        $('a#triggera').mousemove(function(e) {
+          $("div#pop-upa").css('top', e.pageY  - 400 + moveDown).css('left', e.pageX + moveLeft);
+        });
+        
+      });
+    </script>
+    
+    
+      <!-- INTERAKTIEVE KARTE -->
+    
+    
+    <script>
+        $.getJSON('json_mieter.json', function(data) {
+       
+            
+            $(".checkbox").on("change", function() {
+  
+
+      
+                for (i = 0; i < data.mieter.length+1; i++) {
+                    num=i;
+                    var n = num.toString();
+         
+      
+                    if ( ((data.mieter[i].dienstleistung=="true")&&($('#dienstleistung').is(':checked'))) || ((data.mieter[i].einzelhandel=="true")&&($('#einzelhandel').is(':checked'))) || ((data.mieter[i].gastronomie=="true")&&($('#gastronomie').is(':checked'))) || ((data.mieter[i].lebensmittel=="true")&&($('#lebensmittel').is(':checked')))  )    {
+                                               
+                       // $('.map-'+ n).css('opacity',1.0);
+                       $('.map-'+ n).fadeTo(1000, 1.0);
+                    }
+                    else {         
+                       // $('.map-'+ n).css('opacity',0.2);
+                         $('.map-'+ n).fadeTo(1000, 0.1);
+                    }   
+          
+                }
+    
+            });
+                
+        });
+                
+    </script>
+     
+    
+    
+    
+    <!-- STYLES -->
+    
+<style>
+    
+    .map-2, .map-1, .map-0{
+        opacity: 0.1;
+        
+    }
+    
+    .cls-2, .cls-1, .cls-5, .cls-8{
+        
+        opacity: 0.5;
+    }
+    
+    
+
+    
+    
+    
+</style>
+    
+    
+</head>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<body>
+
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Start Bootstrap</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Full Width Image Header -->
+    <header class="header-image">
+        <div class="headline">
+            <div class="container" style="background:none;">
+                <h1 style="color:white;">CENTERMAP</h1>
+                <h2 style="color:white;">INTERAKTIVE KARTE</h2>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+        
+        <hr class="featurette-divider">
+
+        <!-- First Featurette -->
+        <div class="featurette" id="about">
+           
+            <h2 class="featurette-heading" style="color:#efefef">Wählen sie den gewünschten Bereich aus
+                
+            </h2>
+           
+        </div>
+
+        
+       
+        
+
+        
+        
+<!-- CHECKBOXEN -->
+
+
+        
+
+  
+    <div class="row" style="color:#efefef;margin-top:5%;margin-left:2%;">      
+        
+                
+        <div class="checkbox setting col-md-1">
+            <label><input type="checkbox" id="dienstleistung" value=""> <div class="track"></div>
+                <div class="toggle"></div>DIENSTLEISTUNG</label>
+        </div>
+    
+        <div class="checkbox setting col-md-1" style="margin-top:10px;">
+            <label><input type="checkbox" id="einzelhandel" value=""> <div class="track"></div>
+                <div class="toggle"></div>EINZELHANDEL</label>
+        </div>
+     
+   <!-- <div class="checkbox">
+        <label><input type="checkbox" id="gastronomie" value="">gastronomie</label>
+    </div> -->
+    
+        <div class="checkbox setting col-md-1" style="margin-top:10px;">
+            <label><input type="checkbox" id="lebensmittel" value=""> <div class="track"></div>
+                <div class="toggle"></div>LEBENSMITTEL</label>
+        </div>
+
+   
+    </div>
+       
+                <hr class="featurette-divider" style="margin-top:2%;">
+        
+<!-- KARTE -->
+        
+<div class="row">
+        <div class="col-md-8">   
+      
+              
+            
+        
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 929.63 496.16"><defs><style>.cls-1,.cls-5{fill:#ececed;}.cls-2{fill:#d9dada;}.cls-3{fill:#ffed00;}.cls-4{clip-path:url(#clip-path);}.cls-5{stroke:#b1b2b3;stroke-width:1.07px;}.cls-5,.cls-9{stroke-miterlimit:10;}.cls-6{fill:#cc6a6a;}.cls-7{fill:#f9b232;}.cls-8{fill:#b1b2b3;}.cls-9{fill:none;stroke:#878786;stroke-width:3px;}</style><clipPath id="clip-path" transform="translate(-178.25 -224)"><polygon class="cls-1" points="1023.54 318.5 1023.54 537.48 961.12 537.48 961.12 589.42 1105.5 589.42 1105.5 318.5 1023.54 318.5"/></clipPath></defs>
+                <title>the_grundriss</title>
+                    
+                    <g id="halle">
+                    <polygon class="cls-2" points="423.06 54.33 423.06 42.67 318.82 42.67 318.82 54.33 277.09 54.33 277.09 12.33 230.56 12.33 160.25 12.33 154.7 12.33 125.75 12.33 125.75 0 82.75 0 82.75 12.33 59.4 12.33 55.75 12.33 22.16 12.33 13.75 12.33 0 12.33 0 228.9 13.75 228.9 22.16 228.9 55.75 228.9 55.75 365.42 160.25 365.42 160.25 228.9 260.42 228.9 260.42 291.25 331.75 291.25 331.75 228.9 331.75 213.55 331.75 141 413.75 141 413.75 119.32 423.75 119.32 423.75 60.33 423.75 54.33 423.06 54.33"/>
+                    <polygon class="cls-2" points="782.87 94.5 782.87 54.33 691.09 54.33 691.09 42.67 651.54 42.67 651.54 54.33 605.21 54.33 605.21 359.67 782.87 359.67 782.87 313.48 845.29 313.48 845.29 94.5 782.87 94.5"/>
+                    <polygon class="cls-2" points="423.75 42.67 423.75 120.15 413.75 120.15 413.75 141 331.75 141 331.75 292.05 260.94 292.05 260.94 359.67 605.21 359.67 605.21 54.33 506.75 54.33 506.75 42.67 423.75 42.67"/>
+                    <rect class="cls-3 map-0" x="230.56" y="12.33" width="46.52" height="42"/>
+                    <rect class="cls-3 map-0" x="288.42" y="54.33" width="30.67" height="12"/>
+                    <rect class="cls-3 map-0" x="551.2" y="316.37" width="43.3" height="43.3"/>
+                    <polygon class="cls-3 map-0" points="425.23 60.33 425.23 69.22 425.23 119.32 438.37 119.32 438.37 69.22 470.67 69.22 470.67 54.33 425.23 54.33 425.23 60.33"/>
+                    <rect class="cls-3 map-0" x="782.87" y="94.5" width="18.22" height="17.83"/>
+                    <polygon class="cls-1" points="845.29 94.5 845.29 313.48 782.87 313.48 782.87 365.42 927.25 365.42 927.25 94.5 845.29 94.5"/>
+                    <g class="cls-4"><line class="cls-5" x1="771.39" y1="164.36" x2="929.25" y2="6.5"/>
+                    <line class="cls-5" x1="771.39" y1="211.71" x2="929.25" y2="53.85"/>
+                    <line class="cls-5" x1="771.39" y1="259.05" x2="929.25" y2="101.19"/>
+                    <line class="cls-5" x1="771.39" y1="306.4" x2="929.25" y2="148.54"/>
+                    <line class="cls-5" x1="771.39" y1="353.74" x2="929.25" y2="195.88"/>
+                    <line class="cls-5" x1="771.39" y1="401.09" x2="929.25" y2="243.23"/>
+                    <line class="cls-5" x1="771.39" y1="448.43" x2="929.25" y2="290.57"/>
+                    <line class="cls-5" x1="771.39" y1="495.78" x2="929.25" y2="337.92"/></g></g>
+                    <g id="entsorgung">
+                    <rect class="cls-6 map-1" x="13.75" y="12.33" width="101.33" height="57.33"/></g>
+                    <g id="technikraum">
+                    <polygon class="cls-7 map-2" points="115.09 69.67 172.82 69.67 172.82 101.06 230.56 101.06 230.56 69.67 230.56 63 230.56 12.33 115.09 12.33 115.09 69.67"/>
+                    <rect class="cls-7 map-2" x="318.83" y="42.67" width="104.23" height="11.67"/>
+                    <rect class="cls-7 map-2" x="260.42" y="228.9" width="71.33" height="62.34"/>
+                    <rect class="cls-7 map-2" x="594.5" y="335.52" width="10.7" height="24.15"/></g>
+                    <g id="ramps">
+                    <rect class="cls-8" y="12.33" width="13.75" height="216.57"/>
+                    <rect class="cls-8" x="55.75" y="353.92" width="104.5" height="13.28"/>
+                    <rect class="cls-8" x="82.75" width="43" height="12.33"/>
+                    <rect class="cls-8" x="506.75" y="51.5" width="98.33" height="11.5"/>
+                    <rect class="cls-8" x="606.42" y="51.5" width="45.12" height="11.5"/>
+                    <polygon class="cls-8" points="606.42 353.92 260.94 353.92 260.94 365.42 606.42 365.42 782.87 365.42 782.87 353.92 606.42 353.92"/></g>
+                    <g id="borders">
+                    <polyline class="cls-9" points="423.75 42.67 423.75 120.15 413.75 120.15 413.75 141 331.75 141 331.75 291.67 260.42 291.67 260.42 365.42"/>
+                    <line class="cls-9" x1="606.42" y1="51.5" x2="606.42" y2="365.42"/></g></svg>
+            
+            
+            
+            
+            
+        </div>  
+        <div class="col-md-4"> <h4>HIER DIE INFORAMTIONEN ZUR FLÄCHE</h4></div>
+</div>       
+        
+        
+        
+        
+        <!-- POPUPS -->
+        
+         <div id="pop-upa" style="position:absolute; weight: 10vw; height: 50vh; background-color:#e3e3e3;z-index:8;">
+                   <h3>INFORMATIONEN</h3>
+                    <p>
+                        Hier könnten wichtige Informationen stehen.
+                    </p>
+                    <img src="assets/img/test.jpg">
+                    
+                </div> 
+        
+        <div id="pop-up" style="position:absolute; weight: 100vw; height: 50vh;background-color:#e3e3e3;z-index:8;">
+                    <h3>INFORMATIONEN</h3>
+                    <p>
+                        Hier könnten wichtige Informationen stehen.
+                        <img src="assets/img/test.jpg">
+                    </p>
+                </div>
+        
+        
+        <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     
+     
+     
+     
+     
+     
+     
+  
+     
+
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>kplus konzept</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+  
+
+</body>
+
+</html>

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Centermap</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/one-page-wonder.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        var moveLeft = 20;
+        var moveDown = 10;
+        
+          $('div#pop-up').hide();
+          
+        $('a#trigger').hover(function(e) {
+          $('div#pop-up').show();
+          //.css('top', e.pageY + moveDown)
+          //.css('left', e.pageX + moveLeft)
+          //.appendTo('body');
+        }, function() {
+          $('div#pop-up').hide();
+        });
+        
+        $('a#trigger').mousemove(function(e) {
+          $("div#pop-up").css('top', e.pageY - 400 + moveDown).css('left', e.pageX + moveLeft);
+        });
+        
+      });
+    </script>
+    
+    
+    
+      <script type="text/javascript">
+      $(function() {
+        var moveLeft = 20;
+        var moveDown = 10;
+        
+          $('div#pop-upa').hide();
+          
+        $('a#triggera').hover(function(e) {
+          $('div#pop-upa').show();
+          //.css('top', e.pageY + moveDown)
+          //.css('left', e.pageX + moveLeft)
+          //.appendTo('body');
+        }, function() {
+          $('div#pop-upa').hide();
+        });
+        
+        $('a#triggera').mousemove(function(e) {
+          $("div#pop-upa").css('top', e.pageY  - 400 + moveDown).css('left', e.pageX + moveLeft);
+        });
+        
+      });
+    </script>
+    
+    
+    
+    
+    
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Start Bootstrap</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Full Width Image Header -->
+    <header class="header-image">
+        <div class="headline">
+            <div class="container">
+                <h1>Centermap</h1>
+                <h2>Informationen</h2>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+        
+        <hr class="featurette-divider">
+
+        <!-- First Featurette -->
+        <div class="featurette" id="about">
+           
+            <h2 class="featurette-heading">HEADER
+                <span class="text-muted">Some Text</span>
+            </h2>
+           
+        </div>
+
+        
+        <br>
+        <br>
+        <br>
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+
+  <div style="position:relative; width:1200px; height:747px">   
+      
+        <div style="position:absolute; z-index:1; top: 0;left: 0;"> <img src="assets/img/promenaden_gr_eg.png" width="1200" height="747" alt=""> 
+        </div> 
+        
+        <div class="transp"  style="position:absolute;  z-index:4;top: 477px;left: 267px;">
+                <a href="#" id="trigger"> <img src="assets/img/images/160513_promenaden_gr_eg_03.png"   alt=""></a>
+     
+     
+                
+     
+            </div>
+     
+      
+<div class="transp"  style="position:absolute;  z-index:5;top: 477px;left: 794px;">
+    <a href="#" id="triggera"> <img src="assets/img/images/160513_promenaden_gr_eg_05.png"alt="">  </a> 
+    
+     
+       
+ </div> 
+      
+      
+      
+         
+        </div>  
+        
+        
+        <!-- POPUPS -->
+        
+         <div id="pop-upa" style="position:absolute; weight: 10vw; height: 50vh; background-color:grey;z-index:8;">
+                   <h3>INFORMATIONEN</h3>
+                    <p>
+                        Hier könnten wichtige Informationen stehen.
+                    </p>
+                    <img src="assets/img/test.jpg">
+                    
+                </div> 
+        
+        <div id="pop-up" style="position:absolute; weight: 100vw; height: 50vh;background-color:grey;z-index:8;">
+                    <h3>INFORMATIONEN</h3>
+                    <p>
+                        Hier könnten wichtige Informationen stehen.
+                        <img src="assets/img/test.jpg">
+                    </p>
+                </div>
+        
+        
+        <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     
+     
+     
+     
+     
+     
+     
+  
+     
+
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>kplus konzept</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

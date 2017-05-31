@@ -1,0 +1,40 @@
+
+{
+   "mieter": [
+       {
+           
+           "dienstleistung": "true",
+           "einzelhandel": "false",
+           "lebensmittel": "false",
+           "gastronomie": "false",
+           "id": "1"
+       },
+       {
+           
+           "dienstleistung": "false",
+           "einzelhandel": "true",
+           "lebensmittel": "false",
+           "gastronomie": "false",
+           "id": "2"
+       },
+       {
+           
+           "dienstleistung": "false",
+           "einzelhandel": "false",
+           "lebensmittel": "true",
+           "gastronomie": "false",
+           "id": "3"
+	
+       },
+       
+       {
+           
+           "dienstleistung": "false",
+           "einzelhandel": "false",
+           "lebensmittel": "false",
+           "gastronomie": "true",
+           "id": "4"
+	
+       }
+   ]
+}
