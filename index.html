@@ -56,57 +56,82 @@
          
          
          $("#area1").click(function(){
-            $(".hyde").hide();
-             $(".a1").toggle();
+            $(".hyde").hide(500);
+            $(".a1").toggle(500);
              
             
          });
          
         $("#area2").click(function(){
-            $(".hyde").hide();
-            $(".a2").toggle();
+            $(".hyde").hide(500);
+            $(".a2").toggle(500);
          });
          
           $("#area3").click(function(){
-            $(".hyde").hide();
-            $(".a3").toggle();
+            $(".hyde").hide(500);
+            $(".a3").toggle(500);
          });
          
          $("#area4").click(function(){
-            $(".hyde").hide();
-            $(".a4").toggle();
+            $(".hyde").hide(500);
+            $(".a4").toggle(500);
          });
          
          $("#area5").click(function(){
-            $(".hyde").hide();
-            $(".a5").toggle();
+            $(".hyde").hide(500);
+            $(".a5").toggle(500);
          });
          
          $("#area6").click(function(){
-            $(".hyde").hide();
-            $(".a6").toggle();
+            $(".hyde").hide(500);
+            $(".a6").toggle(500);
          });
          
          $("#area7").click(function(){
-            $(".hyde").hide();
-            $(".a7").toggle();
+            $(".hyde").hide(500);
+            $(".a7").toggle(500);
          });
          
          $("#area8").click(function(){
-            $(".hyde").hide();
-            $(".a8").toggle();
+            $(".hyde").hide(500);
+            $(".a8").toggle(500);
          });
          
          $("#area9").click(function(){
-            $(".hyde").hide();
-            $(".a9").toggle();
+            $(".hyde").hide(500);
+            $(".a9").toggle(500);
          });
          
          $("#area10").click(function(){
-            $(".hyde").hide();
-            $(".a10").toggle();
+            $(".hyde").hide(500);
+            $(".a10").toggle(500);
          }); 
          
+         $("#area11").click(function(){
+            $("#area11").css("opacity", 0.8);
+            $("#area12").css("opacity", 0.4);
+            $("#area13").css("opacity", 0.4);
+             
+            $(".hyde").hide(500);
+            $(".a11").toggle(500);
+         });
+         
+         $("#area12").click(function(){
+            $("#area11").css("opacity", 0.4);
+            $("#area12").css("opacity", 0.8);
+            $("#area13").css("opacity", 0.4);
+             
+            $(".hyde").hide(500);
+            $(".a12").toggle(500);
+         });
+         $("#area13").click(function(){             
+            $("#area11").css("opacity", 0.4);
+            $("#area12").css("opacity", 0.4);
+            $("#area13").css("opacity", 0.8);
+             
+            $(".hyde").hide(500);
+            $(".a13").toggle(500);
+         });
      });
 </script>
     
@@ -161,11 +186,14 @@
         
     }
     
-    .cls-2, .cls-1, .cls-5, .cls-8{
+    .cls-1, .cls-5, .cls-8{
         
         opacity: 0.5;
     }
     
+    .cls-2{
+        opacity: 0.4;
+    }
     
 
     
@@ -249,7 +277,7 @@
         
 
         
-        
+        s
 <!-- CHECKBOXEN -->
 
 
@@ -295,9 +323,9 @@
                 <title>the_grundriss</title>
                     
                     <g id="halle">
-                    <polygon class="cls-2" points="423.06 54.33 423.06 42.67 318.82 42.67 318.82 54.33 277.09 54.33 277.09 12.33 230.56 12.33 160.25 12.33 154.7 12.33 125.75 12.33 125.75 0 82.75 0 82.75 12.33 59.4 12.33 55.75 12.33 22.16 12.33 13.75 12.33 0 12.33 0 228.9 13.75 228.9 22.16 228.9 55.75 228.9 55.75 365.42 160.25 365.42 160.25 228.9 260.42 228.9 260.42 291.25 331.75 291.25 331.75 228.9 331.75 213.55 331.75 141 413.75 141 413.75 119.32 423.75 119.32 423.75 60.33 423.75 54.33 423.06 54.33"/>
-                    <polygon class="cls-2" points="782.87 94.5 782.87 54.33 691.09 54.33 691.09 42.67 651.54 42.67 651.54 54.33 605.21 54.33 605.21 359.67 782.87 359.67 782.87 313.48 845.29 313.48 845.29 94.5 782.87 94.5"/>
-                    <polygon class="cls-2" points="423.75 42.67 423.75 120.15 413.75 120.15 413.75 141 331.75 141 331.75 292.05 260.94 292.05 260.94 359.67 605.21 359.67 605.21 54.33 506.75 54.33 506.75 42.67 423.75 42.67"/>
+                    <polygon class="cls-2" id="area11" points="423.06 54.33 423.06 42.67 318.82 42.67 318.82 54.33 277.09 54.33 277.09 12.33 230.56 12.33 160.25 12.33 154.7 12.33 125.75 12.33 125.75 0 82.75 0 82.75 12.33 59.4 12.33 55.75 12.33 22.16 12.33 13.75 12.33 0 12.33 0 228.9 13.75 228.9 22.16 228.9 55.75 228.9 55.75 365.42 160.25 365.42 160.25 228.9 260.42 228.9 260.42 291.25 331.75 291.25 331.75 228.9 331.75 213.55 331.75 141 413.75 141 413.75 119.32 423.75 119.32 423.75 60.33 423.75 54.33 423.06 54.33"/>
+                    <polygon class="cls-2" id="area12" points="782.87 94.5 782.87 54.33 691.09 54.33 691.09 42.67 651.54 42.67 651.54 54.33 605.21 54.33 605.21 359.67 782.87 359.67 782.87 313.48 845.29 313.48 845.29 94.5 782.87 94.5"/>
+                    <polygon class="cls-2" id="area13" points="423.75 42.67 423.75 120.15 413.75 120.15 413.75 141 331.75 141 331.75 292.05 260.94 292.05 260.94 359.67 605.21 359.67 605.21 54.33 506.75 54.33 506.75 42.67 423.75 42.67"/>
                     <rect class="cls-3 map-0" id="area1" x="230.56" y="12.33" width="46.52" height="42"/>
                     <rect class="cls-3 map-0" id="area2" x="288.42" y="54.33" width="30.67" height="12"/>
                     <rect class="cls-3 map-0" id="area3" x="551.2" y="316.37" width="43.3" height="43.3"/>
@@ -356,6 +384,9 @@
 <div class="a8 hyde white" w3-include-html="content/area8.html"></div>
 <div class="a9 hyde white" w3-include-html="content/area9.html"></div>
 <div class="a10 hyde white" w3-include-html="content/area10.html"></div>
+<div class="a11 hyde white" w3-include-html="content/area11.html"></div>
+<div class="a12 hyde white" w3-include-html="content/area12.html"></div>
+<div class="a13 hyde white" w3-include-html="content/area13.html"></div>
 
 
     
