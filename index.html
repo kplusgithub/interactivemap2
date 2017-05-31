@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Centermap</title>
+    <title>iLeasing</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -28,7 +28,7 @@
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://www.w3schools.com/lib/w3.js"></script>
- 
+    <script src="../interactivemap/js/interactive.js"></script>
     
     
     
@@ -38,141 +38,16 @@
     
     
     <!-- MAPPING
-    * #area1 - #area10 sind die schaltflächen
-    *.a1 - .a10 sind die inhalte zu den flächen die ien und ausgeblendet werden
-    .map-1 - .map-3 ... sind die classen welche die farben der zonenaufteilung steuern
+    * #area1 - #area10 sind die schaltflächen, 
+    *.a1 - .a10 sind die inhalte zu den flächen die ein und ausgeblendet werden, das Skript checkt wenn auf eine areaID geklickt wird und verändert (show hide) die class a1 a2.. welche divs zugeorndet sind welche die Inhalte per htmlinject aufruft.
+    + ..das classattribute hyde wird gebraucht um global alle nicht genutzen class a1,a2.. div zu hiden.
+    *.map-1 - .map-3 ... sind die classen welche die farben der zonenaufteilung steuern (in Zukunft versuchen svgs automatisch diese Klassen zuzuweisen.)
 
 -->
     
 
     
-    <!-- Script for show hide divs -->
-    
-<script>
-     $(document).ready(function(){
-         
-         $(".hyde").hide();
-         
-         
-         
-         $("#area1").click(function(){
-            $(".hyde").hide(500);
-            $(".a1").toggle(500);
-             
-            
-         });
-         
-        $("#area2").click(function(){
-            $(".hyde").hide(500);
-            $(".a2").toggle(500);
-         });
-         
-          $("#area3").click(function(){
-            $(".hyde").hide(500);
-            $(".a3").toggle(500);
-         });
-         
-         $("#area4").click(function(){
-            $(".hyde").hide(500);
-            $(".a4").toggle(500);
-         });
-         
-         $("#area5").click(function(){
-            $(".hyde").hide(500);
-            $(".a5").toggle(500);
-         });
-         
-         $("#area6").click(function(){
-            $(".hyde").hide(500);
-            $(".a6").toggle(500);
-         });
-         
-         $("#area7").click(function(){
-            $(".hyde").hide(500);
-            $(".a7").toggle(500);
-         });
-         
-         $("#area8").click(function(){
-            $(".hyde").hide(500);
-            $(".a8").toggle(500);
-         });
-         
-         $("#area9").click(function(){
-            $(".hyde").hide(500);
-            $(".a9").toggle(500);
-         });
-         
-         $("#area10").click(function(){
-            $(".hyde").hide(500);
-            $(".a10").toggle(500);
-         }); 
-         
-         $("#area11").click(function(){
-            $("#area11").css("opacity", 0.8);
-            $("#area12").css("opacity", 0.4);
-            $("#area13").css("opacity", 0.4);
-             
-            $(".hyde").hide(500);
-            $(".a11").toggle(500);
-         });
-         
-         $("#area12").click(function(){
-            $("#area11").css("opacity", 0.4);
-            $("#area12").css("opacity", 0.8);
-            $("#area13").css("opacity", 0.4);
-             
-            $(".hyde").hide(500);
-            $(".a12").toggle(500);
-         });
-         $("#area13").click(function(){             
-            $("#area11").css("opacity", 0.4);
-            $("#area12").css("opacity", 0.4);
-            $("#area13").css("opacity", 0.8);
-             
-            $(".hyde").hide(500);
-            $(".a13").toggle(500);
-         });
-     });
-</script>
-    
-    
-    
 
-    
-    
-      <!-- INTERAKTIEVE KARTE -->
-         <!-- aus JSON wird anhand von Attributen (z.B:dienstleistung /ture false) classenatrribute gesteuert-->
-    
-    <script>
-        $.getJSON('json_mieter.json', function(data) {
-       
-            
-            $(".checkbox").on("change", function() {
-  
-
-      
-                for (i = 0; i < data.mieter.length+1; i++) {
-                    num=i;
-                    var n = num.toString();
-         
-      
-                    if ( ((data.mieter[i].dienstleistung=="true")&&($('#dienstleistung').is(':checked'))) || ((data.mieter[i].einzelhandel=="true")&&($('#einzelhandel').is(':checked'))) || ((data.mieter[i].gastronomie=="true")&&($('#gastronomie').is(':checked'))) || ((data.mieter[i].lebensmittel=="true")&&($('#lebensmittel').is(':checked')))  )    {
-                                               
-                       // $('.map-'+ n).css('opacity',1.0);
-                       $('.map-'+ n).fadeTo(1000, 1.0);
-                    }
-                    else {         
-                       // $('.map-'+ n).css('opacity',0.2);
-                         $('.map-'+ n).fadeTo(1000, 0.1);
-                    }   
-          
-                }
-    
-            });
-                
-        });
-                
-    </script>
      
     
     
@@ -252,8 +127,8 @@
     <header class="header-image">
         <div class="headline">
             <div class="container" style="background:none;">
-                <h1 style="color:white;">LAGEPLAN</h1>
-                <h2 style="color:white;">INTERAKTIVE KARTE</h2>
+                <h1 style="color:white;">iLeasing</h1>
+                <h3 style="color:white;"> POWERD BY KPLUS KONZEPT</h2>
             </div>
         </div>
     </header>
@@ -277,7 +152,7 @@
         
 
         
-        s
+        
 <!-- CHECKBOXEN -->
 
 
@@ -289,12 +164,12 @@
                 
         <div class="checkbox setting col-md-1">
             <label><input type="checkbox" id="dienstleistung" value=""> <div class="track"></div>
-                <div class="toggle"></div>DIENSTLEISTUNG</label>
+                <div class="toggle"></div>KÜHLLAGER</label>
         </div>
     
         <div class="checkbox setting col-md-1" style="margin-top:10px;">
             <label><input type="checkbox" id="einzelhandel" value=""> <div class="track"></div>
-                <div class="toggle"></div>EINZELHANDEL</label>
+                <div class="toggle"></div>AUSLIEFERUNGSLAGER</label>
         </div>
      
    <!-- <div class="checkbox">
@@ -303,7 +178,7 @@
     
         <div class="checkbox setting col-md-1" style="margin-top:10px;">
             <label><input type="checkbox" id="lebensmittel" value=""> <div class="track"></div>
-                <div class="toggle"></div>LEBENSMITTEL</label>
+                <div class="toggle"></div>ZOLLLAGER</label>
         </div>
 
    

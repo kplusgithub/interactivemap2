@@ -1,27 +1,24 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [One Page Wonder](http://startbootstrap.com/template-overviews/one-page-wonder/)
+# [Start Interactive Map]
 
-[One Page Wonder](http://startbootstrap.com/template-overviews/one-page-wonder/) is a basic one page template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+[interactie map](https://github.com/kplusgithub/interactivemap2/) is a basic example for an interactive map with jquery created by [KPLUSKONZEPT](http://kplus-konzept.de/).
 
 ## Getting Started
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/one-page-wonder/)
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-one-page-wonder.git`
-* Fork the repo
+To begin using this example, download the files and open the index.html
 
-## Bugs and Issues
+## How does it work?
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/one-page-wonder/).
 
-## Creator
+There are four mainparts:
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+    1. The area1.html ...area13.html contain the information that gets visible if you click on a field in the interactive map.
+    2. The interactive.js file containes the logic of this app. The first part of the code controls the visibilty of the div's thad injects the area[0-9]?[0-9].html files.
+        The ID's #area[0-9]?[0-9] links this function so the fields of the map (svg)
+    3. The second part of the code in the interactive.js reads a json file that containes atrributes, which controlls the behavior (opacity) of the fields in the svg. it manipulates the css (map-[0-9]?[0-9])attributes (svg)
+    4. The Json file containes information about the fields, the first field geht the css class map-0 the second map-1 and so on. 
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
 ## Copyright and License
 
-Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/gh-pages/LICENSE) license.
+Copyright Kplus Konzept
