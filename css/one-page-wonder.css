@@ -5,18 +5,29 @@
  */
 
 
-    
+
+.bg-color {
+    background-color: #222;
+}
 .white {
     color:#efefef;
 } 
     
+ .content-size {
     
+    height:50px;
+}    
     
+ .hyde > img {
+     max-height:500%;
+     width: auto;
+     max-width: 95%;
     
+}  
     .setting {
   position: relative;
   /*top: 50px; */
-  width: 260px;
+  width: 250px;
   padding: 12px;
   /*margin: auto;*/
   border: 1px solid #9C9691;

@@ -17,7 +17,8 @@
     <!-- Custom CSS -->
     <link href="css/one-page-wonder.css" rel="stylesheet">
 
-    
+   
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,11 +31,9 @@
     <script src="https://www.w3schools.com/lib/w3.js"></script>
     <script src="../interactivemap/js/interactive.js"></script>
     
+
     
-    
-    
-    
-    
+      
     
     
     <!-- MAPPING
@@ -46,7 +45,6 @@
 -->
     
 
-    
 
      
     
@@ -56,23 +54,14 @@
     
 <style>
     
-    .map-2, .map-1, .map-0{
-        opacity: 0.1;
-        
-    }
+  
     
-    .cls-1, .cls-5, .cls-8{
-        
-        opacity: 0.5;
-    }
+   
+#section g[id^='map-'] {
+    opacity: 0.3; 
+}
     
-    .cls-2{
-        opacity: 0.4;
-    }
-    
-
-    
-    
+ 
     
 </style>
     
@@ -102,7 +91,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Home</a>
+                
+                <a class="navbar-brand" href="#"><img width="150px" src="assets/img/logo_thelen.svg"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -110,12 +100,12 @@
                     <li>
                         <a href="#about">Karte</a>
                     </li>
-                    <li>
+                    <!--<li>
                         <a href="#services">Services</a>
                     </li>
                     <li>
                         <a href="#contact">Contact</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -128,20 +118,20 @@
         <div class="headline">
             <div class="container" style="background:none;">
                 <h1 style="color:white;">iLeasing</h1>
-                <h3 style="color:white;"> POWERD BY KPLUS KONZEPT</h2>
+                <h3 style="color:white;"> POWERED BY KPLUS KONZEPT</h3>
             </div>
         </div>
     </header>
 
     <!-- Page Content -->
-    <div class="container">
+    <div class="container bg-color" >
         
         <!--<hr class="featurette-divider"> -->
 
         <!-- First Featurette -->
         <div class="featurette" id="about">
            
-            <h2 class="featurette-heading white" style="margin-top:5%;">Wählen sie den gewünschten Bereich aus
+            <h2 class="featurette-heading white" style="margin-top:5%;padding-bottom:30px;">Promenaden Bahnhof
                 
             </h2>
            
@@ -152,39 +142,7 @@
         
 
         
-        
-<!-- CHECKBOXEN -->
 
-
-        
-
-  
-    <div class="row white" style="margin-top:5%;margin-left:2%;">      
-        
-                
-        <div class="checkbox setting col-md-1">
-            <label><input type="checkbox" id="dienstleistung" value=""> <div class="track"></div>
-                <div class="toggle"></div>KÜHLLAGER</label>
-        </div>
-    
-        <div class="checkbox setting col-md-1" style="margin-top:10px;">
-            <label><input type="checkbox" id="einzelhandel" value=""> <div class="track"></div>
-                <div class="toggle"></div>AUSLIEFERUNGSLAGER</label>
-        </div>
-     
-   <!-- <div class="checkbox">
-        <label><input type="checkbox" id="gastronomie" value="">gastronomie</label>
-    </div> -->
-    
-        <div class="checkbox setting col-md-1" style="margin-top:10px;">
-            <label><input type="checkbox" id="lebensmittel" value=""> <div class="track"></div>
-                <div class="toggle"></div>ZOLLLAGER</label>
-        </div>
-
-   
-    </div>
-       
-                <hr class="featurette-divider" style="margin-top:2%;">
         
 <!-- KARTE -->
         
@@ -193,55 +151,314 @@
       
               
             
-        
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 929.63 496.16"><defs><style>.cls-1,.cls-5{fill:#ececed;}.cls-2{fill:#d9dada;}.cls-3{fill:#ffed00;}.cls-4{clip-path:url(#clip-path);}.cls-5{stroke:#b1b2b3;stroke-width:1.07px;}.cls-5,.cls-9{stroke-miterlimit:10;}.cls-6{fill:#cc6a6a;}.cls-7{fill:#f9b232;}.cls-8{fill:#b1b2b3;}.cls-9{fill:none;stroke:#878786;stroke-width:3px;}</style><clipPath id="clip-path" transform="translate(-178.25 -224)"><polygon class="cls-1" points="1023.54 318.5 1023.54 537.48 961.12 537.48 961.12 589.42 1105.5 589.42 1105.5 318.5 1023.54 318.5"/></clipPath></defs>
-                <title>the_grundriss</title>
-                    
-                    <g id="halle">
-                    <polygon class="cls-2" id="area11" points="423.06 54.33 423.06 42.67 318.82 42.67 318.82 54.33 277.09 54.33 277.09 12.33 230.56 12.33 160.25 12.33 154.7 12.33 125.75 12.33 125.75 0 82.75 0 82.75 12.33 59.4 12.33 55.75 12.33 22.16 12.33 13.75 12.33 0 12.33 0 228.9 13.75 228.9 22.16 228.9 55.75 228.9 55.75 365.42 160.25 365.42 160.25 228.9 260.42 228.9 260.42 291.25 331.75 291.25 331.75 228.9 331.75 213.55 331.75 141 413.75 141 413.75 119.32 423.75 119.32 423.75 60.33 423.75 54.33 423.06 54.33"/>
-                    <polygon class="cls-2" id="area12" points="782.87 94.5 782.87 54.33 691.09 54.33 691.09 42.67 651.54 42.67 651.54 54.33 605.21 54.33 605.21 359.67 782.87 359.67 782.87 313.48 845.29 313.48 845.29 94.5 782.87 94.5"/>
-                    <polygon class="cls-2" id="area13" points="423.75 42.67 423.75 120.15 413.75 120.15 413.75 141 331.75 141 331.75 292.05 260.94 292.05 260.94 359.67 605.21 359.67 605.21 54.33 506.75 54.33 506.75 42.67 423.75 42.67"/>
-                    <rect class="cls-3 map-0" id="area1" x="230.56" y="12.33" width="46.52" height="42"/>
-                    <rect class="cls-3 map-0" id="area2" x="288.42" y="54.33" width="30.67" height="12"/>
-                    <rect class="cls-3 map-0" id="area3" x="551.2" y="316.37" width="43.3" height="43.3"/>
-                    <polygon class="cls-3 map-0" id="area4" points="425.23 60.33 425.23 69.22 425.23 119.32 438.37 119.32 438.37 69.22 470.67 69.22 470.67 54.33 425.23 54.33 425.23 60.33"/>
-                    <rect class="cls-3 map-0" id="area5" x="782.87" y="94.5" width="18.22" height="17.83"/>
-                    <polygon class="cls-1" points="845.29 94.5 845.29 313.48 782.87 313.48 782.87 365.42 927.25 365.42 927.25 94.5 845.29 94.5"/>
-                    <g class="cls-4"><line class="cls-5" x1="771.39" y1="164.36" x2="929.25" y2="6.5"/>
-                    <line class="cls-5" x1="771.39" y1="211.71" x2="929.25" y2="53.85"/>
-                    <line class="cls-5" x1="771.39" y1="259.05" x2="929.25" y2="101.19"/>
-                    <line class="cls-5" x1="771.39" y1="306.4" x2="929.25" y2="148.54"/>
-                    <line class="cls-5" x1="771.39" y1="353.74" x2="929.25" y2="195.88"/>
-                    <line class="cls-5" x1="771.39" y1="401.09" x2="929.25" y2="243.23"/>
-                    <line class="cls-5" x1="771.39" y1="448.43" x2="929.25" y2="290.57"/>
-                    <line class="cls-5" x1="771.39" y1="495.78" x2="929.25" y2="337.92"/></g></g>
-                    <g id="entsorgung">
-                    <rect class="cls-6 map-1" id="area6" x="13.75" y="12.33" width="101.33" height="57.33"/></g>
-                    <g id="technikraum">
-                    <polygon class="cls-7 map-2" id="area7" points="115.09 69.67 172.82 69.67 172.82 101.06 230.56 101.06 230.56 69.67 230.56 63 230.56 12.33 115.09 12.33 115.09 69.67"/>
-                    <rect class="cls-7 map-2" id="area8" x="318.83" y="42.67" width="104.23" height="11.67"/>
-                    <rect class="cls-7 map-2" id="area9" x="260.42" y="228.9" width="71.33" height="62.34"/>
-                    <rect class="cls-7 map-2" id="area10" x="594.5" y="335.52" width="10.7" height="24.15"/></g>
-                    <g id="ramps">
-                    <rect class="cls-8" y="12.33" width="13.75" height="216.57"/>
-                    <rect class="cls-8" x="55.75" y="353.92" width="104.5" height="13.28"/>
-                    <rect class="cls-8" x="82.75" width="43" height="12.33"/>
-                    <rect class="cls-8" x="506.75" y="51.5" width="98.33" height="11.5"/>
-                    <rect class="cls-8" x="606.42" y="51.5" width="45.12" height="11.5"/>
-                    <polygon class="cls-8" points="606.42 353.92 260.94 353.92 260.94 365.42 606.42 365.42 782.87 365.42 782.87 353.92 606.42 353.92"/></g>
-                    <g id="borders">
-                    <polyline class="cls-9" points="423.75 42.67 423.75 120.15 413.75 120.15 413.75 141 331.75 141 331.75 291.67 260.42 291.67 260.42 365.42"/>
-                    <line class="cls-9" x1="606.42" y1="51.5" x2="606.42" y2="365.42"/></g></svg>
-            
-            
+       <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 3313.3 1495.4" style="enable-background:new 0 0 3313.3 1495.4;" xml:space="preserve" id="section">
+<style type="text/css">
+	.st0{fill:#CCCCCC;stroke:#FFFFFF;stroke-width:0.656;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:0.328;}
+	.st2{fill:#808080;stroke:#FFFFFF;stroke-width:0.462;}
+	.st3{fill:#fff;}
+	.st4{font-family:'FuturaT-BolCon';}
+	.st5{font-size:42.5515px;}
+	.st6{letter-spacing:-1;}
+	.st7{letter-spacing:-2;}
+	.st8{font-size:43.6185px;}
+	.st9{letter-spacing:-3;}
+</style>
+<g id="Ebene_1">
+</g>
+<g id="Ebene_2">
+	<path class="st0" d="M47.7,0.3v273.1H0.3V519h47.4v364.4h598.8v63.8h86.2v220.6h47.6v37.9h39.6v7.8h-35.5v118H609.9v163.7h274.4
+		v-71.5h190.2v-210.2h-44.6v-7.8h44.6v-37.9h47.6V991.1h179.6c28.1,12.2,59.1,19,91.7,19c32.6,0,63.5-6.8,91.6-19h84.3
+		c28.1,12.2,59.1,19,91.6,19c32.5,0,63.5-6.8,91.6-19h83.6c28.1,12.2,59,19,91.6,19c32.6,0,63.5-6.8,91.6-19h167.7v178.3h47v38.8
+		h294.2v-38.8h48.2v-38.8h39.6V978.2h229.2v-94.8h415.6V519h52.2V273.4h-52.2V0.3H47.7z"/>
+</g>
+<g id="Ebene_3">
+	<path class="st1" d="M2791.8,0.3h-41.4v98.2h-384.3v184.1c-30.6,6.1-56.9,24.3-73.6,49.4H1025.1c-20.8-31.2-56.2-51.7-96.5-51.7
+		c-64,0-115.9,51.9-115.9,115.9c0,46.3,27.1,86.2,66.3,104.8v296.3c-13,12.8-21.1,30.6-21.1,50.3s8.1,37.5,21.1,50.3v316.2h-4.3
+		c-9.5,24.6-19.4,84-141.7,152.5c-73.7,42.6-96.1,87-103.8,128.4h101.7c31.4-59.9,76.2-31.5,177.5-137.8
+		c52.1-54.8,70.6-143,70.6-143h-2.6V899.6c14-12.9,22.8-31.4,22.8-51.9s-8.8-39-22.8-51.9v-294c18.9-8.6,35-22,46.9-38.8h1271
+		c21,29.7,55.6,49.1,94.7,49.1c64,0,115.9-51.9,115.9-115.9c0-56.2-40-103-93-113.6V140.8h379.9V0.3z"/>
+</g>
+<g id="map-53">
+	<path class="st2" d="M987.7,1416.3l34.7-34.3l-66.7-66.7l-12.2-7.2c-9.4,17.2-21,34.4-35,49.1c-15.6,16.4-29.9,29.6-43,40.4v0
+		c-2.2,1.8-4.4,3.6-6.6,5.3c-58.9,46.5-92.8,44.7-117.7,76.2h131.9v-62.9H987.7z"/>
+	<text transform="matrix(1 0 0 1 821.7322 1466.3291)" class="st3 st4 st5">53</text>
+</g>
+<g id="map-51">
+	<path class="st2" d="M943.4,1308.2l12.2,7.2l52.9,52.9l43.3-43.3v-102.5H1026v-11.6h-49.5v3.4c1.6,0,2.6,0,2.6,0
+		S969.1,1261.4,943.4,1308.2z"/>
+	<text transform="matrix(1 0 0 1 987.0921 1296.4551)"><tspan x="0" y="0" class="st3 st4 st5 st6">5</tspan><tspan x="19.9" y="0" class="st3 st4 st5">1</tspan></text>
+</g>
+<g id="map-50">
+	<rect x="976.5" y="1143.8" class="st2" width="50.6" height="40"/>
+	<rect x="976.5" y="1143.8" class="st3" width="50.6" height="40"/>
+	<text transform="matrix(1 0 0 1 983.3006 1177.1523)" class="st3 st4 st5">50</text>
+</g>
+<g id="map-49">
+	<rect x="976.5" y="1029.4" class="st2" width="117.4" height="90.9"/>
+	<text transform="matrix(1 0 0 1 994.4959 1090.9355)" class="st3 st4 st5">49</text>
+</g>
+<g id="map-48">
+	<rect x="976.5" y="975.6" class="st2" width="117.4" height="53.9"/>
+</g>
+<g id="map-47">
+	<rect x="976.5" y="908.8" class="st2" width="131.9" height="66.8"/>
+	<text transform="matrix(1 0 0 1 994.8724 957.2773)"><tspan x="0" y="0" class="st3 st4 st5">4</tspan><tspan x="21.1" y="0" class="st3 st4 st5">7</tspan></text>
+</g>
+<g id="map-46">
+	<path class="st2" d="M976.5,908.8h131.9v-60.7H999.3c-0.1,20.4-8.9,38.7-22.8,51.5V908.8z"/>
+	<text transform="matrix(1 0 0 1 1015.6004 893.2031)" class="st3 st4 st5">46</text>
+</g>
+<g id="map-45">
+	<path class="st2" d="M999.3,848.1h109.1V664.2H976.5v131.6c14,12.9,22.8,31.3,22.8,51.9C999.3,847.8,999.3,847.9,999.3,848.1z"/>
+	<text transform="matrix(1 0 0 1 994.4959 754.6064)" class="st3 st4 st5">45</text>
+</g>
+<g id="map-44">
+	<rect x="976.5" y="591.3" class="st2" width="131.9" height="72.8"/>
+</g>
+<g id="map-43">
+	<path class="st2" d="M976.5,557.8h72.8V463h-25.9c-11.8,16.7-28,30.2-46.9,38.8V557.8z"/>
+	<text transform="matrix(1 0 0 1 994.4959 525.5532)" class="st3 st4 st5">43</text>
+</g>
+<g id="map-42">
+	<rect x="1049.3" y="463" class="st2" width="67.2" height="94.8"/>
+	<text transform="matrix(1 0 0 1 1064.4885 513.083)" class="st3 st4 st5">42</text>
+</g>
+<g id="map-41">
+	<rect x="1116.5" y="463" class="st2" width="51.7" height="94.8"/>
+	<text transform="matrix(1 0 0 1 1124.9998 513.083)"><tspan x="0" y="0" class="st3 st4 st5 st7">4</tspan><tspan x="19.7" y="0" class="st3 st4 st5">1</tspan></text>
+</g>
+<g id="map-40">
+	<rect x="1196.6" y="463" class="st2" width="81" height="94.8"/>
+	<text transform="matrix(1 0 0 1 1218.7 513.083)" class="st3 st4 st5">40</text>
+</g>
+<g id="map-39">
+	<rect x="1278" y="463" class="st2" width="81" height="94.8"/>
+	<text transform="matrix(1 0 0 1 1300.094 513.083)" class="st3 st4 st5">39</text>
+</g>
+<g id="map-38">
+	<rect x="1359" y="463" class="st2" width="120.6" height="94.8"/>
+	<text transform="matrix(1 0 0 1 1399.1189 513.083)" class="st3 st4 st5">38</text>
+</g>
+<g id="map-37">
+	<rect x="1479.6" y="463" class="st2" width="93.9" height="94.8"/>
+</g>
+<g id="map-36">
+	<rect x="1598.1" y="463" class="st2" width="124.1" height="94.8"/>
+	<text transform="matrix(1 0 0 1 1645.7449 513.083)" class="st3 st4 st5">36</text>
+</g>
+<g id="map-35">
+	<rect x="1722.1" y="463" class="st2" width="121.1" height="94.8"/>
+	<text transform="matrix(1 0 0 1 1764.5881 513.083)" class="st3 st4 st5">35</text>
+</g>
+<g id="map-34">
+	<rect x="1843.2" y="463" class="st2" width="121.1" height="94.8"/>
+	<text transform="matrix(1 0 0 1 1882.886 513.083)"><tspan x="0" y="0" class="st3 st4 st5">3</tspan><tspan x="22" y="0" class="st3 st4 st5">4</tspan></text>
+</g>
+<g id="map-33">
+	<rect x="1964.2" y="463" class="st2" width="74.1" height="94.8"/>
+	<text transform="matrix(1 0 0 1 1982.8792 513.083)" class="st3 st4 st5">33</text>
+</g>
+<g id="map-32">
+	<rect x="2038.3" y="463" class="st2" width="74.1" height="94.8"/>
+	<text transform="matrix(1 0 0 1 2056.9631 513.083)" class="st3 st4 st5">32</text>
+</g>
+<g id="map-31">
+	<path class="st2" d="M2294.3,463h-154.7v94.8h171v-49.2l12.2-17.3C2311.8,483.6,2302.1,474,2294.3,463z"/>
+	<text transform="matrix(1 0 0 1 2208.9143 513.083)"><tspan x="0" y="0" class="st3 st4 st5 st6">3</tspan><tspan x="20" y="0" class="st3 st4 st5">1</tspan></text>
+</g>
+<g id="map-30">
+	<path class="st2" d="M2322.8,491.3l-12.2,17.3v49.2h78v-45.7C2364.1,512,2341.5,504.3,2322.8,491.3z"/>
+</g>
+<g id="map-29">
+	<path class="st2" d="M2388.5,512.1v45.7h101.7v-39.6l-27.5-32.6c-20,16.6-45.7,26.5-73.8,26.5
+		C2388.8,512.1,2388.7,512.1,2388.5,512.1z"/>
+	<text transform="matrix(1 0 0 1 2419.3879 546.1816)" class="st3 st4 st8">29</text>
+</g>
+<g id="map-28">
+	<path class="st2" d="M2490.2,557.8v-39.6l-27.5-32.6c2.1-1.8,4.2-3.6,6.2-5.5c0.3-0.3,0.7-0.6,1-1c1.9-1.9,3.8-3.9,5.6-5.9
+		c0.2-0.3,0.5-0.6,0.7-0.8c3.8-4.3,7.2-9,10.4-13.8c0.1-0.2,0.2-0.3,0.3-0.5c11.3-17.9,17.9-39.1,17.9-61.8c0-5.1-0.4-10.1-1.1-15.1
+		h0.1c-0.1-0.4-0.2-0.9-0.2-1.3c-0.4-2.8-0.9-5.6-1.5-8.4c-0.2-0.8-0.3-1.5-0.5-2.3c-0.7-2.8-1.5-5.6-2.4-8.4
+		c-0.2-0.6-0.4-1.2-0.6-1.9c-1-2.9-2.1-5.8-3.3-8.6c-0.2-0.4-0.3-0.8-0.5-1.2c-1.4-3.2-2.9-6.3-4.6-9.3c0,0,0,0,0,0
+		c-7-12.5-16.2-23.6-27.1-32.7l46.5-55.1V140.8h482V247h61.2v309.9h-201.2v101.7H2641V557.8H2490.2z"/>
+	<text transform="matrix(1 0 0 1 2523.3674 331.9864)" class="st3 st4 st5">28</text>
+</g>
+<g id="map-27">
+	<path class="st2" d="M2463.5,307.5l46.1-54.6V141.6h-97.8v141C2431.2,286.5,2448.9,295.3,2463.5,307.5z"/>
+	<text transform="matrix(1 0 0 1 2442.3489 261.1421)" class="st3 st4 st5">27</text>
+</g>
+<g id="map-26">
+	<path class="st2" d="M2366.1,141.6h-81V332h7.3c16.7-25.1,43-43.3,73.6-49.4V141.6z"/>
+	<text transform="matrix(1 0 0 1 2307.2932 261.1421)" class="st3 st4 st5">26</text>
+</g>
+<g id="map-25">
+	<rect x="2177.9" y="141.6" class="st2" width="107.3" height="190.4"/>
+	<text transform="matrix(1 0 0 1 2207.9768 320.2466)" class="st3 st4 st5">25</text>
+</g>
+<g id="map-24">
+	<rect x="2085.3" y="280.3" class="st2" width="92.6" height="51.7"/>
+</g>
+<g id="map-23">
+	<polygon class="st2" points="2100.8,280.3 2100.8,141.6 1993.5,141.6 1993.5,332 2085.3,332 2085.3,280.3 	"/>
+	<text transform="matrix(1 0 0 1 2018.4075 320.2466)" class="st3 st4 st5">23</text>
+</g>
+<g id="map-22">
+	<polygon class="st2" points="1963.8,332 1963.8,141.6 1843.2,141.6 1843.2,269.1 1870.8,269.1 1870.8,332 	"/>
+	<text transform="matrix(1 0 0 1 1898.8811 320.2466)" class="st3 st4 st5">22</text>
+</g>
+<g id="map-21">
+	<polygon class="st2" points="1870.8,332 1870.8,269.1 1843.2,269.1 1843.2,141.6 1769.1,141.6 1769.1,332 	"/>
+	<text transform="matrix(1 0 0 1 1802.2493 320.2466)"><tspan x="0" y="0" class="st3 st4 st5 st6">2</tspan><tspan x="20.3" y="0" class="st3 st4 st5">1</tspan></text>
+</g>
+<g id="map-20">
+	<rect x="1693.3" y="141.6" class="st2" width="75.8" height="190.4"/>
+	<text transform="matrix(1 0 0 1 1712.7615 320.2466)" class="st3 st4 st5">20</text>
+</g>
+<g id="map-19">
+	<rect x="1600.7" y="280.3" class="st2" width="92.6" height="51.7"/>
+	<text transform="matrix(1 0 0 1 1629.531 320.2466)"><tspan x="0" y="0" class="st3 st4 st5 st6">1</tspan><tspan x="19.9" y="0" class="st3 st4 st5">9</tspan></text>
+</g>
+<g id="map-18">
+	<polygon class="st2" points="1610.1,280.3 1610.1,141.6 1509.8,141.6 1509.8,332 1600.7,332 1600.7,280.3 	"/>
+	<text transform="matrix(1 0 0 1 1537.9221 320.2466)"><tspan x="0" y="0" class="st3 st4 st5 st6">1</tspan><tspan x="20.3" y="0" class="st3 st4 st5">8</tspan></text>
+</g>
+<g id="map-17">
+	<rect x="1415.9" y="141.6" class="st2" width="64.6" height="190.4"/>
+	<text transform="matrix(1 0 0 1 1430.6882 320.2466)"><tspan x="0" y="0" class="st3 st4 st5 st6">1</tspan><tspan x="20" y="0" class="st3 st4 st5">7</tspan></text>
+</g>
+<g id="map-16">
+	<rect x="1298.3" y="141.6" class="st2" width="117.8" height="190.4"/>
+	<text transform="matrix(1 0 0 1 1324.6599 320.2466)"><tspan x="0" y="0" class="st3 st4 st5 st6">1</tspan><tspan x="19.9" y="0" class="st3 st4 st5">6</tspan></text>
+</g>
+<g id="map-15">
+	<polygon class="st2" points="1298.3,332 1298.3,141.6 1206.9,141.6 1206.9,280.3 1196.6,280.3 1196.6,332 	"/>
+	<text transform="matrix(1 0 0 1 1222.7546 320.2466)"><tspan x="0" y="0" class="st3 st4 st5 st6">1</tspan><tspan x="19.9" y="0" class="st3 st4 st5">5</tspan></text>
+</g>
+<g id="map-14">
+	<rect x="1116.9" y="280.3" class="st2" width="79.7" height="51.7"/>
+	<text transform="matrix(1 0 0 1 1139.3816 320.2466)"><tspan x="0" y="0" class="st3 st4 st5 st6">1</tspan><tspan x="19.9" y="0" class="st3 st4 st5">4</tspan></text>
+</g>
+<g id="map-13">
+	<path class="st2" d="M1123.8,280.3V141.6h-99.1v142.1l-18.5,26.4c7.2,6.5,13.6,13.8,18.9,21.9h91.8v-51.7H1123.8z"/>
+	<text transform="matrix(1 0 0 1 1055.6809 320.2837)"><tspan x="0" y="0" class="st3 st4 st5 st6">1</tspan><tspan x="19.9" y="0" class="st3 st4 st5">3</tspan></text>
+</g>
+<g id="map-12">
+	<path class="st2" d="M983.9,294.3l13.5-19.7v-133H726.6v82.9l69.8-0.1l73.9,48.6l8.4,18.6c15.1-7.3,32.1-11.3,50-11.3
+		C948.6,280.3,967.5,285.4,983.9,294.3z"/>
+	<text transform="matrix(1 0 0 1 913.2191 261.1802)"><tspan x="0" y="0" class="st3 st4 st5 st7">1</tspan><tspan x="19.7" y="0" class="st3 st4 st5">2</tspan></text>
+</g>
+<g id="map-11">
+	<path class="st2" d="M878.6,291.7l-8.4-18.6l-73.9-48.6l-69.8,0.1v55.8h-83.1V141.6H389.8v235.2h424.7
+		C820.8,339.2,845.3,307.6,878.6,291.7z"/>
+	<text transform="matrix(1 0 0 1 771.9495 332.0723)"><tspan x="0" y="0" class="st3 st4 st5 st9">1</tspan><tspan x="18.4" y="0" class="st3 st4 st5">1</tspan></text>
+</g>
+<g id="map-10">
+	<path class="st2" d="M814.4,376.8H303.6v185.2h414.5v-34.5h107v-8.4l29.1-34.4c-25.3-21.3-41.3-53-41.3-88.6
+		C812.8,389.6,813.4,383.1,814.4,376.8z"/>
+	<text transform="matrix(1 0 0 1 764.2479 489.5537)"><tspan x="0" y="0" class="st3 st4 st5 st6">1</tspan><tspan x="20.4" y="0" class="st3 st4 st5">0</tspan></text>
+</g>
+<g id="map-9">
+	<path class="st2" d="M879.1,501c-9.1-4.3-17.4-9.8-25-16.1L825,519.2v8.6h54.1V501z"/>
+	<text transform="matrix(1 0 0 1 846.9271 522.918)" class="st3 st4 st5">9</text>
+</g>
+<g id="map-8">
+	<rect x="765.4" y="591.3" class="st2" width="113.7" height="72.8"/>
+	<text transform="matrix(1 0 0 1 842.8401 642.9517)" class="st3 st4 st5">8</text>
+</g>
+<g id="map-7">
+	<path class="st2" d="M879.1,664.2H765.4v168.4h94.3c3-13.6,9.9-25.8,19.5-35.3V664.2z"/>
+	<text transform="matrix(1 0 0 1 842.8401 754.6484)" class="st3 st4 st5">7</text>
+</g>
+<g id="map-6">
+	<path class="st2" d="M859.4,861.4h-97.6v127.9h117.4V898C869.2,888.2,862.2,875.6,859.4,861.4z"/>
+	<text transform="matrix(1 0 0 1 842.8401 942.2607)" class="st3 st4 st5">6</text>
+</g>
+<g id="map-5">
+	<polygon class="st2" points="879.1,989.4 761.7,989.4 761.7,1120.3 807.2,1120.3 807.2,1077.3 879.1,1077.3 	"/>
+	<text transform="matrix(1 0 0 1 842.8401 1046.2197)" class="st3 st4 st5">5</text>
+</g>
+<g id="map-4">
+	<rect x="807.2" y="1077.3" class="st2" width="71.9" height="47.4"/>
+	<text transform="matrix(1 0 0 1 842.8401 1116.2109)" class="st3 st4 st5">4</text>
+</g>
+<g id="map-3">
+	<rect x="827.4" y="1143.8" class="st2" width="51.7" height="40"/>
+</g>
+<g id="map-2">
+	<path class="st2" d="M828.3,1222H796v103.3c63.5-50.3,71.3-91.6,78.8-111h4.3v-3.4h-50.8V1222z"/>
+	<text transform="matrix(1 0 0 1 812.6697 1271.6982)" class="st3 st4 st5">2</text>
+</g>
+<g id="map-1">
+	<path class="st2" d="M769.7,1344.3h-146v101.4l18.7,9.1c14.2-29.2,40.5-59,90.7-88.1C746.6,1359.2,758.7,1351.7,769.7,1344.3z"/>
+	<text transform="matrix(1 0 0 1 657.1458 1390.1611)" class="st3 st4 st5">1</text>
+</g>
+</svg>
+
             
             
           
+          
+                       
+<!-- CHECKBOXEN -->
+
+
+        
+
+  
+    <div class="row white" style="margin-left:2%;">      
+        
+                
+        <div class="checkbox setting col-md-1" style="padding-left:0px;">
+            <label><input type="checkbox" id="dienstleistung" value=""> <div class="track"></div>
+                <div class="toggle"></div>KÜHLLAGER</label>
+        </div>
+    
+        <div class="checkbox setting col-md-1" style="margin-top:10px;padding-left:0px;">
+            <label><input type="checkbox" id="einzelhandel" value=""> <div class="track"></div>
+                <div class="toggle"></div>AUSLIEFERUNGSLAGER</label>
+        </div>
+     
+   <!-- <div class="checkbox">
+        <label><input type="checkbox" id="gastronomie" value="">gastronomie</label>
+    </div> -->
+    
+        <div class="checkbox setting col-md-1" style="margin-top:10px;padding-left:0px;">
+            <label><input type="checkbox" id="lebensmittel" value=""> <div class="track"></div>
+                <div class="toggle"></div>ZOLLLAGER</label>
+        </div>
+
+   
+    </div>
+       
+                <hr class="featurette-divider" style="margin-top:2%;margin-bottom:0;">
+    
+     
             
-            
- <!-- INFOFLAECHEN -->
-            
+
         </div>  
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+<!-- INFOFLAECHEN -->
+             
+    
+    
+    
+    
+    
+    
+    
         
 <div class="col-md-4">
           
@@ -249,19 +466,19 @@
     <h4>HIER DIE INFORMATIONEN ZUR FLÄCHE</h4>
     
 
-<div class="a1 hyde white" w3-include-html="content/area1.html"></div>
-<div class="a2 hyde white" w3-include-html="content/area2.html"></div>
-<div class="a3 hyde white" w3-include-html="content/area3.html"></div>
-<div class="a4 hyde white" w3-include-html="content/area4.html"></div>
-<div class="a5 hyde white" w3-include-html="content/area5.html"></div>
-<div class="a6 hyde white" w3-include-html="content/area6.html"></div>
-<div class="a7 hyde white" w3-include-html="content/area7.html"></div>
-<div class="a8 hyde white" w3-include-html="content/area8.html"></div>
-<div class="a9 hyde white" w3-include-html="content/area9.html"></div>
-<div class="a10 hyde white" w3-include-html="content/area10.html"></div>
-<div class="a11 hyde white" w3-include-html="content/area11.html"></div>
-<div class="a12 hyde white" w3-include-html="content/area12.html"></div>
-<div class="a13 hyde white" w3-include-html="content/area13.html"></div>
+<div class="a1 hyde white content-size" w3-include-html="content/area1.html"></div>
+<div class="a2 hyde white content-size" w3-include-html="content/area2.html"></div>
+<div class="a3 hyde white content-size" w3-include-html="content/area3.html"></div>
+<div class="a4 hyde white content-size" w3-include-html="content/area4.html"></div>
+<div class="a5 hyde white content-size" w3-include-html="content/area5.html"></div>
+<div class="a6 hyde white content-size" w3-include-html="content/area6.html"></div>
+<div class="a7 hyde white content-size" w3-include-html="content/area7.html"></div>
+<div class="a8 hyde white content-size" w3-include-html="content/area8.html"></div>
+<div class="a9 hyde white content-size" w3-include-html="content/area9.html"></div>
+<div class="a10 hyde white content-size" w3-include-html="content/area10.html"></div>
+<div class="a11 hyde white content-size" w3-include-html="content/area11.html"></div>
+<div class="a12 hyde white content-size" w3-include-html="content/area12.html"></div>
+<div class="a13 hyde white content-size" w3-include-html="content/area13.html"></div>
 
 
     
@@ -278,27 +495,28 @@
       
         
         
-        <br>
-     <br>
-     <br>
-     <br>
-     <br>
-     
-     
+      
+    
      
      
      
      
      
   
+
+
+
      
 
 
         <!-- Footer -->
-        <footer>
+        <footer class="bg-color" style="margin-top:0;">
             <div class="row">
                 <div class="col-lg-12 white">
-                    <p>kplus konzept</p>
+                    <h4>Center Management</h4>
+                    <p>Willy-Brandt-Platz 7</p> 
+<p>04109 Leipzig</p> 
+
                 </div>
             </div>
         </footer>
