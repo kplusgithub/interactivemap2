@@ -27,11 +27,12 @@
     .setting {
   position: relative;
   /*top: 50px; */
-  width: 250px;
+  width: 180px;
   padding: 12px;
   /*margin: auto;*/
   border: 1px solid #9C9691;
   border-radius: 4px;
+  font-size: 11px;
 }
 
 input[type="checkbox"] {
@@ -75,7 +76,7 @@ input[type="checkbox"]:checked ~ .toggle {
 
 .toggle {
   position: absolute;
-  top: 8px;
+  top: 7px;
   right: 34px;
   width: 25px;
   height: 25px;

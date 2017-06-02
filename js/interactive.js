@@ -7,6 +7,12 @@
          
          $(".hyde").hide();
          
+         
+/*  Loop durch alle datensätze in der json datei*/         
+
+
+         
+         
        for(let i = 0; i < 53; i++) {
            $('#map-' + i).click( function(){
                $(".hyde").hide(500);
@@ -40,7 +46,7 @@
 
       
                 for (i = 0; i < data.mieter.length+1; i++) {
-                    num=i;
+                    num=i+1;
                     var n = num.toString();
          
       
