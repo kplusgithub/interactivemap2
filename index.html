@@ -17,7 +17,7 @@
     <!-- Custom CSS -->
     <link href="css/one-page-wonder.css" rel="stylesheet">
 
-   
+
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -26,16 +26,16 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://www.w3schools.com/lib/w3.js"></script>
     <script src="../interactivemap/js/interactive.js"></script>
-    
 
-    
-      
-    
-    
+
+
+
+
+
     <!-- MAPPING
     * #area1 - #area10 sind die schaltflächen, 
     *.a1 - .a10 sind die inhalte zu den flächen die ein und ausgeblendet werden, das Skript checkt wenn auf eine areaID geklickt wird und verändert (show hide) die class a1 a2.. welche divs zugeorndet sind welche die Inhalte per htmlinject aufruft.
@@ -43,43 +43,43 @@
     *.map-1 - .map-3 ... sind die classen welche die farben der zonenaufteilung steuern (in Zukunft versuchen svgs automatisch diese Klassen zuzuweisen.)
 
 -->
-    
 
 
-     
-    
-    
-    
+
+
+
+
+
     <!-- STYLES -->
-    
+
 <style>
-    
-  
-    
-   
+
+
+
+
 #section g[id^='map-'] {
-    opacity: 0.3; 
+    opacity: 0.3;
 }
-    
- 
-    
+
+
+
 </style>
-    
-    
+
+
 </head>
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
+
 <body>
 
-    
+
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -91,7 +91,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                
+
                 <a class="navbar-brand" href="#"><img width="80px" src="assets/img/logo_leipzig.svg"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -125,33 +125,52 @@
 
     <!-- Page Content -->
     <div class="container bg-color" >
-        
+
         <!--<hr class="featurette-divider"> -->
 
         <!-- First Featurette -->
         <div class="featurette" id="about">
-           
+
             <h2 class="featurette-heading white" style="margin-top:5%;padding-bottom:30px;">Promenaden Bahnhof
-                
+
             </h2>
-           
+
         </div>
 
-        
-       
-        
 
-        
+<!-- SIDENAV -->
 
-        
-<!-- KARTE -->
-        
+
+
+
+
+
+		<!-- KARTE -->
+
 <div class="row">
-        <div class="col-md-8">   
-      
-              
-            
-       <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+
+
+	<div class="col-md-3" id="leftCol">
+
+		<ul class="nav nav-stacked" id="sidebar">
+			<li><a href="#sec0">Section 0</a></li>
+			<li><a href="#sec1">Section 1</a></li>
+			<li>
+				<a href="#sec2">Section 2</a>
+				<ul class="nav nav-stacked">
+					<li><a href="#sec2a">Section 2 a</a></li>
+					<li><a href="#sec2b">Section 2 b</a></li>
+				</ul>
+			</li>
+			<li><a href="#sec3">Section 3</a></li>
+			<li><a href="#sec4">Section 4</a></li>
+		</ul>
+
+	</div>
+
+	<div class="col-md-9" id="mainCol">
+
+			<svg  version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
 	 viewBox="0 0 3313.3 1495.4" style="enable-background:new 0 0 3313.3 1495.4;" xml:space="preserve" id="section" cursor="pointer">
 <style type="text/css">
 	.st0{fill:#CCCCCC;stroke:#FFFFFF;stroke-width:0.656;}
@@ -192,8 +211,8 @@
 </g>
 <g id="map-50">
 	<rect x="976.5" y="1143.8" class="st2" width="50.6" height="40"/>
-	<!--<rect x="976.5" y="1143.8" class="st3" width="50.6" height="40"/>
-	<text transform="matrix(1 0 0 1 983.3006 1177.1523)" class="st3 st4 st5">50</text> -->
+	&lt;!&ndash;<rect x="976.5" y="1143.8" class="st3" width="50.6" height="40"/>
+	<text transform="matrix(1 0 0 1 983.3006 1177.1523)" class="st3 st4 st5">50</text> &ndash;&gt;
 </g>
 <g id="map-49">
 	<rect x="976.5" y="1029.4" class="st2" width="117.4" height="90.9"/>
@@ -393,82 +412,83 @@
 	<path class="st2" d="M769.7,1344.3h-146v101.4l18.7,9.1c14.2-29.2,40.5-59,90.7-88.1C746.6,1359.2,758.7,1351.7,769.7,1344.3z"/>
 	<text transform="matrix(1 0 0 1 657.1458 1390.1611)" class="st3 st4 st5">1</text>
 </g>
-</svg>
+</svg> <!-- BASE-->
 
-            
-            
-          
-          
-                       
+
+
+
+
+
 <!-- CHECKBOXEN -->
 
 
-        
+            <div class="row white" style="margin-left:2%;">
 
-  
-    <div class="row white" style="margin-left:2%;">      
-        
-                
-        <div class="checkbox setting col-md-1" style="padding-left:0px;">
-            <label><input type="checkbox" id="dienstleistung" value=""> <div class="track"></div>
-                <div class="toggle"></div>DIENSTLEISTUNG</label>
-        </div>
-    
-        <div class="checkbox setting col-md-1" style="margin-top:10px;padding-left:0px;">
-            <label><input type="checkbox" id="einzelhandel" value=""> <div class="track"></div>
-                <div class="toggle"></div>EINZELHANDEL</label>
-        </div>
-     
-   <!-- <div class="checkbox">
-        <label><input type="checkbox" id="gastronomie" value="">gastronomie</label>
-    </div> -->
-    
-        <div class="checkbox setting col-md-1" style="margin-top:10px;padding-left:0px;">
-            <label><input type="checkbox" id="lebensmittel" value=""> <div class="track"></div>
-                <div class="toggle"></div>LEBENSMITTEL</label>
+
+			<div class="checkbox setting col-md-1" style="padding-left:0px;">
+				<label><input type="checkbox" id="dienstleistung" value="">
+					<div class="track"></div>
+					<div class="toggle"></div>
+					DIENSTLEISTUNG</label>
+			</div>
+
+			<div class="checkbox setting col-md-1" style="margin-top:10px;padding-left:0px;">
+				<label><input type="checkbox" id="einzelhandel" value="">
+					<div class="track"></div>
+					<div class="toggle"></div>
+					EINZELHANDEL</label>
+			</div>
+
+			<!-- <div class="checkbox">
+                 <label><input type="checkbox" id="gastronomie" value="">gastronomie</label>
+             </div> -->
+
+			<div class="checkbox setting col-md-1" style="margin-top:10px;padding-left:0px;">
+				<label><input type="checkbox" id="lebensmittel" value="">
+					<div class="track"></div>
+					<div class="toggle"></div>
+					LEBENSMITTEL</label>
+			</div>
+
+			<div class="checkbox setting col-md-1" style="margin-top:10px;padding-left:0px;">
+				<label><input type="checkbox" id="gastronomie" value="">
+					<div class="track"></div>
+					<div class="toggle"></div>
+					GASTRONOMIE</label>
+			</div>
+
+			<div class="checkbox setting col-md-1" style="margin-top:10px;padding-left:0px;">
+				<label><input type="checkbox" id="vermietet" value="">
+					<div class="track"></div>
+					<div class="toggle"></div>
+					VERMIETET</label>
+			</div>
+
+
+		</div>
+
+            <!--<hr class="featurette-divider" style="margin-top:2%;margin-bottom:0;">-->
+
+
         </div>
 
-        <div class="checkbox setting col-md-1" style="margin-top:10px;padding-left:0px;">
-            <label><input type="checkbox" id="gastronomie" value=""> <div class="track"></div>
-                <div class="toggle"></div>GASTRONOMIE</label>
-        </div>
-   
-    </div>
-       
-                <hr class="featurette-divider" style="margin-top:2%;margin-bottom:0;">
-    
-     
-            
 
-        </div>  
-    
-    
-    
-    
-    
+    <!-- INFOFLAECHEN -->
 
-    
-    
-    
-    
-    
-    
-    
-<!-- INFOFLAECHEN -->
-             
-    
-    
-    
-    
-    
-    
-    
-        
+
+
+
+
+
+
+
+
+
 <div class="col-md-4">
-          
-    
+
+
     <h4>HIER DIE INFORMATIONEN ZUR FLÄCHE</h4>
-    
+
 
 <div class="a1 hyde white content-size" w3-include-html="content/area1.html"></div>
 <div class="a2 hyde white content-size" w3-include-html="content/area2.html"></div>
@@ -485,32 +505,462 @@
 <div class="a13 hyde white content-size" w3-include-html="content/area13.html"></div>
 
 
-    
-    
-        </div> 
-    
-</div>       
-        
-        
-        
-        
-       
-        
-      
-        
-        
-      
-    
-     
-     
-     
-     
-     
-  
+
+
+        </div>
 
 
 
-     
+	<div class="col-md-8">
+
+
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 3042.1 1109.7" style="enable-background:new 0 0 3042.1 1109.7;" xml:space="preserve" id="section">
+<style type="text/css">
+	.ast0{fill:#CCCCCC;;stroke:#FFFFFF;stroke-width:0.656;}
+	.ast1{stroke:#FFFFFF;stroke-width:0.328;}
+	.st2{font-family:'FuturaT-BolCon';}
+	.st3{font-size:29px;}
+	.st4{letter-spacing:-2;}
+	.ast5{letter-spacing:-1;}
+	.st6{letter-spacing:-3;}
+</style>
+<g id="Ebene_1">
+	<g>
+		<path class="ast0" d="M984,1109.2V1072h46.3V909.9h164.9c25.8,11.2,54.3,17.4,84.2,17.4c29.9,0,58.3-6.2,84.1-17.4h77.4
+			c25.8,11.2,54.2,17.4,84.1,17.4c29.9,0,58.3-6.2,84.1-17.4h76.7c25.8,11.2,54.2,17.4,84.1,17.4c29.9,0,58.3-6.2,84.1-17.4h153.9
+			v163.7h43.1v35.6h270.1v-35.6h44.3V1038h36.4V898h210.4v-87h381.5V476.5h47.9V251h-47.9V0.3H44V251H0.5v225.4H44V811h549.7v58.5
+			h79.1V1072h45.5v37.2H984z"/>
+	</g>
+</g>
+<g id="map-54">
+	<polygon class="ast1" points="0.5,313.3 301.8,313.3 301.8,129.2 44,129.2 44,251.1 0.5,251.1 	"/>
+	<text transform="matrix(1 0 0 1 149.2395 250.5525)" class="ast1 st2 st3">54</text>
+</g>
+<g id="map-55">
+	<rect x="301.8" y="129.3" class="ast1" width="55.6" height="183.5"/>
+	<text transform="matrix(1 0 0 1 314.4348 250.5525)" class="ast1 st2 st3">55</text>
+</g>
+<g id="map-56">
+	<rect x="382.8" y="129.3" class="ast1" width="67.7" height="183.5"/>
+	<text transform="matrix(1 0 0 1 399.7552 250.5525)" class="ast1 st2 st3">56</text>
+</g>
+<g id="map-57">
+	<rect x="450.5" y="129.3" class="ast1" width="159.6" height="183.5"/>
+	<text transform="matrix(1 0 0 1 510.3802 250.5525)"><tspan x="0" y="0" class="ast1 st2 st3">5</tspan><tspan x="19.3" y="0" class="ast1 st2 st3">7</tspan></text>
+</g>
+<g id="map-58">
+	<rect x="610.1" y="129.3" class="ast1" width="80.9" height="183.5"/>
+	<text transform="matrix(1 0 0 1 633.6224 250.5525)" class="ast1 st2 st3">58</text>
+</g>
+<g id="map-59">
+	<polygon class="ast1" points="691,129.3 691,312.7 706.4,312.7 802.5,304.8 802.5,129.2 	"/>
+	<text transform="matrix(1 0 0 1 729.8411 250.5525)" class="ast1 st2 st3">59</text>
+</g>
+<g id="map-60">
+	<polygon class="ast1" points="802.5,304.8 876.5,299.5 876.5,129.2 802.5,129.2 	"/>
+	<text transform="matrix(1 0 0 1 822.5755 250.5525)" class="ast1 st2 st3">60</text>
+</g>
+<g id="map-61">
+	<polygon class="ast1" points="876.5,299.5 876.5,129.2 957.3,129.2 957.3,294.4 	"/>
+	<text transform="matrix(1 0 0 1 901.1771 250.5525)"><tspan x="0" y="0" class="ast1 st2 st3 st4">6</tspan><tspan x="17.7" y="0" class="ast1 st2 st3">1</tspan></text>
+</g>
+<g id="map-62">
+	<polygon class="ast1" points="957.3,294.4 957.3,129.2 1027.5,129.2 1027.5,290.6 	"/>
+	<text transform="matrix(1 0 0 1 975.513 250.5525)" class="ast1 st2 st3">62</text>
+</g>
+<g id="map-63">
+	<polygon class="ast1" points="1050.1,289.4 1050.1,129.2 1137.4,129.2 1137.4,285.4 	"/>
+	<text transform="matrix(1 0 0 1 1076.8411 250.5525)" class="ast1 st2 st3">63</text>
+</g>
+<g id="map-64">
+	<polygon class="ast1" points="1137.4,285.4 1137.4,129.2 1194.9,129.2 1195,283.2 	"/>
+	<text transform="matrix(1 0 0 1 1149.1848 250.5525)"><tspan x="0" y="0" class="ast1 st2 st3">6</tspan><tspan x="20.2" y="0" class="ast1 st2 st3">4</tspan></text>
+</g>
+<g id="map-65">
+	<polygon class="ast1" points="1195,283.2 1195,129.2 1244.6,129.2 1244.6,281.5 	"/>
+	<text transform="matrix(1 0 0 1 1202.5911 250.5525)" class="ast1 st2 st3">65</text>
+</g>
+<g id="map-66">
+	<polygon class="ast1" points="1244.6,281.5 1244.6,129.3 1308.7,129.3 1308.7,279.8 	"/>
+	<text transform="matrix(1 0 0 1 1262.2786 250.5525)" class="ast1 st2 st3">66</text>
+</g>
+<g id="map-67">
+	<polygon class="ast1" points="1308.7,279.8 1308.7,129.3 1360.7,129.3 1360.7,278.7 	"/>
+	<text transform="matrix(1 0 0 1 1318.0208 250.5525)"><tspan x="0" y="0" class="ast1 st2 st3">6</tspan><tspan x="19.4" y="0" class="ast1 st2 st3">7</tspan></text>
+</g>
+<g id="map-68">
+	<polygon class="ast1" points="1360.7,278.6 1360.7,129.2 1472.1,129.2 1472.1,277.3 	"/>
+	<text transform="matrix(1 0 0 1 1395.5989 250.5525)" class="ast1 st2 st3">68</text>
+</g>
+<g id="map-69">
+	<polygon class="ast1" points="1472,277.3 1472,129.2 1552.3,129.2 1552.3,175.1 1580.8,175.1 1580.8,277.4 	"/>
+	<text transform="matrix(1 0 0 1 1512.3958 250.5525)" class="ast1 st2 st3">69</text>
+</g>
+<g id="map-70">
+	<polygon class="ast1" points="1580.8,277.4 1580.8,175.1 1552.3,175.1 1552.3,129.2 1665.8,129.2 1665.8,278.4 	"/>
+	<text transform="matrix(1 0 0 1 1607.3645 250.5525)" class="ast1 st2 st3">70</text>
+</g>
+<g id="map-71">
+	<polygon class="ast1" points="1689.9,278.8 1689.9,129.2 1765.1,129.2 1765.1,172 1806.2,172 1806.2,201.2 1765.1,201.2
+		1765.1,280.6 	"/>
+	<text transform="matrix(1 0 0 1 1710.5286 250.5525)"><tspan x="0" y="0" class="ast1 st2 st3">7</tspan><tspan x="19.1" y="0" class="ast1 st2 st3">1</tspan></text>
+</g>
+<g id="map-72">
+	<polygon class="ast1" points="1765.1,280.6 1765.1,201.2 1806.2,201.2 1806.2,281.8 	"/>
+	<text transform="matrix(1 0 0 1 1769.0833 250.5525)"><tspan x="0" y="0" class="ast1 st2 st3">7</tspan><tspan x="19.4" y="0" class="ast1 st2 st3">2</tspan></text>
+</g>
+<g id="map-73">
+	<polygon class="ast1" points="1806.2,281.8 1806.2,172 1765.1,172 1765.1,129.2 1914.9,129.2 1914.9,285.8 	"/>
+	<text transform="matrix(1 0 0 1 1843.8879 250.5525)"><tspan x="0" y="0" class="ast1 st2 st3 st4">7</tspan><tspan x="17.9" y="0" class="ast1 st2 st3">3</tspan></text>
+</g>
+<g id="map-74">
+	<polygon class="ast1" points="1914.9,285.8 1914.9,129.2 1972.5,129.2 1972.5,288.4 	"/>
+	<text transform="matrix(1 0 0 1 1927.6848 250.5525)"><tspan x="0" y="0" class="ast1 st2 st3 st4">7</tspan><tspan x="17.7" y="0" class="ast1 st2 st3">4</tspan></text>
+</g>
+<g id="map-75">
+	<polygon class="ast1" points="1972.5,288.4 1972.5,129.2 2024.3,129.2 2024.3,291.1 	"/>
+	<text transform="matrix(1 0 0 1 1982.9973 250.5525)"><tspan x="0" y="0" class="ast1 st2 st3 ast5">7</tspan><tspan x="18.7" y="0" class="ast1 st2 st3">5</tspan></text>
+</g>
+<g id="map-76">
+	<polygon class="ast1" points="2024.3,291.1 2024.3,129.2 2081.3,129.2 2081.3,206 2138.4,206 2138.4,297.8 	"/>
+	<text transform="matrix(1 0 0 1 2064.4114 250.5525)"><tspan x="0" y="0" class="ast1 st2 st3 ast5">7</tspan><tspan x="18.1" y="0" class="ast1 st2 st3">6</tspan></text>
+</g>
+<g id="map-77">
+	<polygon class="ast1" points="2138.4,297.8 2138.4,206 2081.3,206 2081.3,129.2 2210.9,129.2 2210.9,302.7 	"/>
+	<text transform="matrix(1 0 0 1 2158.9036 250.5525)" class="ast1 st2 st3">77</text>
+</g>
+<g id="map-78">
+	<polygon class="ast1" points="2210.9,302.7 2210.9,129.2 2297.8,129.2 2297.8,309.4 	"/>
+	<text transform="matrix(1 0 0 1 2235.6223 250.5525)"><tspan x="0" y="0" class="ast1 st2 st3">7</tspan><tspan x="19.1" y="0" class="ast1 st2 st3">8</tspan></text>
+</g>
+<g id="map-79">
+	<polygon class="ast1" points="2297.8,309.4 2297.8,129.2 2427.4,129.2 2427.4,312.7 2334.2,312.7 	"/>
+	<text transform="matrix(1 0 0 1 2346.0598 250.5525)" class="ast1 st2 st3">79</text>
+</g>
+<g id="map-80">
+	<rect x="2427.4" y="129.3" class="ast1" width="93.8" height="183.5"/>
+	<text transform="matrix(1 0 0 1 2455.9036 250.5525)" class="ast1 st2 st3">80</text>
+</g>
+<g id="map-81">
+	<rect x="2559.2" y="247.1" class="ast1" width="65.3" height="65.6"/>
+</g>
+<g id="map-82">
+	<polygon class="ast1" points="2847.8,312.7 2624.4,312.7 2624.4,247.1 2559.2,247.1 2559.2,40.6 2758.5,40.6 2758.5,216.2
+		2847.8,216.2 	"/>
+	<text transform="matrix(1 0 0 1 2715.3254 291.7322)" class="ast1 st2 st3">82</text>
+</g>
+<g id="map-83">
+	<polygon class="ast1" points="2847.8,312.7 2847.8,228.8 2921.4,228.8 2921.4,176.7 2993.7,176.7 2993.7,251 3041.6,251
+		3041.6,312.7 	"/>
+	<text transform="matrix(1 0 0 1 2940.5208 291.1463)" class="ast1 st2 st3">83</text>
+</g>
+<g id="map-84">
+	<polygon class="ast1" points="3041.6,476.5 3041.6,419.1 2897.7,419.1 2897.7,460.2 2801.2,460.2 2801.2,419.1 2470.5,419.1
+		2470.5,537 2421.5,537 2421.5,612.5 2435.3,612.5 2435.3,811 2612.1,811 2993.7,811 2993.7,476.5 	"/>
+	<text transform="matrix(1 0 0 1 2716.7239 503.2166)"><tspan x="0" y="0" class="ast1 st2 st3">8</tspan><tspan x="20.3" y="0" class="ast1 st2 st3">4</tspan></text>
+</g>
+<g id="map-85">
+	<rect x="2801.2" y="419.1" class="ast1" width="96.5" height="41.1"/>
+	<text transform="matrix(1 0 0 1 2806.4192 452.3572)" class="ast1 st2 st3">85</text>
+</g>
+<g id="map-86">
+	<rect x="2414.9" y="419.1" class="ast1" width="55.6" height="117.8"/>
+	<text transform="matrix(1 0 0 1 2426.8333 503.2166)" class="ast1 st2 st3">86</text>
+</g>
+<g id="map-87">
+	<polygon class="ast1" points="2414.9,537 2414.9,419.1 2335.7,419.1 2335.7,612.5 2421.5,612.5 2421.5,537 	"/>
+	<text transform="matrix(1 0 0 1 2358.1614 503.2166)"><tspan x="0" y="0" class="ast1 st2 st3">8</tspan><tspan x="19.7" y="0" class="ast1 st2 st3">7</tspan></text>
+</g>
+<g id="map-88">
+	<rect x="2365.4" y="612.5" class="ast1" width="69.9" height="55.4"/>
+	<text transform="matrix(1 0 0 1 2383.552 652.2009)" class="ast1 st2 st3">88</text>
+</g>
+<g id="map-89">
+	<rect x="2365.4" y="667.9" class="ast1" width="69.9" height="53.8"/>
+	<text transform="matrix(1 0 0 1 2383.552 706.4666)" class="ast1 st2 st3">89</text>
+</g>
+<g id="map-90">
+	<text transform="matrix(1 0 0 1 2308.6301 1008.2322)" class="ast1 st2 st3">90</text>
+	<polygon class="ast1" points="2365.4,909.9 2283.9,909.9 2283.9,1109.2 2321.1,1109.2 2321.1,1073.6 2365.4,1073.6 	"/>
+</g>
+<g id="map-91">
+	<polygon class="ast1" points="2288.3,539.7 2084.6,539.7 2084.6,436.4 2288.3,423 	"/>
+	<text transform="matrix(1 0 0 1 2171.9504 503.2556)"><tspan x="0" y="0" class="ast1 st2 st3 ast5">9</tspan><tspan x="18.5" y="0" class="ast1 st2 st3">1</tspan></text>
+</g>
+<g id="map-92">
+	<polygon class="ast1" points="2007.9,909.9 2007.9,1073.6 2051,1073.6 2051,1109.2 2087,1109.2 2087,909.9 	"/>
+	<text transform="matrix(1 0 0 1 2029.6379 1008.2322)" class="ast1 st2 st3">92</text>
+</g>
+<g id="map-93">
+	<g>
+		<path class="ast1" d="M1853.6,732.5h-239.1v-85.6h-55.8v85.6v11.2v180.9c17.6-2.8,34.4-7.8,50.2-14.7h76.7
+			c25.8,11.2,54.2,17.4,84.1,17.4c29.8,0,58.1-6.2,83.8-17.3V732.5z"/>
+		<path class="ast1" d="M1853.6,732.5h-239.1v-85.6h-55.8v85.6v11.2v180.9c17.6-2.8,34.4-7.8,50.2-14.7h76.7
+			c25.8,11.2,54.2,17.4,84.1,17.4c29.8,0,58.1-6.2,83.8-17.3V732.5z"/>
+	</g>
+	<text transform="matrix(1 0 0 1 1794.9895 837.6072)" class="ast1 st2 st3">93</text>
+</g>
+<g id="map-94">
+	<rect x="1914.9" y="713" class="ast1" width="65.4" height="38.8"/>
+	<text transform="matrix(1 0 0 1 1930.9661 743.7712)"><tspan x="0" y="0" class="ast1 st2 st3">9</tspan><tspan x="19.7" y="0" class="ast1 st2 st3">4</tspan></text>
+</g>
+<g id="map-95">
+	<rect x="1914.9" y="664.7" class="ast1" width="92.9" height="48.2"/>
+</g>
+<g id="map-96">
+	<rect x="1914.9" y="612.5" class="ast1" width="92.9" height="52.2"/>
+	<text transform="matrix(1 0 0 1 1944.7161 651.8572)" class="ast1 st2 st3">96</text>
+</g>
+<g id="map-97">
+	<polygon class="ast1" points="2040.3,539.7 1954.9,539.7 1954.9,612.5 2007.9,612.5 2040.3,612.5 	"/>
+	<text transform="matrix(1 0 0 1 1980.9661 588.5681)"><tspan x="0" y="0" class="ast1 st2 st3">9</tspan><tspan x="19.5" y="0" class="ast1 st2 st3">7</tspan></text>
+</g>
+<g id="map-98">
+	<polygon class="ast1" points="2040.3,539.7 1970.2,539.7 1970.2,442.2 2040.3,438.9 	"/>
+	<text transform="matrix(1 0 0 1 1988.5051 503.2556)" class="ast1 st2 st3">98</text>
+</g>
+<g id="map-99">
+	<polygon class="ast1" points="1970.2,539.7 1914.3,539.7 1914.3,444.4 1970.2,442.2 	"/>
+	<text transform="matrix(1 0 0 1 1926.1614 503.2556)" class="ast1 st2 st3">99</text>
+</g>
+<g id="map-100">
+	<polygon class="ast1" points="1914.3,539.7 1842.5,539.7 1842.5,446.7 1914.3,444.4 	"/>
+	<text transform="matrix(1 0 0 1 1853.3801 503.2556)"><tspan x="0" y="0" class="ast1 st2 st3 st4">1</tspan><tspan x="17.9" y="0" class="ast1 st2 st3">0</tspan><tspan x="37.2" y="0" class="ast1 st2 st3">0</tspan></text>
+</g>
+<g id="map-101">
+	<polygon class="ast1" points="1914.9,732.3 1614.6,732.3 1614.6,623.7 1622.9,623.7 1622.9,537.8 1693.1,537.8 1693.1,451.3
+		1842.5,446.7 1842.5,539.7 1954.9,539.7 1954.9,612.5 1914.3,612.5 	"/>
+	<text transform="matrix(1 0 0 1 1745.8801 503.2556)"><tspan x="0" y="0" class="ast1 st2 st3 ast5">1</tspan><tspan x="18.8" y="0" class="ast1 st2 st3 ast5">0</tspan><tspan x="37.1" y="0" class="ast1 st2 st3">1</tspan></text>
+</g>
+<g id="map-102">
+	<polygon class="ast1" points="1693.1,537.8 1622.9,537.8 1622.9,452.2 1693.1,451.1 	"/>
+	<text transform="matrix(1 0 0 1 1633.5364 503.2556)"><tspan x="0" y="0" class="ast1 st2 st3 ast5">1</tspan><tspan x="18.8" y="0" class="ast1 st2 st3">02</tspan></text>
+</g>
+<g id="map-103">
+	<polygon class="ast1" points="1622.9,537.8 1552.7,537.8 1552.7,452.7 1622.9,452.2 	"/>
+	<text transform="matrix(1 0 0 1 1562.0442 503.2166)"><tspan x="0" y="0" class="ast1 st2 st3 ast5">1</tspan><tspan x="18.8" y="0" class="ast1 st2 st3">03</tspan></text>
+</g>
+<g id="map-104">
+	<polygon class="ast1" points="1495,537.8 1413.9,537.8 1413.9,452.1 1495,452.7 	"/>
+	<text transform="matrix(1 0 0 1 1429.2317 503.2556)"><tspan x="0" y="0" class="ast1 st2 st3 ast5">1</tspan><tspan x="18.8" y="0" class="ast1 st2 st3">0</tspan><tspan x="38.9" y="0" class="ast1 st2 st3">4</tspan></text>
+</g>
+<g id="map-105">
+	<polygon class="ast1" points="1413.9,539.1 1358.1,539.1 1358.1,451.3 1413.9,452.1 	"/>
+	<text transform="matrix(1 0 0 1 1360.677 503.2556)"><tspan x="0" y="0" class="ast1 st2 st3 ast5">1</tspan><tspan x="18.8" y="0" class="ast1 st2 st3">05</tspan></text>
+</g>
+<g id="map-106">
+	<polygon class="ast1" points="1413.9,716.9 1246.2,716.9 1246.2,448.7 1358.1,451.3 1358.1,539.1 1413.9,539.1 	"/>
+	<text transform="matrix(1 0 0 1 1280.7864 503.2556)"><tspan x="0" y="0" class="ast1 st2 st3 st6">1</tspan><tspan x="16.8" y="0" class="ast1 st2 st3 ast5">0</tspan><tspan x="34.9" y="0" class="ast1 st2 st3">6</tspan></text>
+</g>
+<g id="map-107">
+	<polygon class="ast1" points="1246.2,716.9 1132.3,716.9 1132.3,612.5 1081.7,612.5 1081.7,526.3 1132.3,526.3 1132.3,444.8
+		1246.2,448.7 	"/>
+	<text transform="matrix(1 0 0 1 1165.0833 503.2556)"><tspan x="0" y="0" class="ast1 st2 st3 ast5">1</tspan><tspan x="18.8" y="0" class="ast1 st2 st3">0</tspan><tspan x="38" y="0" class="ast1 st2 st3">7</tspan></text>
+</g>
+<g id="map-108">
+	<polygon class="ast1" points="1132.3,526.3 1074.6,526.3 1074.6,442.3 1132.3,444.8 	"/>
+	<text transform="matrix(1 0 0 1 1078.2083 503.2556)"><tspan x="0" y="0" class="ast1 st2 st3 ast5">1</tspan><tspan x="18.8" y="0" class="ast1 st2 st3">08</tspan></text>
+</g>
+<g id="map-109">
+	<polygon class="ast1" points="1074.6,526.3 1074.6,442.3 1001.8,438.8 1001.8,526.3 	"/>
+	<text transform="matrix(1 0 0 1 1014.0286 503.2556)"><tspan x="0" y="0" class="ast1 st2 st3 st4">1</tspan><tspan x="17.5" y="0" class="ast1 st2 st3 ast5">0</tspan><tspan x="36.4" y="0" class="ast1 st2 st3">9</tspan></text>
+</g>
+<g id="map-110">
+	<polygon class="ast1" points="1081.7,526.3 1001.8,526.3 1001.8,612.5 1030.3,612.5 1081.7,612.5 	"/>
+	<text transform="matrix(1 0 0 1 1018.6771 581.7322)"><tspan x="0" y="0" class="ast1 st2 st3 st6">1</tspan><tspan x="16.9" y="0" class="ast1 st2 st3 ast5">1</tspan><tspan x="35.6" y="0" class="ast1 st2 st3">0</tspan></text>
+</g>
+<g id="map-111">
+	<rect x="1030.3" y="612.5" class="ast1" width="102" height="58.5"/>
+	<text transform="matrix(1 0 0 1 1059.3411 654.0056)"><tspan x="0" y="0" class="ast1 st2 st3 st6">11</tspan><tspan x="33.7" y="0" class="ast1 st2 st3">1</tspan></text>
+</g>
+<g id="map-112">
+	<rect x="1067" y="671" class="ast1" width="65.3" height="45.9"/>
+	<text transform="matrix(1 0 0 1 1076.5286 707.4041)"><tspan x="0" y="0" class="ast1 st2 st3 st6">1</tspan><tspan x="16.9" y="0" class="ast1 st2 st3 ast5">1</tspan><tspan x="35" y="0" class="ast1 st2 st3">2</tspan></text>
+</g>
+<g id="map-113">
+	<polygon class="ast1" points="1414.1,646.9 1478.7,646.9 1478.7,922.2 1439.7,909.9 1363.5,909.9 1336.2,919.6 1311.1,924.9
+		1295.6,926.7 1278.9,927.3 1260.2,926.4 1241.1,923.8 1215.5,917.5 1195.2,909.9 1195.2,716.9 1414.1,716.9 	"/>
+	<text transform="matrix(1 0 0 1 1241.0598 828.615)"><tspan x="0" y="0" class="ast1 st2 st3 st6">1</tspan><tspan x="16.9" y="0" class="ast1 st2 st3 ast5">1</tspan><tspan x="35.1" y="0" class="ast1 st2 st3">3</tspan></text>
+</g>
+<g id="map-114">
+	<polygon class="ast1" points="984.1,1109.2 984.1,1072 1030.3,1072 1030.3,909.9 949.6,909.9 949.6,1109.2 	"/>
+	<text transform="matrix(1 0 0 1 967.1536 1002.5291)"><tspan x="0" y="0" class="ast1 st2 st3 st6">1</tspan><tspan x="16.9" y="0" class="ast1 st2 st3 ast5">1</tspan><tspan x="35.1" y="0" class="ast1 st2 st3">4</tspan></text>
+</g>
+<g id="map-115">
+	<g>
+		<path class="ast1" d="M949.6,539.7V436c-86.9-4.9-155.1-9.8-196.9-13.1v116.8H949.6z"/>
+		<path class="ast1" d="M949.6,539.7V436c-86.9-4.9-155.1-9.8-196.9-13.1v116.8H949.6z"/>
+	</g>
+	<text transform="matrix(1 0 0 1 828.4349 503.2556)"><tspan x="0" y="0" class="ast1 st2 st3 st6">1</tspan><tspan x="16.9" y="0" class="ast1 st2 st3 st4">1</tspan><tspan x="34.9" y="0" class="ast1 st2 st3">5</tspan></text>
+</g>
+<g id="map-116">
+	<polygon class="ast1" points="672.8,909.9 672.8,1072 718.3,1072 718.3,1109.2 752.7,1109.2 752.7,909.9 	"/>
+	<text transform="matrix(1 0 0 1 689.2161 1002.5291)"><tspan x="0" y="0" class="ast1 st2 st3 st6">1</tspan><tspan x="16.9" y="0" class="ast1 st2 st3 ast5">1</tspan><tspan x="35.4" y="0" class="ast1 st2 st3">6</tspan></text>
+</g>
+<g id="map-117">
+	<rect x="591.7" y="612.5" class="ast1" width="81.1" height="101.2"/>
+	<text transform="matrix(1 0 0 1 608.0443 673.4197)"><tspan x="0" y="0" class="ast1 st2 st3 st6">1</tspan><tspan x="16.9" y="0" class="ast1 st2 st3 ast5">1</tspan><tspan x="35.2" y="0" class="ast1 st2 st3">7</tspan></text>
+</g>
+<g id="map-118">
+	<polygon class="ast1" points="616.6,419.1 616.6,612.5 672.8,612.5 706.4,612.5 706.4,553.2 706.4,539.7 706.4,419.1 	"/>
+	<text transform="matrix(1 0 0 1 637.3411 503.2556)"><tspan x="0" y="0" class="ast1 st2 st3 st6">1</tspan><tspan x="16.9" y="0" class="ast1 st2 st3 ast5">1</tspan><tspan x="35.6" y="0" class="ast1 st2 st3">8</tspan></text>
+</g>
+<g id="map-119">
+	<polygon class="ast1" points="616.6,612.5 616.6,419.1 519.4,419.1 519.4,598.1 493.4,598.1 493.4,811 616.6,811 616.6,713.7
+		591.7,713.7 591.7,612.5 	"/>
+	<text transform="matrix(1 0 0 1 543.9349 503.2556)"><tspan x="0" y="0" class="ast1 st2 st3 st6">1</tspan><tspan x="16.9" y="0" class="ast1 st2 st3 ast5">1</tspan><tspan x="35.2" y="0" class="ast1 st2 st3">9</tspan></text>
+</g>
+<g id="map-120">
+	<polygon class="ast1" points="519.3,598.1 519.3,419.1 406.2,419.1 406.2,580.7 357.4,580.7 357.4,811 493.4,811 493.4,598.1 	"/>
+	<text transform="matrix(1 0 0 1 437.3333 503.2556)"><tspan x="0" y="0" class="ast1 st2 st3 ast5">1</tspan><tspan x="18.1" y="0" class="ast1 st2 st3">20</tspan></text>
+</g>
+<g id="map-121">
+	<polygon class="ast1" points="246.1,419.1 246.1,516.8 184.8,516.8 184.8,772.3 203,772.3 203,811 357.4,811 357.4,580.7
+		406.2,580.7 406.2,419.1 	"/>
+	<text transform="matrix(1 0 0 1 298.4192 503.2556)"><tspan x="0" y="0" class="ast1 st2 st3 ast5">1</tspan><tspan x="18.1" y="0" class="ast1 st2 st3 ast5">2</tspan><tspan x="36.8" y="0" class="ast1 st2 st3">1</tspan></text>
+</g>
+<g id="map-122">
+	<polygon class="ast1" points="246.1,419.1 246.1,516.8 184.8,516.8 184.8,772.3 203,772.3 203,811 44,811 44,476.5 0.5,476.5
+		0.5,419.1 	"/>
+	<text transform="matrix(1 0 0 1 91.3099 503.2556)"><tspan x="0" y="0" class="ast1 st2 st3 ast5">1</tspan><tspan x="18.1" y="0" class="ast1 st2 st3">22</tspan></text>
+</g>
+</svg> <!-- EG-->
+
+
+
+
+
+
+
+
+	</div>
+
+	<div class="col-md-8">
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2258.6 823.9" style="enable-background:new 0 0 2258.6 823.9;" xml:space="preserve" id="section">
+<style type="text/css">
+	.bst0{fill:#CCCCCC;}
+	.bst1{fill:#fff;stroke:#FFFFFF;stroke-width:0.462;}
+	.bst2{fill:#fff;stroke:#FFFFFF;stroke-width:0.635;}
+	.bst3{fill:#000;stroke:#FFFFFF;}
+	.st4{font-family:'FuturaT-BolCon';fill:#fff;}
+	.bst5{font-size:29px;}
+	.st6{letter-spacing:-1;}
+	.st7{letter-spacing:-2;}
+</style>
+<g id="Ebene_1">
+	<path class="bst0" d="M32.6,0.3v186.1H0.3v167.3h32.3v248.4h408.1v43.5h58.7V796h33.8v27.6h197.3V796h34.3V675.6h122.4
+		c19.2,8.3,40.3,12.9,62.5,12.9c22.2,0,43.3-4.6,62.4-12.9h57.4c19.1,8.3,40.2,12.9,62.4,12.9c22.2,0,43.3-4.6,62.4-12.9h56.9
+		c19.1,8.3,40.2,12.9,62.4,12.9c22.2,0,43.3-4.6,62.4-12.9h114.3v121.5h32v26.4h200.5v-26.4h32.9v-26.4h27V666.8h156.2v-64.6h283.3
+		V353.8h35.6V186.5h-35.6V0.3h-217.2v111.9h-98.6V0.3h-66.9v111.9h-98.7V0.3h-66.9v111.9h-98.6V0.3h-66.9v111.9h-98.7V0.3h-66.9
+		v111.9h-98.7V0.3h-66.8v111.9h-98.7V0.3h-66.9v111.9h-98.7V0.3h-66.8v111.9h-98.7V0.3h-66.9v111.9h-98.7V0.3h-66.8v111.9h-98.7V0.3
+		H32.6z"/>
+
+</g>
+<g id="map-123">
+	<text transform="matrix(1 0 0 1 172.3994 426.3036)"><tspan x="0" y="0" class="st4 bst5 st6">1</tspan><tspan x="13.5" y="0" class="st4 bst5">23</tspan></text>
+	<polygon class="bst3" points="267.5,602.2 148.3,602.2 148.3,392 232.3,392 232.3,503.1 267.5,503.1 	"/>
+</g>
+<g id="map-124">
+	<text transform="matrix(1 0 0 1 266.5088 426.3036)"><tspan x="0" y="0" class="st4 bst5 st6">1</tspan><tspan x="13.5" y="0" class="st4 bst5">2</tspan><tspan x="27.7" y="0" class="bst3 st4 bst5">4</tspan></text>
+	<polygon class="bst3" points="232.3,392 336.8,392 336.8,453.6 347.9,453.6 347.9,602.2 267.5,602.2 267.5,503.1 232.3,503.1 	"/>
+</g>
+<g id="map-125">
+	<polygon class="bst3" points="440.1,453.6 440.1,392 336.8,392 336.8,453.6 347.9,453.6 347.9,539.4 430.7,539.4 430.7,453.6 	"/>
+	<text transform="matrix(1 0 0 1 371.5791 426.3036)"><tspan x="0" y="0" class="st4 bst5 st6">1</tspan><tspan x="13.5" y="0" class="st4 bst5">25</tspan></text>
+</g>
+<g id="map-126">
+	<polygon class="bst3" points="499.4,539.4 499.4,392 440.1,392 440.1,453.6 430.7,453.6 430.7,539.4 	"/>
+	<text transform="matrix(1 0 0 1 450.5205 426.3036)"><tspan x="0" y="0" class="st4 bst5 st6">1</tspan><tspan x="13.5" y="0" class="st4 bst5">26</tspan></text>
+</g>
+<g id="map-127">
+	<rect x="499.4" y="392" class="bst3" width="91" height="61.7"/>
+	<text transform="matrix(1 0 0 1 526.3876 426.3036)"><tspan x="0" y="0" class="st4 bst5 st6">1</tspan><tspan x="13.5" y="0" class="st4 bst5">27</tspan></text>
+</g>
+<g id="map-128">
+	<rect x="673.8" y="392" class="bst3" width="91" height="61.7"/>
+	<text transform="matrix(1 0 0 1 701.8447 426.3036)"><tspan x="0" y="0" class="st4 bst5 st6">1</tspan><tspan x="13.5" y="0" class="st4 bst5">28</tspan></text>
+</g>
+<g id="map-129">
+	<rect x="796" y="392" class="bst3" width="44" height="67.5"/>
+	<text transform="matrix(1 0 0 1 799.4072 426.3036)"><tspan x="0" y="0" class="st4 bst5 st6">1</tspan><tspan x="13.5" y="0" class="st4 bst5">29</tspan></text>
+</g>
+<g id="map-130">
+	<path class="bst3" d="M1050.8,675.6V392H840v160.3h-75.2v123.3h122.4c19.2,8.3,40.3,12.9,62.5,12.9c22.2,0,43.3-4.6,62.4-12.9
+		H1050.8z"/>
+	<text transform="matrix(1 0 0 1 921.9931 426.3036)"><tspan x="0" y="0" class="st4 bst5 st6">1</tspan><tspan x="13.5" y="0" class="st4 bst5">30</tspan></text>
+</g>
+<g id="map-131">
+	<polygon class="bst3" points="1050.8,392 1207,392 1207,675.6 1194.6,675.6 1177.9,681.7 1156.6,686.6 1136.4,688.5 1118.8,688.5
+		1100.1,685.2 1084.1,681 1069.7,675.6 1050.8,675.6 	"/>
+	<text transform="matrix(1 0 0 1 1133.415 426.3036)"><tspan x="0" y="0" class="st4 bst5 st7">1</tspan><tspan x="12.6" y="0" class="st4 bst5 st7">3</tspan><tspan x="25.4" y="0" class="bst3 st4 bst5">1</tspan></text>
+</g>
+<g id="map-132">
+	<polygon class="bst3" points="1207,392 1289.5,392 1289.5,686.6 1273.5,683.3 1251.5,675.6 1207,675.6 	"/>
+	<text transform="matrix(1 0 0 1 1230.0752 426.3036)"><tspan x="0" y="0" class="st4 bst5 st6">1</tspan><tspan x="13.5" y="0" class="st4 bst5">32</tspan></text>
+</g>
+<g id="map-133">
+	<polygon class="bst3" points="1289.5,392 1289.5,686.6 1310.6,688.5 1331.1,687.6 1360,681.6 1376.4,675.6 1490.6,675.6
+		1490.6,549.3 1419.6,549.3 1419.6,392 	"/>
+	<text transform="matrix(1 0 0 1 1339.7275 426.3036)"><tspan x="0" y="0" class="st4 bst5 st6">1</tspan><tspan x="13.5" y="0" class="st4 bst5">33</tspan></text>
+</g>
+<g id="map-134">
+	<rect x="1419.6" y="392" class="bst3" width="40.7" height="61.7"/>
+	<text transform="matrix(1 0 0 1 1421.0205 426.3036)"><tspan x="0" y="0" class="st4 bst5 st6">1</tspan><tspan x="13.5" y="0" class="st4 bst5">3</tspan><tspan x="28.6" y="0" class="bst3 st4 bst5">4</tspan></text>
+</g>
+<g id="map-135">
+	<rect x="1490.6" y="392" class="bst3" width="91" height="61.7"/>
+	<text transform="matrix(1 0 0 1 1516.6338 426.3036)"><tspan x="0" y="0" class="st4 bst5 st6">1</tspan><tspan x="13.5" y="0" class="st4 bst5">35</tspan></text>
+</g>
+<g id="map-136">
+	<rect x="1665" y="392" class="bst3" width="91" height="61.7"/>
+	<text transform="matrix(1 0 0 1 1681.5088 426.3036)"><tspan x="0" y="0" class="st4 bst5 st6">1</tspan><tspan x="13.5" y="0" class="st4 bst5">36</tspan></text>
+</g>
+<g id="map-137">
+	<rect x="1756.1" y="392" class="bst3" width="82.8" height="143.9"/>
+	<text transform="matrix(1 0 0 1 1780.3135 507.4755)"><tspan x="0" y="0" class="st4 bst5 st7">1</tspan><tspan x="12.6" y="0" class="st4 bst5 st6">3</tspan><tspan x="26.3" y="0" class="bst3 st4 bst5">7</tspan></text>
+</g>
+<g id="map-138">
+	<polygon class="bst3" points="1917.5,455.7 1917.5,392 1876.4,392 1838.9,392 1838.9,455.7 1838.9,503.1 1876.4,503.1 1876.4,455.7
+			"/>
+	<text transform="matrix(1 0 0 1 1868.8252 426.3036)"><tspan x="0" y="0" class="st4 bst5 st6">1</tspan><tspan x="13.5" y="0" class="st4 bst5">38</tspan></text>
+</g>
+<g id="map-139">
+	<polygon class="bst3" points="1917.5,392 1917.5,455.7 1876.4,455.7 1876.4,503.1 1838.9,503.1 1838.9,535.8 1756.1,535.8
+		1756.1,602.2 2222.5,602.2 2222.5,411.9 2107.8,411.9 2107.8,392 	"/>
+	<text transform="matrix(1 0 0 1 1994.4893 426.3036)"><tspan x="0" y="0" class="st4 bst5 st6">1</tspan><tspan x="13.5" y="0" class="st4 bst5">39</tspan></text>
+</g>
+<g id="map-140">
+	<polygon class="bst3" points="2222.5,411.9 2222.5,353.8 2258.1,353.8 2258.1,309.8 2107.8,309.8 2107.8,411.9 	"/>
+	<text transform="matrix(1 0 0 1 2148.0791 366.5263)"><tspan x="0" y="0" class="st4 bst5 st6">1</tspan><tspan x="13.5" y="0" class="st4 bst5">40</tspan></text>
+</g>
+</svg> <!-- OG-->
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         <!-- Footer -->
@@ -518,19 +968,19 @@
             <div class="row">
                 <div class="col-lg-12 white">
                     <h4>Center Management</h4>
-                    <p>Willy-Brandt-Platz 7</p> 
-<p>04109 Leipzig</p> 
+                    <p>Willy-Brandt-Platz 7</p>
+<p>04109 Leipzig</p>
 
                 </div>
             </div>
         </footer>
-    
+
     </div>
     <!-- /.container -->
 <script>
     w3.includeHTML();
 </script>
-  
+
 
 </body>
 

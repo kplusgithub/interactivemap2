@@ -7,6 +7,7 @@
            "einzelhandel": "false",
            "lebensmittel": "false",
            "gastronomie": "false",
+           "vermietet": "true",
            "id": "1"
        },
        {
@@ -15,6 +16,7 @@
            "einzelhandel": "true",
            "lebensmittel": "false",
            "gastronomie": "false",
+           "vermietet": "false",
            "id": "2"
        },
        {
@@ -23,6 +25,7 @@
            "einzelhandel": "false",
            "lebensmittel": "true",
            "gastronomie": "false",
+           "vermietet": "true",
            "id": "3"
 	
        },
@@ -33,6 +36,7 @@
            "einzelhandel": "false",
            "lebensmittel": "false",
            "gastronomie": "true",
+           "vermietet": "true",
            "id": "4"
 	
        },
@@ -44,71 +48,10 @@
            "einzelhandel": "false",
            "lebensmittel": "false",
            "gastronomie": "false",
+            "vermietet": "false",
            "id": "5"
-       },
-       {
-           
-           "dienstleistung": "false",
-           "einzelhandel": "true",
-           "lebensmittel": "false",
-           "gastronomie": "false",
-           "id": "6"
-       },
-       {
-           
-           "dienstleistung": "false",
-           "einzelhandel": "false",
-           "lebensmittel": "true",
-           "gastronomie": "false",
-           "id": "7"
-	
-       },
-       
-       {
-           
-           "dienstleistung": "false",
-           "einzelhandel": "false",
-           "lebensmittel": "false",
-           "gastronomie": "true",
-           "id": "8"
-	
-       },
-  
-       {
-           
-           "dienstleistung": "true",
-           "einzelhandel": "false",
-           "lebensmittel": "false",
-           "gastronomie": "false",
-           "id": "9"
-       },
-       {
-           
-           "dienstleistung": "false",
-           "einzelhandel": "true",
-           "lebensmittel": "false",
-           "gastronomie": "false",
-           "id": "10"
-       },
-       {
-           
-           "dienstleistung": "false",
-           "einzelhandel": "false",
-           "lebensmittel": "true",
-           "gastronomie": "false",
-           "id": "11"
-	
-       },
-       
-       {
-           
-           "dienstleistung": "false",
-           "einzelhandel": "false",
-           "lebensmittel": "false",
-           "gastronomie": "true",
-           "id": "12"
-	
        }
+       
   
    
    
