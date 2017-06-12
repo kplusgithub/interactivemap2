@@ -3,22 +3,34 @@
 
 $(document).ready(function () { "use strict";
 
-         $(".hyde").hide();
-         
-  
+       //  $(".hyde").hide();
+
+
 
 
          
-         
-       for (let i = 0; i < 122; i++) {
+    for (let i = 0; i < 122; i++) {
+
+
+            $(".a"+i).dialog(
+
+                {autoOpen: false,
+                });
            $('#map-' + i).click( function(){
-               $(".hyde").hide(500);
-            $(".a"+i).toggle(500);
-            });
+
+               $(".a"+i).dialog("open" );
+
+       });
        }
-         
-         
-    
+
+
+
+   /* for (let i = 0; i < 122; i++) {
+        $('#map-' + i).click( function(){
+            $(".hyde").hide(500);
+            $(".a"+i).toggle(500);
+        });
+    }*/
          
      
         
