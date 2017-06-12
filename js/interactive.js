@@ -8,20 +8,6 @@ $(document).ready(function () { "use strict";
 
 
 
-         
-    for (let i = 0; i < 122; i++) {
-
-
-            $(".a"+i).dialog(
-
-                {autoOpen: false,
-                });
-           $('#map-' + i).click( function(){
-
-               $(".a"+i).dialog("open" );
-
-       });
-       }
 
 
 
@@ -31,10 +17,43 @@ $(document).ready(function () { "use strict";
             $(".a"+i).toggle(500);
         });
     }*/
-         
+
+
+
+    for (let i = 0; i < 122; i++) {
+        $('#map-' + i).click( function(){
+
+            $(".a"+i).modal();
+        });
+    }
+
+
+
+
      
         
      });
+
+
+
+/* MODAL POPUP */
+
+
+/*
+for (let i = 0; i < 122; i++) {
+
+
+    $(".a"+i).dialog(
+
+        {autoOpen: false,
+        });
+    $('#map-' + i).click( function(){
+
+        $(".a"+i).dialog("open" );
+
+    });
+}
+*/
 
 
 
