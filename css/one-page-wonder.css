@@ -6,44 +6,6 @@
 
 
 
-/* SIDENAV */
-
-#mainCol h2 {
-    padding-top: 55px;
-    margin-top: -55px;
-}
-
-.affix-top,.affix{
-    position: static;
-}
-
-@media (min-width: 979px) {
-    #sidebar.affix-top {
-        position: static;
-        margin-top:30px;
-        width:228px;
-    }
-
-    #sidebar.affix-bottom {
-        position: relative;
-    }
-
-    #sidebar.affix {
-        position: fixed;
-        top:70px;
-        width:228px;
-    }
-}
-
-#sidebar li.active {
-    border:0 #eee solid;
-    border-right-width:4px;
-}
-
-#sidebar li li.active {
-    border:0 #ccc solid;
-    border-right-width:3px;
-}
 
 /*//////////////////////////////////////////*/
 .bg-color {
@@ -124,7 +86,7 @@ input[type="checkbox"]:checked ~ .toggle {
   border: 1px solid #8B8580;
   background: #e1dcd7;
 }
-    
+
 
 
 
@@ -144,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 body {
-    margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+   margin-top: 50px;/* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     background-color: #2c2c2c;
 }
 

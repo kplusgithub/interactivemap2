@@ -14,26 +14,23 @@
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+
     <!-- Custom CSS -->
     <link href="css/one-page-wonder.css" rel="stylesheet">
-
-
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
     <![endif]-->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="../interactivemap/js/interactive.js"></script>
-
-
-
-
 
 
     <!-- MAPPING
@@ -45,144 +42,187 @@
 -->
 
 
-
-
-
-
-
     <!-- STYLES -->
 
-<style>
+    <style>
 
 
+        #section g[id^='map-'] {
+            opacity: 0.3;
+        }
 
+        .affix {
+            top: 120px;
+        }
 
-#section g[id^='map-'] {
-    opacity: 0.3;
-}
-
-
-
-</style>
+    </style>
 
 
 </head>
 
 
-
-
-
-
-
-
-
-
 <body>
 
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
 
-                <a class="navbar-brand" href="#"><img width="80px" src="assets/img/logo_leipzig.svg"></a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#about">Karte</a>
-                    </li>
-                    <!--<li>
-                        <a href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li> -->
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+            <a class="navbar-brand" href="#"><img width="80px" src="assets/img/logo_leipzig.svg"></a>
         </div>
-        <!-- /.container -->
-    </nav>
-
-    <!-- Full Width Image Header -->
-    <header class="header-image">
-        <div class="headline">
-            <div class="container" style="background:none;">
-                <h1 style="color:white;">iLeasing</h1>
-                <h3 style="color:white;"> POWERED BY KPLUS KONZEPT</h3>
-            </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="#about">Karte</a>
+                </li>
+                <!--<li>
+                    <a href="#services">Services</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li> -->
+            </ul>
         </div>
-    </header>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
 
-    <!-- Page Content -->
-    <div class="container bg-color" >
-
-        <!--<hr class="featurette-divider"> -->
-
-        <!-- First Featurette -->
-        <div class="featurette" id="about">
-
-            <h2 class="featurette-heading white" style="margin-top:5%;padding-bottom:30px;">Promenaden Bahnhof
-
-            </h2>
-
+<!-- Full Width Image Header -->
+<header class="header-image ">
+    <div class="headline">
+        <div class="container" style="background:none;">
+            <h1 style="color:white;">iLeasing</h1>
+            <h3 style="color:white;"> POWERED BY KPLUS KONZEPT</h3>
         </div>
+    </div>
+</header>
+
+<!-- Page Content -->
+<div class="container bg-color">
+
+    <!--<hr class="featurette-divider"> -->
+
+    <!-- First Featurette -->
+    <div class="featurette" id="about">
+
+        <h2 class="featurette-heading white" style="margin-top:5%;padding-bottom:30px;">Promenaden Bahnhof
+
+        </h2>
+
+    </div>
 
 
-<!-- SIDENAV -->
+    <!-- KARTE --><!-- SIDENAV -->
+
+    <div class="row">
+
+        <nav class="col-sm-3 white" >
+            <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="205">
+                <li class="active">
+                    <div class="checkbox setting col-md-1" style="padding-left:0px;">
+                        <label><input type="checkbox" id="dienstleistung" value="">
+                            <div class="track"></div>
+                            <div class="toggle"></div>
+                            DIENSTLEISTUNG</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="checkbox setting col-md-1" style="margin-top:10px;padding-left:0px;">
+                        <label><input type="checkbox" id="einzelhandel" value="">
+                            <div class="track"></div>
+                            <div class="toggle"></div>
+                            EINZELHANDEL</label>
+                    </div>
+                </li>
+                <li>
+					<div class="checkbox setting col-md-1" style="margin-top:10px;padding-left:0px;">
+					<label><input type="checkbox" id="lebensmittel" value="">
+						<div class="track"></div>
+						<div class="toggle"></div>
+						LEBENSMITTEL</label>
+				</div>
+				</li>
+				<div class="checkbox setting col-md-1" style="margin-top:10px;padding-left:0px;">
+					<label><input type="checkbox" id="gastronomie" value="">
+						<div class="track"></div>
+						<div class="toggle"></div>
+						GASTRONOMIE</label>
+				</div>
+				<li>
+					<div class="checkbox setting col-md-1" style="margin-top:10px;padding-left:0px;">
+						<label><input type="checkbox" id="vermietet" value="">
+							<div class="track"></div>
+							<div class="toggle"></div>
+							VERMIETET</label>
+					</div>
+				</li>
+
+            </ul>
+        </nav>
 
 
+        <div class="col-md-9">
 
 
-
-
-		<!-- KARTE -->
-
-<div class="row">
-
-
-	<div class="col-md-3" id="leftCol">
-
-		<ul class="nav nav-stacked" id="sidebar">
-			<li><a href="#sec0">Section 0</a></li>
-			<li><a href="#sec1">Section 1</a></li>
-			<li>
-				<a href="#sec2">Section 2</a>
-				<ul class="nav nav-stacked">
-					<li><a href="#sec2a">Section 2 a</a></li>
-					<li><a href="#sec2b">Section 2 b</a></li>
-				</ul>
-			</li>
-			<li><a href="#sec3">Section 3</a></li>
-			<li><a href="#sec4">Section 4</a></li>
-		</ul>
-
-	</div>
-
-	<div class="col-md-9" id="mainCol">
-
-			<svg  version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            <svg  version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
 	 viewBox="0 0 3313.3 1495.4" style="enable-background:new 0 0 3313.3 1495.4;" xml:space="preserve" id="section" cursor="pointer">
 <style type="text/css">
-	.st0{fill:#CCCCCC;stroke:#FFFFFF;stroke-width:0.656;}
-	.st1{fill:none;stroke:#FFFFFF;stroke-width:0.328;}
-	.st2{fill:#000;stroke:#FFFFFF;stroke-width:0.462;}
-	.st3{fill:#fff;}
-	.st4{font-family:'FuturaT-BolCon';}
-	.st5{font-size:42.5515px;}
-	.st6{letter-spacing:-1;}
-	.st7{letter-spacing:-2;}
-	.st8{font-size:43.6185px;}
-	.st9{letter-spacing:-3;}
+	.st0 {
+        fill: #CCCCCC;
+        stroke: #FFFFFF;
+        stroke-width: 0.656;
+    }
+
+    .st1 {
+        fill: none;
+        stroke: #FFFFFF;
+        stroke-width: 0.328;
+    }
+
+    .st2 {
+        fill: #000;
+        stroke: #FFFFFF;
+        stroke-width: 0.462;
+    }
+
+    .st3 {
+        fill: #fff;
+    }
+
+    .st4 {
+        font-family: 'FuturaT-BolCon';
+    }
+
+    .st5 {
+        font-size: 42.5515px;
+    }
+
+    .st6 {
+        letter-spacing: -1;
+    }
+
+    .st7 {
+        letter-spacing: -2;
+    }
+
+    .st8 {
+        font-size: 43.6185px;
+    }
+
+    .st9 {
+        letter-spacing: -3;
+    }
 </style>
 <g id="Ebene_1">
 </g>
@@ -418,112 +458,123 @@
 
 
 
-
-<!-- CHECKBOXEN -->
-
-
-            <div class="row white" style="margin-left:2%;">
+            <!-- CHECKBOXEN -->
 
 
-			<div class="checkbox setting col-md-1" style="padding-left:0px;">
-				<label><input type="checkbox" id="dienstleistung" value="">
-					<div class="track"></div>
-					<div class="toggle"></div>
-					DIENSTLEISTUNG</label>
-			</div>
-
-			<div class="checkbox setting col-md-1" style="margin-top:10px;padding-left:0px;">
-				<label><input type="checkbox" id="einzelhandel" value="">
-					<div class="track"></div>
-					<div class="toggle"></div>
-					EINZELHANDEL</label>
-			</div>
-
-			<!-- <div class="checkbox">
-                 <label><input type="checkbox" id="gastronomie" value="">gastronomie</label>
-             </div> -->
-
-			<div class="checkbox setting col-md-1" style="margin-top:10px;padding-left:0px;">
-				<label><input type="checkbox" id="lebensmittel" value="">
-					<div class="track"></div>
-					<div class="toggle"></div>
-					LEBENSMITTEL</label>
-			</div>
-
-			<div class="checkbox setting col-md-1" style="margin-top:10px;padding-left:0px;">
-				<label><input type="checkbox" id="gastronomie" value="">
-					<div class="track"></div>
-					<div class="toggle"></div>
-					GASTRONOMIE</label>
-			</div>
-
-			<div class="checkbox setting col-md-1" style="margin-top:10px;padding-left:0px;">
-				<label><input type="checkbox" id="vermietet" value="">
-					<div class="track"></div>
-					<div class="toggle"></div>
-					VERMIETET</label>
-			</div>
+       <!--     <div class="row white" style="margin-left:2%;">
 
 
-		</div>
+                <div class="checkbox setting col-md-1" style="padding-left:0px;">
+                    <label><input type="checkbox" id="dienstleistung" value="">
+                        <div class="track"></div>
+                        <div class="toggle"></div>
+                        DIENSTLEISTUNG</label>
+                </div>
+
+                <div class="checkbox setting col-md-1" style="margin-top:10px;padding-left:0px;">
+                    <label><input type="checkbox" id="einzelhandel" value="">
+                        <div class="track"></div>
+                        <div class="toggle"></div>
+                        EINZELHANDEL</label>
+                </div>
+
+                &lt;!&ndash; <div class="checkbox">
+                     <label><input type="checkbox" id="gastronomie" value="">gastronomie</label>
+                 </div> &ndash;&gt;
+
+                <div class="checkbox setting col-md-1" style="margin-top:10px;padding-left:0px;">
+                    <label><input type="checkbox" id="lebensmittel" value="">
+                        <div class="track"></div>
+                        <div class="toggle"></div>
+                        LEBENSMITTEL</label>
+                </div>
+
+                <div class="checkbox setting col-md-1" style="margin-top:10px;padding-left:0px;">
+                    <label><input type="checkbox" id="gastronomie" value="">
+                        <div class="track"></div>
+                        <div class="toggle"></div>
+                        GASTRONOMIE</label>
+                </div>
+
+                <div class="checkbox setting col-md-1" style="margin-top:10px;padding-left:0px;">
+                    <label><input type="checkbox" id="vermietet" value="">
+                        <div class="track"></div>
+                        <div class="toggle"></div>
+                        VERMIETET</label>
+                </div>
+
+
+            </div>-->
 
             <!--<hr class="featurette-divider" style="margin-top:2%;margin-bottom:0;">-->
 
 
-        </div>
-
-
-    <!-- INFOFLAECHEN -->
 
 
 
+        <!-- INFOFLAECHEN -->
 
 
+        <div class="col-md-4">
 
 
+            <h4>HIER DIE INFORMATIONEN ZUR FLÄCHE</h4>
 
 
-
-<div class="col-md-4">
-
-
-    <h4>HIER DIE INFORMATIONEN ZUR FLÄCHE</h4>
-
-
-<div class="a1 hyde white content-size" w3-include-html="content/area1.html"></div>
-<div class="a2 hyde white content-size" w3-include-html="content/area2.html"></div>
-<div class="a3 hyde white content-size" w3-include-html="content/area3.html"></div>
-<div class="a4 hyde white content-size" w3-include-html="content/area4.html"></div>
-<div class="a5 hyde white content-size" w3-include-html="content/area5.html"></div>
-<div class="a6 hyde white content-size" w3-include-html="content/area6.html"></div>
-<div class="a7 hyde white content-size" w3-include-html="content/area7.html"></div>
-<div class="a8 hyde white content-size" w3-include-html="content/area8.html"></div>
-<div class="a9 hyde white content-size" w3-include-html="content/area9.html"></div>
-<div class="a10 hyde white content-size" w3-include-html="content/area10.html"></div>
-<div class="a11 hyde white content-size" w3-include-html="content/area11.html"></div>
-<div class="a12 hyde white content-size" w3-include-html="content/area12.html"></div>
-<div class="a13 hyde white content-size" w3-include-html="content/area13.html"></div>
-
-
+            <div class="a1 hyde white content-size" w3-include-html="content/area1.html"></div>
+            <div class="a2 hyde white content-size" w3-include-html="content/area2.html"></div>
+            <div class="a3 hyde white content-size" w3-include-html="content/area3.html"></div>
+            <div class="a4 hyde white content-size" w3-include-html="content/area4.html"></div>
+            <div class="a5 hyde white content-size" w3-include-html="content/area5.html"></div>
+            <div class="a6 hyde white content-size" w3-include-html="content/area6.html"></div>
+            <div class="a7 hyde white content-size" w3-include-html="content/area7.html"></div>
+            <div class="a8 hyde white content-size" w3-include-html="content/area8.html"></div>
+            <div class="a9 hyde white content-size" w3-include-html="content/area9.html"></div>
+            <div class="a10 hyde white content-size" w3-include-html="content/area10.html"></div>
+            <div class="a11 hyde white content-size" w3-include-html="content/area11.html"></div>
+            <div class="a12 hyde white content-size" w3-include-html="content/area12.html"></div>
+            <div class="a13 hyde white content-size" w3-include-html="content/area13.html"></div>
 
 
         </div>
 
 
+        <div class="col-md-9">
 
-	<div class="col-md-8">
 
-
-		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 3042.1 1109.7" style="enable-background:new 0 0 3042.1 1109.7;" xml:space="preserve" id="section">
 <style type="text/css">
-	.ast0{fill:#CCCCCC;;stroke:#FFFFFF;stroke-width:0.656;}
-	.ast1{stroke:#FFFFFF;stroke-width:0.328;}
-	.st2{font-family:'FuturaT-BolCon';}
-	.st3{font-size:29px;}
-	.st4{letter-spacing:-2;}
-	.ast5{letter-spacing:-1;}
-	.st6{letter-spacing:-3;}
+	.ast0 {
+        fill: #CCCCCC;;
+        stroke: #FFFFFF;
+        stroke-width: 0.656;
+    }
+
+    .ast1 {
+        stroke: #FFFFFF;
+        stroke-width: 0.328;
+    }
+
+    .st2 {
+        font-family: 'FuturaT-BolCon';
+    }
+
+    .st3 {
+        font-size: 29px;
+    }
+
+    .st4 {
+        letter-spacing: -2;
+    }
+
+    .ast5 {
+        letter-spacing: -1;
+    }
+
+    .st6 {
+        letter-spacing: -3;
+    }
 </style>
 <g id="Ebene_1">
 	<g>
@@ -828,27 +879,50 @@
 </svg> <!-- EG-->
 
 
+        </div>
 
+        <div class="col-md-9">
 
-
-
-
-
-	</div>
-
-	<div class="col-md-8">
-
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 2258.6 823.9" style="enable-background:new 0 0 2258.6 823.9;" xml:space="preserve" id="section">
 <style type="text/css">
-	.bst0{fill:#CCCCCC;}
-	.bst1{fill:#fff;stroke:#FFFFFF;stroke-width:0.462;}
-	.bst2{fill:#fff;stroke:#FFFFFF;stroke-width:0.635;}
-	.bst3{fill:#000;stroke:#FFFFFF;}
-	.st4{font-family:'FuturaT-BolCon';fill:#fff;}
-	.bst5{font-size:29px;}
-	.st6{letter-spacing:-1;}
-	.st7{letter-spacing:-2;}
+	.bst0 {
+        fill: #CCCCCC;
+    }
+
+    .bst1 {
+        fill: #fff;
+        stroke: #FFFFFF;
+        stroke-width: 0.462;
+    }
+
+    .bst2 {
+        fill: #fff;
+        stroke: #FFFFFF;
+        stroke-width: 0.635;
+    }
+
+    .bst3 {
+        fill: #000;
+        stroke: #FFFFFF;
+    }
+
+    .st4 {
+        font-family: 'FuturaT-BolCon';
+        fill: #fff;
+    }
+
+    .bst5 {
+        font-size: 29px;
+    }
+
+    .st6 {
+        letter-spacing: -1;
+    }
+
+    .st7 {
+        letter-spacing: -2;
+    }
 </style>
 <g id="Ebene_1">
 	<path class="bst0" d="M32.6,0.3v186.1H0.3v167.3h32.3v248.4h408.1v43.5h58.7V796h33.8v27.6h197.3V796h34.3V675.6h122.4
@@ -939,29 +1013,9 @@
 </svg> <!-- OG-->
 
 
-</div>
+        </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		</div>
 
         <!-- Footer -->
         <footer class="bg-color" style="margin-top:0;">
@@ -969,7 +1023,7 @@
                 <div class="col-lg-12 white">
                     <h4>Center Management</h4>
                     <p>Willy-Brandt-Platz 7</p>
-<p>04109 Leipzig</p>
+                    <p>04109 Leipzig</p>
 
                 </div>
             </div>
@@ -977,9 +1031,9 @@
 
     </div>
     <!-- /.container -->
-<script>
-    w3.includeHTML();
-</script>
+    <script>
+        w3.includeHTML();
+    </script>
 
 
 </body>
