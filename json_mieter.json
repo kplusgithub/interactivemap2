@@ -8,7 +8,8 @@
            "lebensmittel": "false",
            "gastronomie": "false",
            "vermietet": "true",
-           "id": "1"
+           "id": "1",
+           "name": "rewe"
        },
        {
            
@@ -17,7 +18,8 @@
            "lebensmittel": "false",
            "gastronomie": "false",
            "vermietet": "false",
-           "id": "2"
+           "id": "2",
+           "name": "aldi"
        },
        {
            
@@ -26,7 +28,8 @@
            "lebensmittel": "true",
            "gastronomie": "false",
            "vermietet": "true",
-           "id": "3"
+           "id": "3",
+           "name": "edeka"
 	
        },
        
@@ -37,7 +40,8 @@
            "lebensmittel": "false",
            "gastronomie": "true",
            "vermietet": "true",
-           "id": "4"
+           "id": "4",
+           "name": "kaufland"
 	
        },
   
@@ -49,7 +53,89 @@
            "lebensmittel": "false",
            "gastronomie": "false",
             "vermietet": "false",
-           "id": "5"
+           "id": "5",
+            "name": "dm"
+       },
+       
+        {
+           
+           "dienstleistung": "true",
+           "einzelhandel": "false",
+           "lebensmittel": "false",
+           "gastronomie": "false",
+           "vermietet": "true",
+           "id": "6",
+           "name": "mediamarkt"
+       },
+       
+       {
+           
+           "dienstleistung": "false",
+           "einzelhandel": "true",
+           "lebensmittel": "false",
+           "gastronomie": "false",
+           "vermietet": "false",
+           "id": "7",
+           "name": "saturn"
+       },
+       
+       {
+           
+           "dienstleistung": "false",
+           "einzelhandel": "false",
+           "lebensmittel": "true",
+           "gastronomie": "false",
+           "vermietet": "true",
+           "id": "8",
+           "name": "Post"
+	
+       },
+       
+       {
+           
+           "dienstleistung": "false",
+           "einzelhandel": "false",
+           "lebensmittel": "false",
+           "gastronomie": "true",
+           "vermietet": "true",
+           "id": "9",
+           "name": "DB"
+	
+       },
+       
+       {
+           
+           "dienstleistung": "false",
+           "einzelhandel": "true",
+           "lebensmittel": "false",
+           "gastronomie": "false",
+           "vermietet": "false",
+           "id": "10",
+           "name": "saturn"
+       },
+       
+       {
+           
+           "dienstleistung": "false",
+           "einzelhandel": "false",
+           "lebensmittel": "true",
+           "gastronomie": "false",
+           "vermietet": "true",
+           "id": "11",
+           "name": "Post"
+	
+       },
+       
+       {
+           
+           "dienstleistung": "false",
+           "einzelhandel": "false",
+           "lebensmittel": "false",
+           "gastronomie": "true",
+           "vermietet": "true",
+           "id": "12",
+           "name": "DB"
+	
        }
        
   

@@ -47,40 +47,7 @@
 
 
 
-<script>
-/*    $( document ).ready(function($) {
 
- if (window.matchMedia("(max-width: 1024px)").matches) {
- $(".fixed").css({"top":"500px"});
- console.log('unter 1024 width');
- }
- else {
- $(".fixed").css({"top":"0"});
- console.log('ueber 1024 width')
- }
-
- });*/
-
-    $(window).scroll(function () {
-        var threshold = 50;
-
-
-
-        if ($(window).scrollTop() >= threshold)
-            $('#sidebar').addClass('fixed');
-        else
-            $('#sidebar').removeClass('fixed');
-        var checkcontent = $("#content").height()*-1+200;
-        var check = $("#content").height() - $("#sidebar").height()-21;
-        if ($(window).scrollTop() >= check) {
-            $('#sidebar').addClass('bottom');
-        	$(".bottom").css({"bottom": checkcontent});}
-        else{
-            $(".bottom").css({"bottom": 200});
-            $('#sidebar').removeClass('bottom');}
-    });
-
-</script>
 
 	<!-- STYLES -->
 
@@ -102,14 +69,6 @@
         #section g[id^='map-'] {
             opacity: 0.3;
         }
-
-      /*  .affix {
-            top: 420px;
-
-        }*/
-
-
-
 
 
 		body {
@@ -145,13 +104,6 @@
 
 		}
 
-	/*	@media screen and (min-width: 1024px) {
-                    .fixed {
-                        top:500px;
-                    }
-                }*/
-
-		/* bottom px muss je nachdem justiert werden */
 
 		.bottom{
 			top:auto;
@@ -233,11 +185,11 @@
     </div>
 
 
-    <!-- KARTE --><!-- SIDENAV -->
+<!-- SIDENAV -->
 
     <div class="row">
 
-        <div class="col-sm-3 white" >
+        <div class="col-sm-3 white hidden-sm" >
             <ul class="nav nav-stacked"  id="sidebar" >
                 <li class="active">
                     <div class="checkbox setting col-md-1" style="padding-left:0px;">
@@ -281,8 +233,9 @@
             </ul>
         </div>
 
+		<!-- KARTE -->
 
-        <div class="col-md-9">
+        <div class="col-md-9 hidden-sm">
 
 
 			<p  class="white" style="margin-top:5%;padding-bottom:30px;font-size:24px;">BASEMENT</p>
@@ -566,6 +519,15 @@
 	<text transform="matrix(1 0 0 1 657.1458 1390.1611)" class="st3 st4 st5">1</text>
 </g>
 </svg> <!-- BASE-->
+
+
+
+			<table  class="table table-hover white" id="myTable">
+				<tbody>
+
+				</tbody>
+
+			</table>
 
 
 

@@ -11,16 +11,9 @@ $(document).ready(function () { "use strict";
 
 
 
-   /* for (let i = 0; i < 122; i++) {
-        $('#map-' + i).click( function(){
-            $(".hyde").hide(500);
-            $(".a"+i).toggle(500);
-        });
-    }*/
 
 
-
-    for (let i = 0; i < 125; i++) {
+    for (let i = 0; i < 139; i++) {
         $('#map-' + i).click( function(){
             $('#area').load('content/area'+i+'.html');
             $(".a1").modal();
@@ -31,31 +24,6 @@ $(document).ready(function () { "use strict";
 
 
 
-/*    var $body = $(document.body);
-    var navHeight = $('.navbar').outerHeight(true) + 10;
-
-
-    $('#sidebar').affix({
-        offset: {
-            /!* affix after top masthead *!/
-            top: function () {
-                var navOuterHeight = $('#masthead').height();
-                return this.top = navOuterHeight;
-            },
-            /!* un-affix when footer is reached *!/
-            bottom: function () {
-                return (this.bottom = $('footer').outerHeight(true))
-            }
-        }
-    });
-
-    $body.scrollspy({
-        target: '#leftCol',
-        offset: navHeight
-    });*/
-
-
-
 
      
         
@@ -63,26 +31,27 @@ $(document).ready(function () { "use strict";
 
 
 
-/* MODAL POPUP */
+/* SIDENAV*/
 
 
-/*
-for (let i = 0; i < 122; i++) {
+$(window).scroll(function () {
+    var threshold = 50;
 
 
-    $(".a"+i).dialog(
 
-        {autoOpen: false,
-        });
-    $('#map-' + i).click( function(){
-
-        $(".a"+i).dialog("open" );
-
-    });
-}
-*/
-
-
+    if ($(window).scrollTop() >= threshold)
+        $('#sidebar').addClass('fixed');
+    else
+        $('#sidebar').removeClass('fixed');
+    var checkcontent = $("#content").height()*-1+200;
+    var check = $("#content").height() - $("#sidebar").height()-21;
+    if ($(window).scrollTop() >= check) {
+        $('#sidebar').addClass('bottom');
+        $(".bottom").css({"bottom": checkcontent});}
+    else{
+        $(".bottom").css({"bottom": 250});
+        $('#sidebar').removeClass('bottom');}
+});
 
 
 
@@ -98,7 +67,66 @@ for (let i = 0; i < 122; i++) {
 
 
         $.getJSON('json_mieter.json', function(data) {
-       
+
+
+            for (i = 0; i < data.mieter.length + 1; i++) {
+
+                if(i%5==0) {
+
+                    $('#myTable tbody').append([
+                        '<tr>',
+                        '<td>',
+                        data.mieter[i].id,
+                        " ",
+                        data.mieter[i].name,
+                        '</td>',
+
+                        '<td>',
+                        data.mieter[i+1].id,
+                        " ",
+                        data.mieter[i+1].name,
+                        '</td>',
+
+                        '<td>',
+                        data.mieter[i+2].id,
+                        " ",
+                        data.mieter[i+2].name,
+                        '</td>',
+
+                        '<td>',
+                        data.mieter[i+3].id,
+                        " ",
+                        data.mieter[i+3].name,
+                        '</td>',
+
+                        '<td>',
+                        data.mieter[i+4].id,
+                        " ",
+                        data.mieter[i+4].name,
+                        '</td>',
+
+                        '</tr>'
+                    ].join(''));
+
+                }
+
+
+            }
+
+
+            $('#myTable tbody').append([
+                '<tr>',
+                '<td>',
+               "HellO",
+                '</td>',
+                '</tr>'
+            ].join(''));
+
+
+
+
+
+
             
             $(".checkbox").on("change", function() {
   
@@ -107,7 +135,14 @@ for (let i = 0; i < 122; i++) {
                 for (i = 0; i < data.mieter.length+1; i++) {
                     num=i+1;
                     var n = num.toString();
-         
+
+
+
+
+
+
+
+
       
                     if ( ((data.mieter[i].dienstleistung=="true")&&($('#dienstleistung').is(':checked'))) ||  ((data.mieter[i].vermietet=="true")&&($('#vermietet').is(':checked'))) || ((data.mieter[i].einzelhandel=="true")&&($('#einzelhandel').is(':checked'))) || ((data.mieter[i].gastronomie=="true")&&($('#gastronomie').is(':checked'))) || ((data.mieter[i].lebensmittel=="true")&&($('#lebensmittel').is(':checked')))  )    {
                                                
