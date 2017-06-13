@@ -46,20 +46,123 @@
 -->
 
 
-    <!-- STYLES -->
+
+<script>
+/*    $( document ).ready(function($) {
+
+ if (window.matchMedia("(max-width: 1024px)").matches) {
+ $(".fixed").css({"top":"500px"});
+ console.log('unter 1024 width');
+ }
+ else {
+ $(".fixed").css({"top":"0"});
+ console.log('ueber 1024 width')
+ }
+
+ });*/
+
+    $(window).scroll(function () {
+        var threshold = 50;
+
+
+
+        if ($(window).scrollTop() >= threshold)
+            $('#sidebar').addClass('fixed');
+        else
+            $('#sidebar').removeClass('fixed');
+        var checkcontent = $("#content").height()*-1+200;
+        var check = $("#content").height() - $("#sidebar").height()-21;
+        if ($(window).scrollTop() >= check) {
+            $('#sidebar').addClass('bottom');
+        	$(".bottom").css({"bottom": checkcontent});}
+        else{
+            $(".bottom").css({"bottom": 200});
+            $('#sidebar').removeClass('bottom');}
+    });
+
+</script>
+
+	<!-- STYLES -->
 
     <style>
+
+		#area {
+			background-color: whitesmoke;
+			color: #333333;
+			padding: 20px 20px 20px 20px;
+		}
+
+
+		#area h2 {
+			color: #333333;
+		}
+
 
 
         #section g[id^='map-'] {
             opacity: 0.3;
         }
 
-        .affix {
-            top: 160px;
-        }
+      /*  .affix {
+            top: 420px;
 
-    </style>
+        }*/
+
+
+
+
+
+		body {
+			margin:0
+		}
+		#header {
+
+			height:500px;
+		}
+		#container{
+			/*height:1000px;*/
+		}
+		#content{
+
+			/*height:1000px;*/
+			position:relative;
+		}
+		#sidebar{
+
+			height:300px;
+			/*margin:20px;*/
+			width:150px;
+			/*float:left;*/
+		}
+		#footer {
+
+			height:200px;
+		}
+		.fixed{
+			position:fixed;
+			/*top:0;*/
+			/*right:0; */
+
+		}
+
+	/*	@media screen and (min-width: 1024px) {
+                    .fixed {
+                        top:500px;
+                    }
+                }*/
+
+		/* bottom px muss je nachdem justiert werden */
+
+		.bottom{
+			top:auto;
+			bottom:-1400px;
+			position:absolute;
+		}
+
+
+
+
+	</style>
 
 
 </head>
@@ -67,7 +170,7 @@
 
 <body>
 
-<p data-toggle="modal" data-target="#myModal">Open Modal</p>
+
 
 
 <!-- Navigation -->
@@ -105,7 +208,8 @@
 </nav>
 
 <!-- Full Width Image Header -->
-<header class="header-image ">
+
+<header class="header-image" id="header" >
     <div class="headline">
         <div class="container" style="background:none;">
             <h1 style="color:white;">iLeasing</h1>
@@ -115,7 +219,7 @@
 </header>
 
 <!-- Page Content -->
-<div class="container bg-color">
+<div class="container bg-color" id="content">
 
     <!--<hr class="featurette-divider"> -->
 
@@ -133,8 +237,8 @@
 
     <div class="row">
 
-        <nav class="col-sm-3 white" >
-            <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="205">
+        <div class="col-sm-3 white" >
+            <ul class="nav nav-stacked"  id="sidebar" >
                 <li class="active">
                     <div class="checkbox setting col-md-1" style="padding-left:0px;">
                         <label><input type="checkbox" id="dienstleistung" value="">
@@ -175,10 +279,13 @@
 				</li>
 
             </ul>
-        </nav>
+        </div>
 
 
         <div class="col-md-9">
+
+
+			<p  class="white" style="margin-top:5%;padding-bottom:30px;font-size:24px;">BASEMENT</p>
 
 
             <svg  version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
@@ -257,7 +364,7 @@
 </g>
 <g id="map-50">
 	<rect x="976.5" y="1143.8" class="st2" width="50.6" height="40"/>
-	&lt;!&ndash;<rect x="976.5" y="1143.8" class="st3" width="50.6" height="40"/>
+
 	<text transform="matrix(1 0 0 1 983.3006 1177.1523)" class="st3 st4 st5">50</text> &ndash;&gt;
 </g>
 <g id="map-49">
@@ -462,104 +569,9 @@
 
 
 
-
-
-            <!-- CHECKBOXEN -->
-
-
-       <!--     <div class="row white" style="margin-left:2%;">
-
-
-                <div class="checkbox setting col-md-1" style="padding-left:0px;">
-                    <label><input type="checkbox" id="dienstleistung" value="">
-                        <div class="track"></div>
-                        <div class="toggle"></div>
-                        DIENSTLEISTUNG</label>
-                </div>
-
-                <div class="checkbox setting col-md-1" style="margin-top:10px;padding-left:0px;">
-                    <label><input type="checkbox" id="einzelhandel" value="">
-                        <div class="track"></div>
-                        <div class="toggle"></div>
-                        EINZELHANDEL</label>
-                </div>
-
-                &lt;!&ndash; <div class="checkbox">
-                     <label><input type="checkbox" id="gastronomie" value="">gastronomie</label>
-                 </div> &ndash;&gt;
-
-                <div class="checkbox setting col-md-1" style="margin-top:10px;padding-left:0px;">
-                    <label><input type="checkbox" id="lebensmittel" value="">
-                        <div class="track"></div>
-                        <div class="toggle"></div>
-                        LEBENSMITTEL</label>
-                </div>
-
-                <div class="checkbox setting col-md-1" style="margin-top:10px;padding-left:0px;">
-                    <label><input type="checkbox" id="gastronomie" value="">
-                        <div class="track"></div>
-                        <div class="toggle"></div>
-                        GASTRONOMIE</label>
-                </div>
-
-                <div class="checkbox setting col-md-1" style="margin-top:10px;padding-left:0px;">
-                    <label><input type="checkbox" id="vermietet" value="">
-                        <div class="track"></div>
-                        <div class="toggle"></div>
-                        VERMIETET</label>
-                </div>
-
-
-            </div>-->
-
-            <!--<hr class="featurette-divider" style="margin-top:2%;margin-bottom:0;">-->
-
-
-			<div class="a1 modal fade" role="dialog">
-				<div class="modal-dialog">
-					<div class="modal-content">
-
-
-					<div w3-include-html="content/area1.html">
-					</div>
-
-						<div class="modal-footer">
-							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-						</div>
-					</div>
-				</div>
-			</div>
-
-
-			<!-- INFOFLAECHEN -->
-
-
-       <!-- <div class="col-md-4">
-
-
-            <h4>HIER DIE INFORMATIONEN ZUR FLÄCHE</h4>
-
-
-            <div class="a1 hyde white content-size" w3-include-html="content/area1.html"></div>
-            <div class="a2 hyde white content-size" w3-include-html="content/area2.html"></div>
-            <div class="a3 hyde white content-size" w3-include-html="content/area3.html"></div>
-            <div class="a4 hyde white content-size" w3-include-html="content/area4.html"></div>
-            <div class="a5 hyde white content-size" w3-include-html="content/area5.html"></div>
-            <div class="a6 hyde white content-size" w3-include-html="content/area6.html"></div>
-            <div class="a7 hyde white content-size" w3-include-html="content/area7.html"></div>
-            <div class="a8 hyde white content-size" w3-include-html="content/area8.html"></div>
-            <div class="a9 hyde white content-size" w3-include-html="content/area9.html"></div>
-            <div class="a10 hyde white content-size" w3-include-html="content/area10.html"></div>
-            <div class="a11 hyde white content-size" w3-include-html="content/area11.html"></div>
-            <div class="a12 hyde white content-size" w3-include-html="content/area12.html"></div>
-            <div class="a13 hyde white content-size" w3-include-html="content/area13.html"></div>
-
-
-        </div>-->
-
-
 			<hr class="featurette-divider" style="margin-top:2%;">
 
+			<p  class="white" style="margin-top:5%;padding-bottom:30px;font-size:24px;">ERDGESCHOSS</p>
 
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 3042.1 1109.7" style="enable-background:new 0 0 3042.1 1109.7;" xml:space="preserve" id="section">
@@ -897,7 +909,7 @@
 </g>
 </svg> <!-- EG-->
 
-
+			<p  class="white" style="margin-top:5%;padding-bottom:30px;font-size:24px;">OBERGESCHOSS</p>
 
 			<hr class="featurette-divider" style="margin-top:2%;">
 
@@ -1036,8 +1048,31 @@
 
 		</div>
 
+
+		<!-- INCLUDE HTML DYNAMIC -->
+
+		<div class="a1 modal fade" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content" >
+
+					<div id="area" >
+						<!--<div w3-include-html="content/area1.html">-->
+					</div>
+
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+</div>
+
+
         <!-- Footer -->
-        <footer class="bg-color" style="margin-top:0;">
+        <footer class="bg-color" style="margin-top:0;" role="contentinfo">
             <div class="row">
                 <div class="col-lg-12 white">
                     <h4>Center Management</h4>
@@ -1046,9 +1081,21 @@
 
                 </div>
             </div>
+
+			<p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p>
+			<p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p>
+			<p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p>
+			<p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p>
+			<p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p>
+
         </footer>
 
-    </div>
+
+
+
+
+
+
     <!-- /.container -->
     <script>
         w3.includeHTML();

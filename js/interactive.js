@@ -20,12 +20,39 @@ $(document).ready(function () { "use strict";
 
 
 
-    for (let i = 0; i < 122; i++) {
+    for (let i = 0; i < 125; i++) {
         $('#map-' + i).click( function(){
-
-            $(".a"+i).modal();
+            $('#area').load('content/area'+i+'.html');
+            $(".a1").modal();
         });
     }
+
+
+
+
+
+/*    var $body = $(document.body);
+    var navHeight = $('.navbar').outerHeight(true) + 10;
+
+
+    $('#sidebar').affix({
+        offset: {
+            /!* affix after top masthead *!/
+            top: function () {
+                var navOuterHeight = $('#masthead').height();
+                return this.top = navOuterHeight;
+            },
+            /!* un-affix when footer is reached *!/
+            bottom: function () {
+                return (this.bottom = $('footer').outerHeight(true))
+            }
+        }
+    });
+
+    $body.scrollspy({
+        target: '#leftCol',
+        offset: navHeight
+    });*/
 
 
 
