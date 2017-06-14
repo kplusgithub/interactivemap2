@@ -68,66 +68,82 @@ $(window).scroll(function () {
 
         $.getJSON('json_mieter.json', function(data) {
 
+            //anzahl rows
+            modulo=5;
 
-            for (i = 0; i < data.mieter.length + 1; i++) {
 
-                if(i%5==0) {
+            var anzahlbase= 14;
+            var anzahleg=27;
+            var anzahlog=33;
 
-                    $('#myTable tbody').append([
-                        '<tr>',
-                        '<td>',
-                        data.mieter[i].id,
-                        " ",
-                        data.mieter[i].name,
-                        '</td>',
+            egdiff=(anzahlbase+1)%modulo;
 
-                        '<td>',
-                        data.mieter[i+1].id,
-                        " ",
-                        data.mieter[i+1].name,
-                        '</td>',
+            ogdiff=(anzahleg+1)%modulo;
 
-                        '<td>',
-                        data.mieter[i+2].id,
-                        " ",
-                        data.mieter[i+2].name,
-                        '</td>',
 
-                        '<td>',
-                        data.mieter[i+3].id,
-                        " ",
-                        data.mieter[i+3].name,
-                        '</td>',
+            // BASE TABLE
 
-                        '<td>',
-                        data.mieter[i+4].id,
-                        " ",
-                        data.mieter[i+4].name,
-                        '</td>',
+            var contentbase = "<tr>";
 
-                        '</tr>'
-                    ].join(''));
+            for (j = 0; j < anzahlbase; j++) {
+
+                contentbase += '<td>' + data.mieter[j].id + " " + data.mieter[j].name + '</td>';
+
+                if (((j + 1) % modulo == 0) && (j != 0)) {
+                    contentbase += '</tr>' + '<tr>';
 
                 }
 
+            }
+            contentbase += '</tr>';
+
+            $('#baseTable tbody').append(contentbase);
+
+
+
+        //EG TABLE
+
+            var contenteg = "<tr>";
+
+            for (j = anzahlbase; j < anzahleg; j++) {
+
+                contenteg += '<td>' + data.mieter[j].id + " " + data.mieter[j].name + '</td>';
+
+                if (((j - egdiff+2) % modulo == 0) && (j != 0)) {
+                    contenteg += '</tr>' + '<tr>';
+
+                }
 
             }
+            contenteg += '</tr>';
+
+            $('#egTable tbody').append(contenteg);
 
 
-            $('#myTable tbody').append([
-                '<tr>',
-                '<td>',
-               "HellO",
-                '</td>',
-                '</tr>'
-            ].join(''));
+            //OG TABLE
+
+
+            var contentog = "<tr>";
+
+            for (j = anzahleg; j < anzahlog; j++) {
+
+                contentog += '<td>' + data.mieter[j].id + " " + data.mieter[j].name + '</td>';
+
+                if (((j - ogdiff+2) % modulo == 0) && (j != 0)) {
+                    contentog += '</tr>' + '<tr>';
+
+                }
+
+            }
+            contentog += '</tr>';
+
+            $('#ogTable tbody').append(contentog);
 
 
 
 
 
 
-            
             $(".checkbox").on("change", function() {
   
 
