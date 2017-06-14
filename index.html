@@ -68,7 +68,11 @@
 
         #section g[id^='map-'] {
             opacity: 0.3;
+			fill: #000;
         }
+
+
+
 
 
 		body {
@@ -221,14 +225,7 @@
 						<div class="toggle"></div>
 						GASTRONOMIE</label>
 				</div>
-				<li>
-					<div class="checkbox setting col-md-1" style="margin-top:10px;padding-left:0px;">
-						<label><input type="checkbox" id="vermietet" value="">
-							<div class="track"></div>
-							<div class="toggle"></div>
-							VERMIETET</label>
-					</div>
-				</li>
+
 
             </ul>
         </div>
@@ -257,7 +254,7 @@
     }
 
     .st2 {
-        fill: #000;
+        /*fill: #000;*/
         stroke: #FFFFFF;
         stroke-width: 0.462;
     }
@@ -1075,12 +1072,15 @@
 
 
     <!-- /.container -->
-    <script>
-        w3.includeHTML();
-    </script>
+
 <script src="https://www.w3schools.com/lib/w3.js"></script>
+
+<script>
+    w3.includeHTML();
+</script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script src="../interactivemap/js/interactive.js"></script>
+<script src="../interactivemap/js/colormap.js"></script>
 
 </body>
 

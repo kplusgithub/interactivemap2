@@ -8,6 +8,7 @@
            "lebensmittel": "false",
            "gastronomie": "false",
            "vermietet": "true",
+           "reserviert": "false",
            "id": "1",
            "name": "rewe"
        },
@@ -18,6 +19,7 @@
            "lebensmittel": "false",
            "gastronomie": "false",
            "vermietet": "false",
+           "reserviert": "false",
            "id": "2",
            "name": "aldi"
        },
@@ -27,7 +29,8 @@
            "einzelhandel": "false",
            "lebensmittel": "true",
            "gastronomie": "false",
-           "vermietet": "true",
+           "vermietet": "false",
+           "reserviert": "true",
            "id": "3",
            "name": "edeka"
 	
@@ -40,6 +43,7 @@
            "lebensmittel": "false",
            "gastronomie": "true",
            "vermietet": "true",
+           "reserviert": "false",
            "id": "4",
            "name": "kaufland"
 	
@@ -53,6 +57,7 @@
            "lebensmittel": "false",
            "gastronomie": "false",
             "vermietet": "false",
+            "reserviert": "false",
            "id": "5",
             "name": "dm"
        },
@@ -63,7 +68,7 @@
            "einzelhandel": "false",
            "lebensmittel": "false",
            "gastronomie": "false",
-           "vermietet": "true",
+           "vermietet": "false",
            "id": "6",
            "name": "mediamarkt"
        },
@@ -75,6 +80,7 @@
            "lebensmittel": "false",
            "gastronomie": "false",
            "vermietet": "false",
+           "reserviert": "false",
            "id": "7",
            "name": "saturn"
        },
@@ -86,6 +92,7 @@
            "lebensmittel": "true",
            "gastronomie": "false",
            "vermietet": "true",
+           "reserviert": "false",
            "id": "8",
            "name": "Post"
 	
@@ -98,6 +105,7 @@
            "lebensmittel": "false",
            "gastronomie": "true",
            "vermietet": "true",
+           "reserviert": "false",
            "id": "9",
            "name": "DB"
 	
@@ -110,6 +118,7 @@
            "lebensmittel": "false",
            "gastronomie": "false",
            "vermietet": "false",
+           "reserviert": "true",
            "id": "10",
            "name": "saturn"
        },
@@ -120,7 +129,8 @@
            "einzelhandel": "false",
            "lebensmittel": "true",
            "gastronomie": "false",
-           "vermietet": "true",
+           "vermietet": "false",
+           "reserviert": "true",
            "id": "11",
            "name": "Post"
 	
@@ -132,7 +142,8 @@
            "einzelhandel": "false",
            "lebensmittel": "false",
            "gastronomie": "true",
-           "vermietet": "true",
+           "vermietet": "false",
+           "reserviert": "false",
            "id": "12",
            "name": "DB"
 	
@@ -145,6 +156,7 @@
            "lebensmittel": "true",
            "gastronomie": "false",
            "vermietet": "true",
+           "reserviert": "false",
            "id": "13",
            "name": "Post"
 	
@@ -156,7 +168,8 @@
            "einzelhandel": "false",
            "lebensmittel": "false",
            "gastronomie": "true",
-           "vermietet": "true",
+           "vermietet": "false",
+           "reserviert": "true",
            "id": "14",
            "name": "DB"
 	
@@ -169,6 +182,7 @@
            "lebensmittel": "false",
            "gastronomie": "false",
            "vermietet": "false",
+           "reserviert": "true",
            "id": "15",
            "name": "saturn"
        },
@@ -192,6 +206,7 @@
            "lebensmittel": "false",
            "gastronomie": "true",
            "vermietet": "true",
+           "reserviert": "false",
            "id": "17",
            "name": "DB"
 	
@@ -203,6 +218,7 @@
            "lebensmittel": "false",
            "gastronomie": "false",
            "vermietet": "false",
+           "reserviert": "false",
            "id": "18",
            "name": "aldi"
        },
@@ -212,7 +228,8 @@
            "einzelhandel": "false",
            "lebensmittel": "true",
            "gastronomie": "false",
-           "vermietet": "true",
+           "vermietet": "false",
+           "reserviert": "true",
            "id": "19",
            "name": "edeka"
 	
@@ -225,6 +242,7 @@
            "lebensmittel": "false",
            "gastronomie": "true",
            "vermietet": "true",
+           "reserviert": "false",
            "id": "20",
            "name": "kaufland"
 	
@@ -238,6 +256,7 @@
            "lebensmittel": "false",
            "gastronomie": "false",
             "vermietet": "false",
+            "reserviert": "false",
            "id": "21",
             "name": "dm"
        },
@@ -249,6 +268,7 @@
            "lebensmittel": "false",
            "gastronomie": "false",
            "vermietet": "true",
+            "reserviert": "false",
            "id": "22",
            "name": "mediamarkt"
        },
@@ -260,6 +280,7 @@
            "lebensmittel": "false",
            "gastronomie": "false",
            "vermietet": "false",
+           "reserviert": "false",
            "id": "23",
            "name": "saturn"
        },
@@ -271,6 +292,7 @@
            "lebensmittel": "true",
            "gastronomie": "false",
            "vermietet": "true",
+           "reserviert": "false",
            "id": "24",
            "name": "Post"
 	
@@ -282,7 +304,8 @@
            "einzelhandel": "false",
            "lebensmittel": "false",
            "gastronomie": "true",
-           "vermietet": "true",
+           "vermietet": "false",
+           "reserviert": "true",
            "id": "25",
            "name": "DB"
 	
@@ -295,6 +318,7 @@
            "lebensmittel": "false",
            "gastronomie": "false",
            "vermietet": "false",
+           "reserviert": "false",
            "id": "26",
            "name": "saturn"
        },
@@ -305,7 +329,8 @@
            "einzelhandel": "false",
            "lebensmittel": "true",
            "gastronomie": "false",
-           "vermietet": "true",
+           "vermietet": "false",
+           "reserviert": "true",
            "id": "27",
            "name": "Post"
 	
@@ -317,7 +342,8 @@
            "einzelhandel": "false",
            "lebensmittel": "false",
            "gastronomie": "true",
-           "vermietet": "true",
+           "vermietet": "false",
+           "reserviert": "true",
            "id": "28",
            "name": "DB"
 	
@@ -330,6 +356,7 @@
            "lebensmittel": "true",
            "gastronomie": "false",
            "vermietet": "true",
+           "reserviert": "false",
            "id": "29",
            "name": "Post"
 	
@@ -341,7 +368,8 @@
            "einzelhandel": "false",
            "lebensmittel": "false",
            "gastronomie": "true",
-           "vermietet": "true",
+           "vermietet": "false",
+           "reserviert": "true",
            "id": "30",
            "name": "DB"
 	
@@ -354,6 +382,7 @@
            "lebensmittel": "false",
            "gastronomie": "false",
            "vermietet": "false",
+           "reserviert": "true",
            "id": "31",
            "name": "saturn"
        },
@@ -365,6 +394,7 @@
            "lebensmittel": "true",
            "gastronomie": "false",
            "vermietet": "true",
+           "reserviert": "false",
            "id": "32",
            "name": "Post"
 	
@@ -376,7 +406,8 @@
            "einzelhandel": "false",
            "lebensmittel": "false",
            "gastronomie": "true",
-           "vermietet": "true",
+           "vermietet": "false",
+           "reserviert": "true",
            "id": "33",
            "name": "DB"
 	

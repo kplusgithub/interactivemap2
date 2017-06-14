@@ -3,7 +3,6 @@
 
 $(document).ready(function () { "use strict";
 
-       //  $(".hyde").hide();
 
 
 
@@ -67,6 +66,10 @@ $(window).scroll(function () {
 
 
         $.getJSON('json_mieter.json', function(data) {
+
+
+
+
 
             //anzahl rows
             modulo=5;
@@ -144,6 +147,8 @@ $(window).scroll(function () {
 
 
 
+
+
             $(".checkbox").on("change", function() {
   
 
@@ -155,12 +160,8 @@ $(window).scroll(function () {
 
 
 
-
-
-
-
       
-                    if ( ((data.mieter[i].dienstleistung=="true")&&($('#dienstleistung').is(':checked'))) ||  ((data.mieter[i].vermietet=="true")&&($('#vermietet').is(':checked'))) || ((data.mieter[i].einzelhandel=="true")&&($('#einzelhandel').is(':checked'))) || ((data.mieter[i].gastronomie=="true")&&($('#gastronomie').is(':checked'))) || ((data.mieter[i].lebensmittel=="true")&&($('#lebensmittel').is(':checked')))  )    {
+                    if ( ((data.mieter[i].dienstleistung==="true")&&($('#dienstleistung').is(':checked'))) ||  ((data.mieter[i].einzelhandel==="true")&&($('#einzelhandel').is(':checked'))) || ((data.mieter[i].gastronomie==="true")&&($('#gastronomie').is(':checked'))) || ((data.mieter[i].lebensmittel==="true")&&($('#lebensmittel').is(':checked')))  )    {
                                                
                        // $('.map-'+ n).css('opacity',1.0);
                        $('#map-'+ n).fadeTo(1000, 1.0);
