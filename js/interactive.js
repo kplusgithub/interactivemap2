@@ -30,30 +30,6 @@ $(document).ready(function () { "use strict";
 
 
 
-/* SIDENAV*/
-
-
-$(window).scroll(function () {
-    var threshold = 50;
-
-
-
-    if ($(window).scrollTop() >= threshold)
-        $('#sidebar').addClass('fixed');
-    else
-        $('#sidebar').removeClass('fixed');
-    var checkcontent = $("#content").height()*-1+200;
-    var check = $("#content").height() - $("#sidebar").height()-21;
-    if ($(window).scrollTop() >= check) {
-        $('#sidebar').addClass('bottom');
-        $(".bottom").css({"bottom": checkcontent});}
-    else{
-        $(".bottom").css({"bottom": 250});
-        $('#sidebar').removeClass('bottom');}
-});
-
-
-
 
 
 /* INTERAKTIEVE KARTE
@@ -144,37 +120,48 @@ $(window).scroll(function () {
 
 
 
+            var dienstcheck=-1;
+            var einzelcheck=1;
+            var lebencheck=1;
+            var gastrocheckc=1;
+
+            var temp=1;
 
 
+            $(".checkbox").on("change", function () {
 
 
+                if ((!$('#dienstleistung').prop('checked')) && (!$('#einzelhandel').prop('checked')) && (!$('#gastronomie').prop('checked')) && (!$('#lebensmittel').prop('checked'))) {
 
-            $(".checkbox").on("change", function() {
-  
+                    console.log("success");
+                    $('g[id^="map-"]').fadeTo(1000, 0.5);
 
-      
-                for (i = 0; i < data.mieter.length+1; i++) {
-                    num=i+1;
-                    var n = num.toString();
-
-
-
-
-      
-                    if ( ((data.mieter[i].dienstleistung==="true")&&($('#dienstleistung').is(':checked'))) ||  ((data.mieter[i].einzelhandel==="true")&&($('#einzelhandel').is(':checked'))) || ((data.mieter[i].gastronomie==="true")&&($('#gastronomie').is(':checked'))) || ((data.mieter[i].lebensmittel==="true")&&($('#lebensmittel').is(':checked')))  )    {
-                                               
-                       // $('.map-'+ n).css('opacity',1.0);
-                       $('#map-'+ n).fadeTo(1000, 1.0);
-                    }
-                    else {         
-                       // $('.map-'+ n).css('opacity',0.2);
-                         $('#map-'+ n).fadeTo(1000, 0.3);
-                    }   
-          
                 }
-    
+                else {
+
+
+                    for (i = 0; i < data.mieter.length + 1; i++) {
+                        num = i + 1;
+                        var n = num.toString();
+
+
+                        if (((data.mieter[i].dienstleistung === "true") && ($('#dienstleistung').is(':checked'))) || ((data.mieter[i].einzelhandel === "true") && ($('#einzelhandel').is(':checked'))) || ((data.mieter[i].gastronomie === "true") && ($('#gastronomie').is(':checked'))) || ((data.mieter[i].lebensmittel === "true") && ($('#lebensmittel').is(':checked')))) {
+
+                            // $('.map-'+ n).css('opacity',1.0);
+                            $('#map-' + n).fadeTo(1000, 1.0);
+                        }
+                        else {
+                            // $('.map-'+ n).css('opacity',0.2);
+                            $('#map-' + n).fadeTo(1000, 0.1);
+                        }
+
+                    }
+
+                }
+
+
             });
-                
+
         });
                 
    
