@@ -10,21 +10,18 @@ $(document).ready(function () { "use strict";
 
 
 
+     $('[id^="map-"]').click(function()
+    {
+         var temp=$(this).attr('id');
+
+        var res = temp.slice(4);
+        $('#area').load('content/area'+res+'.html');
+        $(".a1").modal();
 
 
-    for (let i = 0; i < 139; i++) {
-        $('#map-' + i).click( function(){
-            $('#area').load('content/area'+i+'.html');
-            $(".a1").modal();
-        });
-    }
+    });
 
-
-
-
-
-
-     
+ 
         
      });
 
@@ -68,7 +65,7 @@ $(document).ready(function () { "use strict";
 
                 contentbase += '<td>' + data.mieter[j].id + " " + data.mieter[j].name + '</td>';
 
-                if (((j + 1) % modulo == 0) && (j != 0)) {
+                if (((j + 1) % modulo === 0) && (j !== 0)) {
                     contentbase += '</tr>' + '<tr>';
 
                 }
@@ -88,7 +85,7 @@ $(document).ready(function () { "use strict";
 
                 contenteg += '<td>' + data.mieter[j].id + " " + data.mieter[j].name + '</td>';
 
-                if (((j - egdiff+2) % modulo == 0) && (j != 0)) {
+                if (((j - egdiff+2) % modulo === 0) && (j !== 0)) {
                     contenteg += '</tr>' + '<tr>';
 
                 }
@@ -108,7 +105,7 @@ $(document).ready(function () { "use strict";
 
                 contentog += '<td>' + data.mieter[j].id + " " + data.mieter[j].name + '</td>';
 
-                if (((j - ogdiff+2) % modulo == 0) && (j != 0)) {
+                if (((j - ogdiff+2) % modulo === 0) && (j !== 0)) {
                     contentog += '</tr>' + '<tr>';
 
                 }
