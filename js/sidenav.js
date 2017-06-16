@@ -10,7 +10,7 @@ $(document).ready(function () {
 
 
     $(window).scroll(function () {
-        var threshold = 50;
+        var threshold = 1;
 
 
         if ($(window).scrollTop() >= threshold)
@@ -24,7 +24,7 @@ $(document).ready(function () {
             $(".bottom").css({"bottom": checkcontent});
         }
         else {
-            $(".bottom").css({"bottom": 250});
+            $(".bottom").css({"bottom": 50});
             $('#sidebar').removeClass('bottom');
         }
     });
