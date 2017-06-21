@@ -59,10 +59,10 @@ strong {
 dfn {
   font-style: italic;
 }
-h1 {
+/*h1 {
   margin: .67em 0;
   font-size: 2em;
-}
+}*/
 mark {
   color: #000;
   background: #ff0;
@@ -1085,7 +1085,6 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #333;
   background-color: #fff;
 }
 input,
@@ -1147,7 +1146,7 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #9e9e9e;
 }
 .sr-only {
   position: absolute;
@@ -1171,7 +1170,7 @@ hr {
 [role="button"] {
   cursor: pointer;
 }
-h1,
+/*h1,
 h2,
 h3,
 h4,
@@ -1187,7 +1186,7 @@ h6,
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
-}
+}*/
 h1 small,
 h2 small,
 h3 small,
@@ -1222,8 +1221,8 @@ h2,
 .h2,
 h3,
 .h3 {
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin-top:0;
+  margin-bottom: 5px;
 }
 h1 small,
 .h1 small,
@@ -1582,8 +1581,8 @@ pre code {
   overflow-y: scroll;
 }
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 0;
+  padding-left: 0;
   margin-right: auto;
   margin-left: auto;
 }
@@ -1594,7 +1593,7 @@ pre code {
 }
 @media (min-width: 992px) {
   .container {
-    width: 970px;
+    width: 1025px;
   }
 }
 @media (min-width: 1200px) {
@@ -1609,8 +1608,8 @@ pre code {
   margin-left: auto;
 }
 .row {
-  margin-right: -15px;
-  margin-left: -15px;
+ /* margin-right: -15px;
+  margin-left: -15px;*/
 }
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
@@ -4589,8 +4588,8 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc;
 }
 .navbar-inverse {
-  background-color: #222;
-  border-color: #080808;
+  background-color: #F8F8F8;
+  box-shadow: 0px 0px 4px #000000;
 }
 .navbar-inverse .navbar-brand {
   color: #9d9d9d;

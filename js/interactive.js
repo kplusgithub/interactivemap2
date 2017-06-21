@@ -19,9 +19,10 @@ $(document).ready(function () { "use strict";
         $(".a1").modal();
 
 
+
     });
 
- 
+
         
      });
 

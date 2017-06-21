@@ -12,15 +12,14 @@
     <title>iLeasing</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
 
 
     <!-- Custom CSS -->
     <link href="css/one-page-wonder.css" rel="stylesheet">
 
 
-
-	<script src="js/w3.js"></script>
+    <script src="js/w3.js"></script>
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -36,11 +35,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 
-
-
-
-
-
     <!-- MAPPING
     * #area1 - #area10 sind die schaltflächen, 
     *.a1 - .a10 sind die inhalte zu den flächen die ein und ausgeblendet werden, das Skript checkt wenn auf eine areaID geklickt wird und verändert (show hide) die class a1 a2.. welche divs zugeorndet sind welche die Inhalte per htmlinject aufruft.
@@ -50,88 +44,74 @@
 -->
 
 
-
-
-
-	<!-- STYLES -->
+    <!-- STYLES -->
 
     <style>
 
-		#area {
-			background-color: whitesmoke;
-			color: #333333;
-			padding: 20px 20px 20px 20px;
-		}
+        #area {
+            background-color: whitesmoke;
+            color: #333333;
+            padding: 20px 20px 20px 20px;
+        }
 
-
-		#area h2 {
-			color: #333333;
-		}
-
-
+        #area h2 {
+            color: #333333;
+        }
 
         #section g[id^='map-'] {
             opacity: 0.5;
-			fill: green;
+            fill: green;
+        }
+
+        body {
+            margin: 0
+        }
+
+        #container {
+            /*height:1000px;*/
+        }
+
+        #content {
+
+            /*height:1000px;*/
+            position: relative;
+        }
+
+        #sidebar {
+
+            height: 300px;
+            /*margin:20px;*/
+            width: 150px;
+            /*float:left;*/
+            bottom: 60px;
+        }
+
+        #footer {
+
+            height: 200px;
+        }
+
+        .fixed {
+            position: fixed;
+            /*top:0;*/
+            /*right:0; */
+
+        }
+
+        .bottom {
+            top: auto;
+            bottom: -1400px;
+            position: absolute;
         }
 
 
-
-
-
-		body {
-			margin:0
-		}
-		#header {
-
-			height:500px;
-		}
-		#container{
-			/*height:1000px;*/
-		}
-		#content{
-
-			/*height:1000px;*/
-			position:relative;
-		}
-		#sidebar{
-
-			height:300px;
-			/*margin:20px;*/
-			width:150px;
-			/*float:left;*/
-			bottom:60px;
-		}
-		#footer {
-
-			height:200px;
-		}
-		.fixed{
-			position:fixed;
-			/*top:0;*/
-			/*right:0; */
-
-		}
-
-
-		.bottom{
-			top:auto;
-			bottom:-1400px;
-			position:absolute;
-		}
-
-
-
-
-	</style>
+    </style>
 
 
 </head>
 
 
-<body>
-
-
+<body class="pattern">
 
 
 <!-- Navigation -->
@@ -147,7 +127,7 @@
                 <span class="icon-bar"></span>
             </button>
 
-            <a class="navbar-brand" href="#"><img width="80px" src="assets/img/logo_leipzig.svg"></a>
+            <a class="navbar-brand" href="#"><img width="80px" src="assets/img/phl_logo.svg"></a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -170,14 +150,17 @@
 
 <!-- Full Width Image Header -->
 
-<header class="header-image" id="header" >
+<header class="header-image" id="header">
     <div class="headline">
         <div class="container" style="background:none;">
-            <h1 style="color:white;">iLeasing</h1>
-            <h3 style="color:white;"> POWERED BY KPLUS KONZEPT</h3>
+
         </div>
     </div>
 </header>
+<div class="header-green">
+    <h1 class="headline-light white-primary container"> NÄCHSTE STATION</h1>
+    <h1 class="headline-bold white-primary container"> GENUSS 2017</h1>
+</div>
 
 <!-- Page Content -->
 <div class="container bg-color" id="content">
@@ -185,21 +168,157 @@
     <!--<hr class="featurette-divider"> -->
 
     <!-- First Featurette -->
-    <div class="featurette" id="about">
+    <div class="row featurette-divider " id="about">
+        <div class="col-md-6">
 
-        <h2 class="featurette-heading white" style="margin-top:5%;padding-bottom:30px;">Promenaden Bahnhof
+            <h2 class="subheader grey-secondary" style="padding-bottom:30px;">EINE NEUARTIGE GENUSSWELT FÜR LEIPZIG
 
-        </h2>
+            </h2>
+            <p class="text grey-primary">Alis dolorep udamenditio temque conet officaectur, quae quis porem. Bit,
+                conecto ipitem faccae asped quodi ut aut aut viti ut volorib eritae quidigent
+                arum dolo odiatem harum faces dolupta natur?</p>
+        </div>
 
+        <div class="col-md-6">
+            <img src="assets/img/title_01.jpg" width="400px" height="auto" align="right">
+        </div>
+
+    </div>
+    <hr class="featurette-divider" style="margin-top:2%;color:black;">
+
+
+
+
+    <div class="row" style="padding:0;">
+
+        <h2 class="headline-bold grey-secondary float-center">EINE INNOVATIVE GENUSSWELT</h2>
+        <h2 class="headline-light grey-secondary float-center">IM GRÖSSTEN KOPFBAHNHOF
+            EUROPAS</h2>
+
+<div class="pattern-green gap-top-60" style="height:300px;">
+
+	<div class="col-md-4"> <img src="assets/img/element_01.svg" height="300px" class="img-center" > </div>
+	<div class="col-md-4"> <img src="assets/img/element_01.svg" height="300px" class="img-center"> </div>
+	<div class="col-md-4"> <img src="assets/img/element_01.svg" height="300px" class="img-center"> </div>
+</div>
+		
+		
     </div>
 
 
-<!-- SIDENAV -->
+
+
+
+<!-- page3 -->
+
+
+<div class="row grey-primary-bg" style="height: 600px">
+
+
+	<div class="pattern-light gap-top-120" style="height:200px;">
+
+		<div class="col-md-4"></div>
+		<div class="col-md-4" style="margin-top:2%;"><p class="title-bold white-secondary">„HIER KÖNNTE EIN NETTES ZITAT
+			ZUR
+			NEUAUSRICHTUNG DER PROMENADEN
+			HAUPTBAHNHOF LEIPZIG STEHEN!“
+		</p>
+			<p class="caption white-primary">Frau Mustermann, Centermanagerin</p></div>
+		<div class="col-md-4"></div>
+
+	</div>
+
+
+	<div class="row grey-primary-bg gap-top-60">
+		<div class="col-md-4"><h3 class="subheader white-secondary">KLARE BRANCHENSTRUKTUREN</h3>
+			<p class="text white-primary">Alis dolorep udamenditio temque conet officaectur, quae quis porem. Bit,
+				conecto ipitem faccae asped quodi ut aut aut viti ut volorib eritae quidigent
+				arum dolo odiatem harum faces dolupta natur?</p>
+
+		</div>
+		<div class="col-md-4"><h3 class="subheader white-secondary">DER NEUE TREFFPUNKT FÜR LEIPZIGER UND TOURISTEN</h3>
+			<p class="text white-primary">Alis dolorep udamenditio temque conet officaectur, quae quis porem. Bit,
+				conecto ipitem faccae asped quodi ut aut aut viti ut volorib eritae quidigent
+				arum dolo odiatem harum faces dolupta natur?</p>
+		</div>
+		<div class="col-md-4"><h3 class="subheader white-secondary">KLARE BRANCHENSTRUKTUREN</h3>
+			<p class="text white-primary">Alis dolorep udamenditio temque conet officaectur, quae quis porem. Bit,
+				conecto ipitem faccae asped quodi ut aut aut viti ut volorib eritae quidigent
+				arum dolo odiatem harum faces dolupta natur?</p></div>
+
+
+	</div>
+
+
+</div>
+
+	<!-- page4 -->
+
+
+
+	<div class="row gap-top-60" >
+
+		<h2 class="headline-bold grey-secondary float-center">MIETÜBERSICHT</h2>
+		<h2 class="headline-light grey-secondary float-center">IN GUTER NACHBARSCHAFT</h2>
+
+
+		<div id="myCarousel" class="carousel slide">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li class="item1 active"></li>
+				<li class="item2"></li>
+				<li class="item3"></li>
+				<li class="item4"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<img src="assets/img/map.png" alt="Chania" width="460" height="345">
+				</div>
+
+				<div class="item">
+					<img src="assets/img/map.png" alt="Chania" width="460" height="345">
+				</div>
+
+				<div class="item">
+					<img src="assets/img/map.png" alt="Flower" width="460" height="345">
+				</div>
+
+				<div class="item">
+					<img src="assets/img/map.png" alt="Flower" width="460" height="345">
+				</div>
+			</div>
+
+			<!-- Left and right controls -->
+			<a class="left carousel-control" href="#myCarousel" role="button">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" role="button">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+	<!-- SIDENAV -->
 
     <div class="row">
 
-        <div class="col-sm-3 white hidden-sm" >
-            <ul class="nav nav-stacked"  id="sidebar" >
+        <div class="col-sm-3 white hidden-sm">
+            <ul class="nav nav-stacked" id="sidebar">
                 <li class="active">
                     <div class="checkbox setting col-md-1" style="padding-left:0px;">
                         <label><input type="checkbox" id="dienstleistung" value="">
@@ -217,59 +336,60 @@
                     </div>
                 </li>
                 <li>
-					<div class="checkbox setting col-md-1" style="margin-top:10px;padding-left:0px;">
-					<label><input type="checkbox" id="lebensmittel" value="">
-						<div class="track"></div>
-						<div class="toggle"></div>
-						LEBENSMITTEL</label>
-				</div>
-				</li>
-				<li>
-				<div class="checkbox setting col-md-1" style="margin-top:10px;padding-left:0px;">
-					<label><input type="checkbox" id="gastronomie" value="">
-						<div class="track"></div>
-						<div class="toggle"></div>
-						GASTRONOMIE</label>
-				</div>
-				</li>
-				<li>
-					<div class="col-md-6" style="width:60px;margin-top:30px;">
-						<svg width="40" height="20">
-							<rect width="40" height="20" style="fill:rgb(102,166,102);"/>
-						</svg>
-					</div>
-					<div class="col-md-6" style="margin-top:30px;"><p>FREI</p></div>
+                    <div class="checkbox setting col-md-1" style="margin-top:10px;padding-left:0px;">
+                        <label><input type="checkbox" id="lebensmittel" value="">
+                            <div class="track"></div>
+                            <div class="toggle"></div>
+                            LEBENSMITTEL</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="checkbox setting col-md-1" style="margin-top:10px;padding-left:0px;">
+                        <label><input type="checkbox" id="gastronomie" value="">
+                            <div class="track"></div>
+                            <div class="toggle"></div>
+                            GASTRONOMIE</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="col-md-6" style="width:60px;margin-top:30px;">
+                        <svg width="40" height="20">
+                            <rect width="40" height="20" style="fill:rgb(102,166,102);"/>
+                        </svg>
+                    </div>
+                    <div class="col-md-6" style="margin-top:30px;"><p>FREI</p></div>
 
-				</li>
-				<li>
-					<div class="col-md-6" style="width:60px;">
-						<svg width="40" height="20">
-							<rect width="40" height="20" style="fill:rgb(230,185,102);"/>
-						</svg>
-					</div>
-					<div class="col-md-6"><p>RESERVIERT</p></div>
+                </li>
+                <li>
+                    <div class="col-md-6" style="width:60px;">
+                        <svg width="40" height="20">
+                            <rect width="40" height="20" style="fill:rgb(230,185,102);"/>
+                        </svg>
+                    </div>
+                    <div class="col-md-6"><p>RESERVIERT</p></div>
 
-				</li>
-				<li>
-					<div class="col-md-6" style="width:60px;">
-						<svg width="40" height="20">
-							<rect width="40" height="20" style="fill:rgb(230,102,102);"/>
-						</svg>
-					</div>
-					<div class="col-md-6"><p>VERMIETET</p></div>
+                </li>
+                <li>
+                    <div class="col-md-6" style="width:60px;">
+                        <svg width="40" height="20">
+                            <rect width="40" height="20" style="fill:rgb(230,102,102);"/>
+                        </svg>
+                    </div>
+                    <div class="col-md-6"><p>VERMIETET</p></div>
 
-				</li>
+                </li>
 
 
-			</ul>
+            </ul>
         </div>
 
-		<!-- KARTE -->
+
+        <!-- KARTE -->
 
         <div class="col-md-9 hidden-sm">
 
 
-			<p  class="white" style="margin-top:5%;padding-bottom:30px;font-size:24px;">BASEMENT</p>
+            <p class="white" style="margin-top:5%;padding-bottom:30px;font-size:24px;">BASEMENT</p>
 
 
             <svg  version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
@@ -552,19 +672,17 @@
 </svg> <!-- BASE-->
 
 
+            <table class="table table-hover white" id="baseTable" style="font-size: 12px">
+                <tbody>
 
-			<table  class="table table-hover white" id="baseTable" style="font-size: 12px">
-				<tbody>
+                </tbody>
 
-				</tbody>
-
-			</table>
-
+            </table>
 
 
-			<hr class="featurette-divider" style="margin-top:2%;">
+            <hr class="featurette-divider" style="margin-top:2%;">
 
-			<p  class="white" style="margin-top:5%;padding-bottom:30px;font-size:24px;">ERDGESCHOSS</p>
+            <p class="white" style="margin-top:5%;padding-bottom:30px;font-size:24px;">ERDGESCHOSS</p>
 
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 3042.1 1109.7" style="enable-background:new 0 0 3042.1 1109.7;" xml:space="preserve" id="section">
@@ -903,18 +1021,17 @@
 </svg> <!-- EG-->
 
 
-			<table  class="table table-hover table-size white" id="egTable" style="font-size: 12px">
-				<tbody>
+            <table class="table table-hover table-size white" id="egTable" style="font-size: 12px">
+                <tbody>
 
-				</tbody>
+                </tbody>
 
-			</table>
+            </table>
 
 
+            <p class="white" style="margin-top:5%;padding-bottom:30px;font-size:24px;">OBERGESCHOSS</p>
 
-			<p  class="white" style="margin-top:5%;padding-bottom:30px;font-size:24px;">OBERGESCHOSS</p>
-
-			<hr class="featurette-divider" style="margin-top:2%;">
+            <hr class="featurette-divider" style="margin-top:2%;">
 
 
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -1046,67 +1163,100 @@
 </g>
 </svg> <!-- OG-->
 
-			<table  class="table table-hover table-size white" id="ogTable" style="font-size: 12px">
-				<tbody>
+            <table class="table table-hover table-size white" id="ogTable" style="font-size: 12px">
+                <tbody>
 
-				</tbody>
+                </tbody>
 
-			</table>
-
-
-
-		</div>
+            </table>
 
 
-		<!-- INCLUDE HTML DYNAMIC -->
+        </div>
 
-		<div class="a1 modal fade" role="dialog">
-			<div class="modal-dialog">
-				<div class="modal-content" >
 
-					<div id="area" >
-						<!--<div w3-include-html="content/area1.html">-->
-					</div>
+        <!-- INCLUDE HTML DYNAMIC -->
 
-					<div class="modal-footer">
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					</div>
-				</div>
-			</div>
-		</div>
+        <div class="a1 modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
 
-	</div>
+                    <div id="area">
+                        <!--<div w3-include-html="content/area1.html">-->
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
 
 </div>
 
 
-        <!-- Footer -->
-        <footer class="bg-color" style="margin-top:0;" role="contentinfo">
-            <div class="row">
-                <div class="col-lg-12 white">
-                    <h4>Center Management</h4>
-                    <p>Willy-Brandt-Platz 7</p>
-                    <p>04109 Leipzig</p>
+<!-- Footer -->
+<footer class="bg-color" style="margin-top:0;margin-right:0;" role="contentinfo">
+    <div class="row">
+        <div class="col-lg-12 white">
+            <h4>Center Management</h4>
+            <p>Willy-Brandt-Platz 7</p>
+            <p>04109 Leipzig</p>
 
-                </div>
-            </div>
+        </div>
+    </div>
 
-			<p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p>
-			<p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p>
-			<p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p>
-			<p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p>
-			<p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p><p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
+    <p>PLATZHALTER</p>
 
-        </footer>
+</footer>
 
 
-
-
-
-
-
-    <!-- /.container -->
-
+<!-- /.container -->
 
 
 <script>
@@ -1116,7 +1266,8 @@
 <script src="../interactivemap/js/interactive.js"></script>
 <script src="../interactivemap/js/colormap.js"></script>
 <script src="../interactivemap/js/sidenav.js"></script>
-
+<script src="../interactivemap/js/carousel.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
 </body>
 
 </html>
