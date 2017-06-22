@@ -8,8 +8,6 @@ $(document).ready(function () { "use strict";
 
 
 
-
-
      $('[id^="map-"]').click(function()
     {
          var temp=$(this).attr('id');

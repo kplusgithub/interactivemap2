@@ -3,6 +3,15 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+.ui-corner-all {
+    border-bottom-left-radius: 16px !important;
+    border-bottom-right-radius: 16px !important;
+    border-top-left-radius: 16px !important;
+    border-top-right-radius: 16px !important;
+
+
+}
+
 
 .gap-top-120 {
 
@@ -246,7 +255,7 @@ body {
 .header-green {
 
     height:75px;
-    background-color: #C1D689;
+    background-color: #96C31E;
     padding-left: 15px;
 
 }

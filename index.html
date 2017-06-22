@@ -13,7 +13,8 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
-
+	<!--<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">-->
+	<link href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.min.css" rel="stylesheet" type="text/css" />
 
     <!-- Custom CSS -->
     <link href="css/one-page-wonder.css" rel="stylesheet">
@@ -30,9 +31,12 @@
 
     <![endif]-->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+
+
 
 
     <!-- MAPPING
@@ -157,14 +161,16 @@
         </div>
     </div>
 </header>
-<div class="header-green">
-    <h1 class="headline-light white-primary container"> NÄCHSTE STATION</h1>
-    <h1 class="headline-bold white-primary container"> GENUSS 2017</h1>
-</div>
+
 
 <!-- Page Content -->
 <div class="container bg-color" id="content">
+	<div class="header-green row" >
 
+		<h1 class="headline-light white-primary"  > NÄCHSTE STATION</h1>
+		<h1 class="headline-bold white-primary" > GENUSS 2017</h1>
+
+	</div>
     <!--<hr class="featurette-divider"> -->
 
     <!-- First Featurette -->
@@ -282,7 +288,7 @@
 				</div>
 
 				<div class="item">
-					<img src="assets/img/area3_1.jpg" alt="Flower" width="auto" height="345">
+					<img src="assets/img/area5_1.jpg" alt="Flower" width="auto" height="345">
 				</div>
 
 				<div class="item">
@@ -309,24 +315,72 @@
 <!-- page5 -->
 
 
+	<div class="row gap-top-60" >
+
+		<h2 class="headline-bold grey-secondary float-center">SCHNITT</h2>
+		<h2 class="headline-light grey-secondary float-center">CLUSTERING</h2>
+
+	</div>
+	<div class="row gap-top-60" style="position: relative;width:100%">
+<img src="assets/img/schnitt.png" class="img-responsive" style="padding-right:60px;padding-left:60px;">
+
+		<div class="hidden-md hidden-xs">
+		<p class="title-bold white-primary float-center" style="position: absolute;top:90px;width:100%;">GLEISEBENE <span class="title-light">ANKOMMEN UND VERWEILEN</span></p>
+		<p class="title-bold white-primary float-center" style="position: absolute;top:205px;width:100%;">ERDGESCHOSS <span class="title-light">NAHVERSORGUNG</span></p>
+		<p class="title-bold white-primary float-center" style="position: absolute;top:320px;width:100%;">OBERGESCHOSS <span class="title-light">VERZEHR & SHOPPING</span></p>
+		</div>
+
+
+		<div class="visible-md hidden-xs">
+			<p class="title-bold white-primary float-center" style="position: absolute;top:80px;width:100%;">GLEISEBENE <span class="title-light">ANKOMMEN UND VERWEILEN</span></p>
+			<p class="title-bold white-primary float-center" style="position: absolute;top:180px;width:100%;">ERDGESCHOSS <span class="title-light">NAHVERSORGUNG</span></p>
+			<p class="title-bold white-primary float-center" style="position: absolute;top:280px;width:100%;">OBERGESCHOSS <span class="title-light">VERZEHR & SHOPPING</span></p>
+		</div>
+
+	</div>
+
+
+	<hr class="featurette-divider" style="margin-top:8%;color:black;">
+	<!-- page6 -->
+
+
+	<div class="row gap-top-60" >
+
+		<h2 class="headline-bold grey-secondary float-center">STRATEGIEWECHSEL</h2>
+		<h2 class="headline-light grey-secondary float-center">VOM BAHNHOF ZUM TREFFPUNKT</h2>
+
+	</div>
+
+
+	<div class="row" >
+
+		<div id="slidercontainer" class="gap-top-120" style="padding-right:120px;padding-left:120px;">
+
+			<div class="col-xs-2" id="strategie01"  style="background:#98bf21;height:50px;width:100px;margin-top:50px;"></div>
+			<div class="col-xs-2" id="strategie02"  style="background:#98bf21;height:100px;width:100px;"></div>
+			<div class="col-xs-2" id="strategie03"  style="background:#98bf21;height:70px;width:100px;margin-top:30px;"></div>
+			<div class="col-xs-2" id="strategie04"  style="background:#98bf21;height:40px;width:100px;margin-top:60px;"></div>
+			<div class="col-xs-2" id="strategie05"  style="background:#98bf21;height:20px;width:100px;margin-top:80px;"></div>
 
 
 
 
 
-
-
-	
-
+		</div>
 
 
 
+	</div>
+
+	<div class="row" class="gap-top-120" style="padding-right:120px;padding-left:120px;">
+	<div id="slider2"></div>
+	<p id="bar">bar<p>
+	<p id="yeartotal">year total</p>
+
+	<div id="slider1"></div>
 
 
-
-
-
-
+</div>
 
 
 
@@ -1284,7 +1338,15 @@
 <script>
     w3.includeHTML();
 </script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="../interactivemap/js/sliderbar.js"></script>
 <script src="../interactivemap/js/interactive.js"></script>
 <script src="../interactivemap/js/colormap.js"></script>
 <script src="../interactivemap/js/sidenav.js"></script>
