@@ -3,6 +3,34 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
+.content-center {
+
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.padding-center-120 {
+    padding-right:120px;
+    padding-left:120px
+
+
+}
+
+.col-xs-15 {
+    width: 20%;
+
+}
+
+
+.rota180 {
+
+    transform: scale(1,-1);
+
+}
+
+
+
 .ui-corner-all {
     border-bottom-left-radius: 16px !important;
     border-bottom-right-radius: 16px !important;

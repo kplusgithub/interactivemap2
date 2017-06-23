@@ -13,6 +13,14 @@ $("#slider1").slider({
     slide: function( ev, ui ) {
         datafirst = ui.value;
         $("#bar").text( datafirst );
+
+        $(".diagram-1").css( {opacity: 1-ui.value*0.01 });
+        $(".diagram-2").css( {opacity: ui.value*0.01 });
+
+
+
+
+
     }
 });
 $("#slider2").slider({
@@ -28,25 +36,27 @@ $("#slider2").slider({
 
 
 
-        $("#strategie01").css({height: ui.value*0.5});
-       $("#strategie01").css({marginTop: ui.value*-1+220+50});
-
-        $("#strategie02").css({height: ui.value});
-        $("#strategie02").css({marginTop: ui.value*-1+220});
-
-        $("#strategie03").css({height: ui.value*0.7});
-        $("#strategie03").css({marginTop: ui.value*-1+220+30});
-
-        $("#strategie04").css({height: ui.value*0.4});
-        $("#strategie04").css({marginTop: ui.value*-1+220+60});
-
-        $("#strategie05").css({height: ui.value*0.2});
-        $("#strategie05").css({marginTop: ui.value*-1+220+80});
 
 
 
 
-        $("#slidercontainer").css({marginBottom: ui.value-100});
+        $("#strategie01").css({height: 50 - ui.value*0.1});
+
+
+        $("#strategie02").css({height: 90 + ui.value*0.10});
+
+
+        $("#strategie03").css({height: 70 - ui.value*0.18});
+
+
+        $("#strategie04").css({height: 40 - ui.value*0.1});
+
+        $("#strategie05").css({height: 20 - ui.value*0.02});
+
+
+
+
+
 
 
     }
@@ -59,15 +69,3 @@ $("#slider2").slider({
 });
 
 
-/*
-
-$(document).ready(function(){
-    $("button").click(function(){
-        $("#strategie01").animate({
-
-            height: '+=datafirst',
-            top: '-=150px',
-            width: '150px'
-        });
-    });
-});*/
