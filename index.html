@@ -20,6 +20,24 @@
     <link href="css/one-page-wonder.css" rel="stylesheet">
 
 
+	<link rel="stylesheet" href="css/jslider.css" type="text/css">
+	<link rel="stylesheet" href="css/jslider.blue.css" type="text/css">
+	<link rel="stylesheet" href="css/jslider.plastic.css" type="text/css">
+	<link rel="stylesheet" href="css/jslider.round.css" type="text/css">
+	<link rel="stylesheet" href="css/jslider.round.plastic.css" type="text/css">
+
+	<script type="text/javascript" src="js/slider/jquery-1.7.1.js"></script>
+
+
+	<script type="text/javascript" src="js/slider/jshashtable-2.1_src.js"></script>
+	<script type="text/javascript" src="js/slider/jquery.numberformatter-1.2.3.js"></script>
+	<script type="text/javascript" src="js/slider/tmpl.js"></script>
+	<script type="text/javascript" src="js/slider/jquery.dependClass-0.1.js"></script>
+	<script type="text/javascript" src="js/slider/draggable-0.1.js"></script>
+	<script type="text/javascript" src="js/slider/jquery.slider.js"></script>
+
+
+
     <script src="js/w3.js"></script>
 
 
@@ -131,7 +149,7 @@
                 <span class="icon-bar"></span>
             </button>
 
-            <a class="navbar-brand" href="#"><img width="80px" src="assets/img/phl_logo.svg"></a>
+            <a class="navbar-brand" href="#"><img width="80px" src="assets/img/phl-logo.svg"></a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -268,7 +286,7 @@
 		<h2 class="headline-light grey-secondary float-center">IN GUTER NACHBARSCHAFT</h2>
 
 
-		<div id="myCarousel" class="carousel slide gap-top-60">
+		<div  class="myCarousel carousel slide gap-top-60">
 			<!-- Indicators -->
 			<ol class="carousel-indicators">
 				<li class="item1 active"></li>
@@ -350,6 +368,10 @@
 	<!-- page6 -->
 
 
+
+
+
+
 	<div class="row gap-top-60">
 
 		<h2 class="headline-bold grey-secondary float-center">STRATEGIEWECHSEL</h2>
@@ -360,8 +382,8 @@
 	<!-- DIAGRAM 01 -->
 	<div class="row gap-top-120">
 
-		<div id="slidercontainer" class="gap-top-120 padding-center-120"
-		">
+		<div id="slidercontainer" class="gap-top-120 padding-center-120">
+
 
 		<div class="rota180" style="height:100px;margin-top:-100px;width: 100%;">
 
@@ -405,9 +427,17 @@
 
 
 	<div class="row gap-top-60 padding-center-120">
-	<div id="slider2"></div>
+
+
+		<div class="layout-slider" style="width: 100%">
+		<span style="display: inline-block; width: 100%; padding: 0 5px;"><input id="Slider11" type="slider" name="price" value="0" /></span>
 	</div>
 
+
+
+	<!--<div id="slider2"></div>-->
+
+	</div>
 <div class="row  padding-center-120">
 
 	<div class="col-xs-2 col-xs-15"><p class="caption">2017</p></div>
@@ -419,11 +449,11 @@
 
 </div>
 
-<!-- DIAGRAM 02 -->
+<!-- DIAGRAMs 02 -->
 
 <div class="row gap-top-120">
 
-	<div class="content-center" style="position:relative;width: 100%;margin-left:30%;height: 300px;">
+	<div class="content-center" style="position:relative;margin-left:30%;height: 300px;">
 	<img src="assets/img/kreisdiagramm.svg" class="diagram-1" style="padding-right:60px;padding-left:60px;max-width:400px;position: absolute;left: 0;">
 
 	<img src="assets/img/kreisdiagramm-2.svg" class="diagram-2" style="padding-right:60px;padding-left:60px;max-width:400px;opacity: 0;position: absolute;left: 0;">
@@ -432,7 +462,13 @@
 </div>
 
 <div class="row gap-top-60 padding-center-120">
-<div id="slider1"></div>
+
+
+	<div class="layout-slider" style="width: 100%">
+		<span style="display: inline-block; width: 100%; padding: 0 5px;"><input id="Slider12" type="slider" name="price" value="0" /></span>
+	</div>
+
+<!--<div id="slider1"></div>-->
 
 </div>
 
@@ -446,6 +482,126 @@
 
 
 </div>
+
+
+
+
+<!-- page7 -->
+
+
+	<hr class="featurette-divider" style="margin-top:8%;color:black;">
+
+	<div class="row gap-top-60">
+
+		<h2 class="headline-bold grey-secondary float-center">VISION 2020</h2>
+		<h2 class="headline-light grey-secondary float-center">IMPRESSIONEN</h2>
+
+	</div>
+
+
+
+	<div  class="myCarousel carousel slide gap-top-60">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li class="item1 active"></li>
+			<li class="item2"></li>
+			<li class="item3"></li>
+			<li class="item4"></li>
+		</ol>
+
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				<img src="assets/img/area1_1.jpg" alt="Chania" width="auto" height="345">
+			</div>
+
+			<div class="item">
+				<img src="assets/img/area2_1.jpg" alt="Chania" width="auto" height="345">
+			</div>
+
+			<div class="item">
+				<img src="assets/img/area5_1.jpg" alt="Flower" width="auto" height="345">
+			</div>
+
+			<div class="item">
+				<img src="assets/img/area4_1.jpg" alt="Flower" width="auto" height="345">
+			</div>
+		</div>
+
+		<!-- Left and right controls -->
+		<a class="left carousel-control" href="#myCarousel" role="button">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" role="button">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+
+
+	<div class="header-green row" >
+
+		<h1 class="headline-light white-primary"  >WELCOME</h1>
+		<h1 class="headline-bold white-primary" > PROMENADEN 2017</h1>
+
+	</div>
+
+
+
+	<!-- page8 -->
+
+
+	<div class="row gap-top-120">
+
+		<h2 class="headline-bold grey-secondary float-center">LAGEPLAN</h2>
+		<h2 class="headline-light grey-secondary float-center">CLUSTERING</h2>
+
+	</div>
+
+	<div class="row gap-top-60">
+		<div class="col-md-6">
+	<h2 class="subheader grey-secondary" style="padding-bottom:30px;">EINZUGSGEBIETE IM ÜBERBLICK
+	</h2> </div>
+		<div class="col-md-6"> </div>
+	</div>
+
+
+	<div class="row ">
+		<div class="col-md-6">
+
+
+			<p class="text grey-primary">Alis dolorep udamenditio temque conet officaectur, quae quis porem. Bit,
+				conecto ipitem faccae asped quodi ut aut aut viti ut volorib eritae quidigent
+				arum dolo odiatem harum faces dolupta natur?</p>
+		</div>
+
+		<div class="col-md-6">
+			<p class="text grey-primary">Alis dolorep udamenditio temque conet officaectur, quae quis porem. Bit,
+				conecto ipitem faccae asped quodi ut aut aut viti ut volorib eritae quidigent
+				arum dolo odiatem harum faces dolupta natur?</p>
+		</div>
+
+		<div class="row gap-top-120">
+
+
+
+
+			<!--<iframe src="//mapkit.io/embed/XW5xN1" frameborder="0" height="400" width="100%"></iframe>-->
+
+		</div>
+
+		</div>
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -460,9 +616,9 @@
 
 	<!-- SIDENAV -->
 
-    <div class="row">
+    <div class="row grey-primary-bg">
 
-        <div class="col-sm-3 white hidden-sm">
+        <div class="col-sm-3 white-secondary caption hidden-sm" >
             <ul class="nav nav-stacked" id="sidebar">
                 <li class="active">
                     <div class="checkbox setting col-md-1" style="padding-left:0px;">
@@ -534,7 +690,7 @@
         <div class="col-md-9 hidden-sm">
 
 
-            <p class="white" style="margin-top:5%;padding-bottom:30px;font-size:24px;">BASEMENT</p>
+            <p class="white-secondary" style="margin-top:5%;padding-bottom:30px;font-size:24px;">BASEMENT</p>
 
 
             <svg  version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
@@ -817,7 +973,7 @@
 </svg> <!-- BASE-->
 
 
-            <table class="table table-hover white" id="baseTable" style="font-size: 12px">
+            <table class="table table-hover white-primary text" id="baseTable" style="font-size: 12px">
                 <tbody>
 
                 </tbody>
@@ -827,7 +983,7 @@
 
             <hr class="featurette-divider" style="margin-top:2%;">
 
-            <p class="white" style="margin-top:5%;padding-bottom:30px;font-size:24px;">ERDGESCHOSS</p>
+            <p class="white-secondary" style="margin-top:5%;padding-bottom:30px;font-size:24px;">ERDGESCHOSS</p>
 
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 3042.1 1109.7" style="enable-background:new 0 0 3042.1 1109.7;" xml:space="preserve" id="section">
@@ -1166,7 +1322,7 @@
 </svg> <!-- EG-->
 
 
-            <table class="table table-hover table-size white" id="egTable" style="font-size: 12px">
+            <table class="table table-hover table-size white-primary text" id="egTable" style="font-size: 12px">
                 <tbody>
 
                 </tbody>
@@ -1174,7 +1330,7 @@
             </table>
 
 
-            <p class="white" style="margin-top:5%;padding-bottom:30px;font-size:24px;">OBERGESCHOSS</p>
+            <p class="white-secondary" style="margin-top:5%;padding-bottom:30px;font-size:24px;">OBERGESCHOSS</p>
 
             <hr class="featurette-divider" style="margin-top:2%;">
 
@@ -1308,7 +1464,7 @@
 </g>
 </svg> <!-- OG-->
 
-            <table class="table table-hover table-size white" id="ogTable" style="font-size: 12px">
+            <table class="table table-hover table-size white-primary text" id="ogTable" style="font-size: 12px">
                 <tbody>
 
                 </tbody>
@@ -1409,13 +1565,14 @@
 </script>
 
 
+<script src="../interactivemap/js/sliderbar-fallback.js" type="text/javascript" charset="utf-8"></script>
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="../interactivemap/js/sliderbar.js"></script>
+<!--<script src="../interactivemap/js/sliderbar.js"></script>-->
 <script src="../interactivemap/js/interactive.js"></script>
 <script src="../interactivemap/js/colormap.js"></script>
 <script src="../interactivemap/js/sidenav.js"></script>
@@ -1424,3 +1581,4 @@
 </body>
 
 </html>
+                                             

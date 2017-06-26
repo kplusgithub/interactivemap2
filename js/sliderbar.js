@@ -1,6 +1,9 @@
 /**
  * Created by t.geiger on 22.06.2017.
  */
+
+
+
 var datafirst = 0;
 var datasecond = 0;
 
@@ -23,6 +26,7 @@ $("#slider1").slider({
 
     }
 });
+
 $("#slider2").slider({
     range: "min",
     value: 0,
@@ -56,12 +60,7 @@ $("#slider2").slider({
 
 
 
-
-
-
     }
-
-
 
 
 
