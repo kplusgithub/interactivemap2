@@ -156,14 +156,26 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li>
-                    <a href="#about">Karte</a>
-                </li>
-                <!--<li>
-                    <a href="#services">Services</a>
+                    <a href="#miet">MIETÜBERSICHT</a>
                 </li>
                 <li>
-                    <a href="#contact">Contact</a>
-                </li> -->
+                    <a href="#schnitt">SCHNITT</a>
+                </li>
+                <li>
+                    <a href="#strategie">STRATEGIE</a>
+                </li>
+				<li>
+					<a href="#vision">VISION 2020</a>
+				</li>
+				<li>
+					<a href="#lageplan">LAGEPLAN</a>
+				</li>
+				<li>
+					<a href="#grundrisse">GRUNDRISSE</a>
+				</li>
+				<li>
+					<a href="#kontakt">KONTAKT</a>
+				</li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -193,7 +205,7 @@
     <!--<hr class="featurette-divider"> -->
 
     <!-- First Featurette -->
-    <div class="row featurette-divider " id="about">
+    <div class="row featurette-divider " >
         <div class="col-md-6">
 
             <h2 class="subheader grey-secondary" style="padding-bottom:30px;">EINE NEUARTIGE GENUSSWELT FÜR LEIPZIG
@@ -281,7 +293,7 @@
 
 	<!--MOBILE--><div class="row gap-top-120 visible-xs" ></div>
 	<!--MOBILE_END-->
-	<div class="row gap-top-60" >
+	<div class="row gap-top-60" id="miet">
 
 		<h2 class="headline-bold grey-secondary float-center">MIETÜBERSICHT</h2>
 		<h2 class="headline-light grey-secondary float-center">IN GUTER NACHBARSCHAFT</h2>
@@ -334,7 +346,7 @@
 	<!-- page5 -->
 
 
-	<div class="row gap-top-60">
+	<div class="row gap-top-60" id="schnitt">
 
 		<h2 class="headline-bold grey-secondary float-center">SCHNITT</h2>
 		<h2 class="headline-light grey-secondary float-center">CLUSTERING</h2>
@@ -373,7 +385,7 @@
 
 
 
-	<div class="row gap-top-60">
+	<div class="row gap-top-60" id="strategie">
 
 		<h2 class="headline-bold grey-secondary float-center">STRATEGIEWECHSEL</h2>
 		<h2 class="headline-light grey-secondary float-center">VOM BAHNHOF ZUM TREFFPUNKT</h2>
@@ -472,7 +484,7 @@
 
 
 		<div class="layout-slider" style="width: 100%">
-		<span style="display: inline-block; width: 100%; padding: 0 5px;"><input id="Slider11" type="slider" name="price" value="0" /></span>
+		<span style="display: inline-block; width: 100%; padding: 0 5px;"><input id="Slider11" type="slider"  value="0" /></span>
 	</div>
 
 
@@ -491,22 +503,29 @@
 
 </div>
 
-<!-- DIAGRAMs 02 -->
+<!-- DIAGRAM 02 -->
 
 <div class="row gap-top-120">
 
-	<div class="content-center" style="position:relative;margin-left:30%;height: 300px;">
-	<img src="assets/img/kreisdiagramm.svg" class="diagram-1" style="padding-right:60px;padding-left:60px;max-width:400px;position: absolute;left: 0;width:100%">
+	<div class="content-center" style="position:relative;margin-left:30%;margin-right:30%;max-height: 300px;min-height:160px;">
+	<img src="assets/img/kreisdiagramm.svg" class="diagram-1" style="max-width:400px;position: absolute;left: 0;width:100%">
 
-	<img src="assets/img/kreisdiagramm-2.svg" class="diagram-2" style="padding-right:60px;padding-left:60px;max-width:400px;opacity: 0;position: absolute;left: 0;width:100%;">
+	<img src="assets/img/kreisdiagramm-2.svg" class="diagram-2" style="max-width:400px;opacity: 0;position: absolute;left: 0;width:100%;">
 
 	</div>
 </div>
 
-<div class="row gap-top-60 padding-center-120">
+
+
+
+
+
+
+<div class="row gap-top-120 padding-center-120">
 
 
 	<div class="layout-slider" style="width: 100%">
+		<!-- HIDDEN ON MOBILE --> <div class="hidden-xs" style="margin-top:200px;"></div>
 		<span style="display: inline-block; width: 100%; padding: 0 5px;"><input id="Slider12" type="slider" name="price" value="0" /></span>
 	</div>
 
@@ -533,7 +552,7 @@
 
 	<hr class="featurette-divider" style="margin-top:8%;color:black;">
 
-	<div class="row gap-top-60">
+	<div class="row gap-top-60" id="vision">
 
 		<h2 class="headline-bold grey-secondary float-center">VISION 2020</h2>
 		<h2 class="headline-light grey-secondary float-center">IMPRESSIONEN</h2>
@@ -594,7 +613,7 @@
 	<!-- page8 -->
 
 
-	<div class="row gap-top-120">
+	<div class="row gap-top-120" id="lageplan">
 
 		<h2 class="headline-bold grey-secondary float-center">LAGEPLAN</h2>
 		<h2 class="headline-light grey-secondary float-center">CLUSTERING</h2>
@@ -660,7 +679,7 @@
 
     <div class="row grey-primary-bg">
 
-        <div class="col-sm-3 white-secondary caption hidden-sm">
+        <div class="col-sm-3 white-secondary caption hidden-sm hidden-xs">
             <ul class="nav nav-stacked" id="sidebar">
                 <li class="active">
                     <div class="checkbox setting col-md-1" style="padding-left:0px;">
@@ -729,8 +748,10 @@
 
         <!-- KARTE -->
 
-        <div class="col-md-9 hidden-sm">
+        <div class="col-md-9 gap-top-60" id="grundrisse">
 
+			<h2 class="headline-bold white-secondary float-center">GRUNDRISSE</h2>
+			<h2 class="headline-light white-secondary float-center">INTERAKTIV & DETAILLIERT</h2>
 
             <p class="white-secondary" style="margin-top:5%;padding-bottom:30px;font-size:24px;">BASEMENT</p>
 
@@ -1545,7 +1566,7 @@
 
 
 <!-- Footer -->
-<div class="container">
+<div class="container" id="kontakt">
     <div class="row">
 
         <div class="col-md-6 bg-color">

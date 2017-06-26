@@ -6236,14 +6236,14 @@ button.close {
 .carousel {
   position: relative;
   box-shadow: 0px 0px 2px #1c1c1c;
-  height: 450px;
+  max-height: 450px;
 }
 .carousel-inner {
   position: relative;
   width: 100%;
   overflow: hidden;
 
-  height: 450px;
+  max-height: 450px;
 }
 .carousel-inner > .item {
   position: relative;
