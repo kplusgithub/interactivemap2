@@ -3,7 +3,7 @@
  */
 $(document).ready(function(){
     // Activate Carousel
-    $(".myCarousel").carousel({interval: 2000});
+    $(".myCarousel").carousel({interval: 6000});
 
     // Enable Carousel Indicators
     $(".item1").click(function(){

@@ -13,11 +13,11 @@ jQuery("#Slider11").slider({
     onstatechange: function (ui) {
 
 
-        $("#strategie01").css({height: 50 - ui*0.1});
-        $("#strategie02").css({height: 90 + ui*0.10});
-        $("#strategie03").css({height: 70 - ui*0.18});
-        $("#strategie04").css({height: 40 - ui*0.1});
-        $("#strategie05").css({height: 20 - ui*0.02});
+        $(".strategie01").css({height: 50 - ui*0.1});
+        $(".strategie02").css({height: 90 + ui*0.10});
+        $(".strategie03").css({height: 70 - ui*0.18});
+        $(".strategie04").css({height: 40 - ui*0.1});
+        $(".strategie05").css({height: 20 - ui*0.02});
     }
 
 

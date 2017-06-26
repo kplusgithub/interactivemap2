@@ -10,18 +10,19 @@ $(document).ready(function () {
 
 
     $(window).scroll(function () {
-        var threshold = 3650;   //THIS MUST BE CHANGED
+        var threshold = 5500;   //THIS MUST BE CHANGED
 
 
         if ($(window).scrollTop() >= threshold)
             $('#sidebar').addClass('fixed');
         else
             $('#sidebar').removeClass('fixed');
-        var checkcontent = $("#content").height() * -1 + 200;
-        var check = $("#content").height() - $("#sidebar").height() - 21;
+        var checkcontent = $("#content").height() * -1;
+        var check = $("#content").height() - $("#sidebar").height();
         if ($(window).scrollTop() >= check) {
             $('#sidebar').addClass('bottom');
             $(".bottom").css({"bottom": checkcontent});
+
         }
         else {
             $(".bottom").css({"bottom": 50});
