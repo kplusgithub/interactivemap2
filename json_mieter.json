@@ -3,415 +3,455 @@
    "mieter": [
        {
            
-           "dienstleistung": "true",
-           "einzelhandel": "false",
-           "lebensmittel": "false",
+           "schuhe": "false",
+           "textil": "false",
+           "lebensmittel": "true",
+           "hartwaren": "false",
+           "warenhaeuser": "false",
+           "gesundheit": "false",
            "gastronomie": "false",
+           "dienstleistung": "false",
            "vermietet": "true",
            "reserviert": "false",
            "id": "1",
-           "name": "rewe"
+           "name": "Dr. Eckert"
        },
-       {
+           {
            
-           "dienstleistung": "false",
-           "einzelhandel": "true",
+           "schuhe": "false",
+           "textil": "false",
            "lebensmittel": "false",
+           "hartwaren": "false",
+           "warenhaeuser": "false",
+           "gesundheit": "false",
            "gastronomie": "false",
-           "vermietet": "false",
-           "reserviert": "false",
-           "id": "2",
-           "name": "aldi"
-       },
-       {
-           
-           "dienstleistung": "false",
-           "einzelhandel": "false",
-           "lebensmittel": "true",
-           "gastronomie": "false",
-           "vermietet": "false",
-           "reserviert": "true",
-           "id": "3",
-           "name": "edeka"
-	
-       },
-       
-       {
-           
-           "dienstleistung": "false",
-           "einzelhandel": "false",
-           "lebensmittel": "false",
-           "gastronomie": "true",
+           "dienstleistung": "true",
            "vermietet": "true",
            "reserviert": "false",
-           "id": "4",
-           "name": "kaufland"
-	
+           "id": "2",
+           "name": "Schuh & Schlüsseldienst"
        },
-  
-   
-        {
+           {
            
-           "dienstleistung": "true",
-           "einzelhandel": "false",
+           "schuhe": "false",
+           "textil": "false",
            "lebensmittel": "false",
+           "hartwaren": "false",
+           "warenhaeuser": "false",
+           "gesundheit": "false",
            "gastronomie": "false",
-            "vermietet": "false",
-            "reserviert": "false",
-           "id": "5",
-            "name": "dm"
-       },
-       
-        {
-           
            "dienstleistung": "true",
-           "einzelhandel": "false",
-           "lebensmittel": "false",
-           "gastronomie": "false",
-           "vermietet": "false",
-           "id": "6",
-           "name": "mediamarkt"
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "3",
+           "name": "Sanifair"
        },
-       
-       {
+           {
            
+           "schuhe": "false",
+           "textil": "false",
+           "lebensmittel": "true",
+           "hartwaren": "false",
+           "warenhaeuser": "false",
+           "gesundheit": "false",
+           "gastronomie": "false",
            "dienstleistung": "false",
-           "einzelhandel": "true",
-           "lebensmittel": "false",
-           "gastronomie": "false",
            "vermietet": "false",
+           "reserviert": "true",
+           "id": "4",
+           "name": "Ditsch Bäckerei"
+       },
+           {
+           
+           "schuhe": "false",
+           "textil": "false",
+           "lebensmittel": "false",
+           "hartwaren": "false",
+           "warenhaeuser": "false",
+           "gesundheit": "false",
+           "gastronomie": "false",
+           "dienstleistung": "false",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "5",
+           "name": "Thüringer Grill"
+       },
+           {
+           
+           "schuhe": "false",
+           "textil": "false",
+           "lebensmittel": "true",
+           "hartwaren": "false",
+           "warenhaeuser": "false",
+           "gesundheit": "false",
+           "gastronomie": "true",
+           "dienstleistung": "false",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "6",
+           "name": "Lukas Bäckerei"
+       },
+           {
+               
+           "schuhe": "false",
+           "textil": "false",
+           "lebensmittel": "false",
+           "hartwaren": "false",
+           "warenhaeuser": "false",
+           "gesundheit": "false",
+           "gastronomie": "false",
+           "dienstleistung": "false",
+           "vermietet": "true",
            "reserviert": "false",
            "id": "7",
-           "name": "saturn"
+           "name": "Restaurant Kokuspalme"
        },
-       
-       {
+           {
            
-           "dienstleistung": "false",
-           "einzelhandel": "false",
-           "lebensmittel": "true",
+           "schuhe": "false",
+           "textil": "false",
+           "lebensmittel": "false",
+           "hartwaren": "false",
+           "warenhaeuser": "true",
+           "gesundheit": "false",
            "gastronomie": "false",
+           "dienstleistung": "false",
            "vermietet": "true",
            "reserviert": "false",
            "id": "8",
-           "name": "Post"
-	
+           "name": "rewe"
        },
-       
-       {
+           {
            
-           "dienstleistung": "false",
-           "einzelhandel": "false",
+           "schuhe": "true",
+           "textil": "false",
            "lebensmittel": "false",
-           "gastronomie": "true",
+           "hartwaren": "false",
+           "warenhaeuser": "false",
+           "gesundheit": "false",
+           "gastronomie": "false",
+           "dienstleistung": "false",
            "vermietet": "true",
            "reserviert": "false",
            "id": "9",
-           "name": "DB"
-	
+           "name": "rewe"
        },
-       
-       {
+           {
            
-           "dienstleistung": "false",
-           "einzelhandel": "true",
+           "schuhe": "false",
+           "textil": "true",
            "lebensmittel": "false",
+           "hartwaren": "false",
+           "warenhaeuser": "false",
+           "gesundheit": "false",
            "gastronomie": "false",
-           "vermietet": "false",
-           "reserviert": "true",
+           "dienstleistung": "false",
+           "vermietet": "true",
+           "reserviert": "false",
            "id": "10",
-           "name": "saturn"
+           "name": "rewe"
        },
-       
-       {
+           {
            
-           "dienstleistung": "false",
-           "einzelhandel": "false",
+           "schuhe": "false",
+           "textil": "false",
            "lebensmittel": "true",
+           "hartwaren": "false",
+           "warenhaeuser": "false",
+           "gesundheit": "false",
            "gastronomie": "false",
-           "vermietet": "false",
-           "reserviert": "true",
-           "id": "11",
-           "name": "Post"
-	
-       },
-       
-       {
-           
            "dienstleistung": "false",
-           "einzelhandel": "false",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "11",
+           "name": "rewe"
+       },
+           {
+           
+           "schuhe": "false",
+           "textil": "false",
            "lebensmittel": "false",
-           "gastronomie": "true",
-           "vermietet": "false",
+           "hartwaren": "true",
+           "warenhaeuser": "false",
+           "gesundheit": "false",
+           "gastronomie": "false",
+           "dienstleistung": "false",
+           "vermietet": "true",
            "reserviert": "false",
            "id": "12",
-           "name": "DB"
-	
+           "name": "rewe"
        },
-       
-       {
+           {
            
-           "dienstleistung": "false",
-           "einzelhandel": "false",
-           "lebensmittel": "true",
+           "schuhe": "false",
+           "textil": "false",
+           "lebensmittel": "false",
+           "hartwaren": "false",
+           "warenhaeuser": "true",
+           "gesundheit": "false",
            "gastronomie": "false",
+           "dienstleistung": "false",
            "vermietet": "true",
            "reserviert": "false",
            "id": "13",
-           "name": "Post"
-	
+           "name": "rewe"
        },
-       
-       {
+           {
            
-           "dienstleistung": "false",
-           "einzelhandel": "false",
+           "schuhe": "false",
+           "textil": "false",
            "lebensmittel": "false",
-           "gastronomie": "true",
-           "vermietet": "false",
-           "reserviert": "true",
-           "id": "14",
-           "name": "DB"
-	
-       },
-       
-       {
-           
-           "dienstleistung": "false",
-           "einzelhandel": "true",
-           "lebensmittel": "false",
+           "hartwaren": "false",
+           "warenhaeuser": "false",
+           "gesundheit": "true",
            "gastronomie": "false",
-           "vermietet": "false",
-           "reserviert": "true",
-           "id": "15",
-           "name": "saturn"
-       },
-       
-       {
-           
            "dienstleistung": "false",
-           "einzelhandel": "false",
-           "lebensmittel": "true",
-           "gastronomie": "false",
            "vermietet": "true",
-           "id": "16",
-           "name": "Post"
-	
+           "reserviert": "false",
+           "id": "14",
+           "name": "rewe"
        },
-       
-       {
+           {
            
-           "dienstleistung": "false",
-           "einzelhandel": "false",
+           "schuhe": "false",
+           "textil": "false",
            "lebensmittel": "false",
-           "gastronomie": "true",
+           "hartwaren": "false",
+           "warenhaeuser": "false",
+           "gesundheit": "false",
+           "gastronomie": "false",
+           "dienstleistung": "true",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "15",
+           "name": "rewe"
+       },
+           {
+           
+           "schuhe": "false",
+           "textil": "false",
+           "lebensmittel": "false",
+           "hartwaren": "false",
+           "warenhaeuser": "false",
+           "gesundheit": "false",
+           "gastronomie": "false",
+           "dienstleistung": "false",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "16",
+           "name": "rewe"
+       },
+           {
+           
+           "schuhe": "false",
+           "textil": "false",
+           "lebensmittel": "false",
+           "hartwaren": "false",
+           "warenhaeuser": "false",
+           "gesundheit": "false",
+           "gastronomie": "false",
+           "dienstleistung": "false",
            "vermietet": "true",
            "reserviert": "false",
            "id": "17",
-           "name": "DB"
-	
+           "name": "rewe"
        },
-       {
+           {
            
-           "dienstleistung": "false",
-           "einzelhandel": "true",
+           "schuhe": "false",
+           "textil": "false",
            "lebensmittel": "false",
+           "hartwaren": "false",
+           "warenhaeuser": "false",
+           "gesundheit": "false",
            "gastronomie": "false",
-           "vermietet": "false",
+           "dienstleistung": "false",
+           "vermietet": "true",
            "reserviert": "false",
            "id": "18",
-           "name": "aldi"
+           "name": "rewe"
        },
-       {
+           {
            
-           "dienstleistung": "false",
-           "einzelhandel": "false",
-           "lebensmittel": "true",
-           "gastronomie": "false",
-           "vermietet": "false",
-           "reserviert": "true",
-           "id": "19",
-           "name": "edeka"
-	
-       },
-       
-       {
-           
-           "dienstleistung": "false",
-           "einzelhandel": "false",
+           "schuhe": "false",
+           "textil": "false",
            "lebensmittel": "false",
-           "gastronomie": "true",
+           "hartwaren": "false",
+           "warenhaeuser": "false",
+           "gesundheit": "false",
+           "gastronomie": "false",
+           "dienstleistung": "false",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "19",
+           "name": "rewe"
+       },
+           {
+           
+           "schuhe": "false",
+           "textil": "false",
+           "lebensmittel": "false",
+           "hartwaren": "false",
+           "warenhaeuser": "false",
+           "gesundheit": "false",
+           "gastronomie": "false",
+           "dienstleistung": "false",
            "vermietet": "true",
            "reserviert": "false",
            "id": "20",
-           "name": "kaufland"
-	
+           "name": "rewe"
        },
-  
-   
-        {
+           {
            
-           "dienstleistung": "true",
-           "einzelhandel": "false",
+           "schuhe": "false",
+           "textil": "false",
            "lebensmittel": "false",
+           "hartwaren": "false",
+           "warenhaeuser": "false",
+           "gesundheit": "false",
            "gastronomie": "false",
-            "vermietet": "false",
-            "reserviert": "false",
-           "id": "21",
-            "name": "dm"
-       },
-       
-        {
-           
-           "dienstleistung": "true",
-           "einzelhandel": "false",
-           "lebensmittel": "false",
-           "gastronomie": "false",
-           "vermietet": "true",
-            "reserviert": "false",
-           "id": "22",
-           "name": "mediamarkt"
-       },
-       
-       {
-           
            "dienstleistung": "false",
-           "einzelhandel": "true",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "21",
+           "name": "rewe"
+       },
+           {
+           
+           "schuhe": "false",
+           "textil": "false",
            "lebensmittel": "false",
+           "hartwaren": "false",
+           "warenhaeuser": "false",
+           "gesundheit": "false",
            "gastronomie": "false",
-           "vermietet": "false",
+           "dienstleistung": "false",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "22",
+           "name": "rewe"
+       },
+           {
+           
+           "schuhe": "false",
+           "textil": "false",
+           "lebensmittel": "false",
+           "hartwaren": "false",
+           "warenhaeuser": "false",
+           "gesundheit": "false",
+           "gastronomie": "false",
+           "dienstleistung": "false",
+           "vermietet": "true",
            "reserviert": "false",
            "id": "23",
-           "name": "saturn"
+           "name": "rewe"
        },
-       
-       {
+           {
            
-           "dienstleistung": "false",
-           "einzelhandel": "false",
-           "lebensmittel": "true",
+           "schuhe": "false",
+           "textil": "false",
+           "lebensmittel": "false",
+           "hartwaren": "false",
+           "warenhaeuser": "false",
+           "gesundheit": "false",
            "gastronomie": "false",
+           "dienstleistung": "false",
            "vermietet": "true",
            "reserviert": "false",
            "id": "24",
-           "name": "Post"
-	
+           "name": "rewe"
        },
-       
-       {
+           {
            
-           "dienstleistung": "false",
-           "einzelhandel": "false",
+           "schuhe": "false",
+           "textil": "false",
            "lebensmittel": "false",
-           "gastronomie": "true",
-           "vermietet": "false",
-           "reserviert": "true",
-           "id": "25",
-           "name": "DB"
-	
-       },
-       
-       {
-           
-           "dienstleistung": "false",
-           "einzelhandel": "true",
-           "lebensmittel": "false",
+           "hartwaren": "false",
+           "warenhaeuser": "false",
+           "gesundheit": "false",
            "gastronomie": "false",
-           "vermietet": "false",
+           "dienstleistung": "false",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "25",
+           "name": "rewe"
+       },
+           {
+           
+           "schuhe": "false",
+           "textil": "false",
+           "lebensmittel": "false",
+           "hartwaren": "false",
+           "warenhaeuser": "false",
+           "gesundheit": "false",
+           "gastronomie": "false",
+           "dienstleistung": "false",
+           "vermietet": "true",
            "reserviert": "false",
            "id": "26",
-           "name": "saturn"
+           "name": "rewe"
        },
-       
-       {
+           {
            
-           "dienstleistung": "false",
-           "einzelhandel": "false",
-           "lebensmittel": "true",
-           "gastronomie": "false",
-           "vermietet": "false",
-           "reserviert": "true",
-           "id": "27",
-           "name": "Post"
-	
-       },
-       
-       {
-           
-           "dienstleistung": "false",
-           "einzelhandel": "false",
+           "schuhe": "false",
+           "textil": "false",
            "lebensmittel": "false",
-           "gastronomie": "true",
-           "vermietet": "false",
-           "reserviert": "true",
-           "id": "28",
-           "name": "DB"
-	
-       },
-       
-       {
-           
-           "dienstleistung": "false",
-           "einzelhandel": "false",
-           "lebensmittel": "true",
+           "hartwaren": "false",
+           "warenhaeuser": "false",
+           "gesundheit": "false",
            "gastronomie": "false",
+           "dienstleistung": "false",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "27",
+           "name": "rewe"
+       },
+           {
+           
+           "schuhe": "false",
+           "textil": "false",
+           "lebensmittel": "false",
+           "hartwaren": "false",
+           "warenhaeuser": "false",
+           "gesundheit": "false",
+           "gastronomie": "false",
+           "dienstleistung": "false",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "28",
+           "name": "rewe"
+       },
+           {
+           
+           "schuhe": "false",
+           "textil": "false",
+           "lebensmittel": "false",
+           "hartwaren": "false",
+           "warenhaeuser": "false",
+           "gesundheit": "false",
+           "gastronomie": "false",
+           "dienstleistung": "false",
            "vermietet": "true",
            "reserviert": "false",
            "id": "29",
-           "name": "Post"
-	
+           "name": "rewe"
        },
-       
-       {
+           {
            
-           "dienstleistung": "false",
-           "einzelhandel": "false",
+           "schuhe": "false",
+           "textil": "false",
            "lebensmittel": "false",
-           "gastronomie": "true",
-           "vermietet": "false",
-           "reserviert": "true",
-           "id": "30",
-           "name": "DB"
-	
-       },
-       
-       {
-           
-           "dienstleistung": "false",
-           "einzelhandel": "true",
-           "lebensmittel": "false",
+           "hartwaren": "false",
+           "warenhaeuser": "false",
+           "gesundheit": "false",
            "gastronomie": "false",
-           "vermietet": "false",
-           "reserviert": "true",
-           "id": "31",
-           "name": "saturn"
-       },
-       
-       {
-           
            "dienstleistung": "false",
-           "einzelhandel": "false",
-           "lebensmittel": "true",
-           "gastronomie": "false",
            "vermietet": "true",
            "reserviert": "false",
-           "id": "32",
-           "name": "Post"
-	
-       },
-       
-       {
-           
-           "dienstleistung": "false",
-           "einzelhandel": "false",
-           "lebensmittel": "false",
-           "gastronomie": "true",
-           "vermietet": "false",
-           "reserviert": "true",
-           "id": "33",
-           "name": "DB"
-	
+           "id": "30",
+           "name": "rewe"
        }
+     
        
   
    

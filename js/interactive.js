@@ -49,7 +49,7 @@ $(document).ready(function () { "use strict";
 
             var anzahlbase= 14;
             var anzahleg=27;
-            var anzahlog=33;
+            var anzahlog=30;
 
             egdiff=(anzahlbase+1)%modulo;
 
@@ -127,7 +127,7 @@ $(document).ready(function () { "use strict";
             $(".checkbox").on("change", function () {
 
 
-                if ((!$('#dienstleistung').prop('checked')) && (!$('#einzelhandel').prop('checked')) && (!$('#gastronomie').prop('checked')) && (!$('#lebensmittel').prop('checked'))) {
+                if ((!$('#dienstleistung').prop('checked')) && (!$('#gesundheit').prop('checked')) && (!$('#gastronomie').prop('checked')) && (!$('#warenhaeuser').prop('checked')) && (!$('#schuhe').prop('checked')) && (!$('#textil').prop('checked')) && (!$('#hartwaren').prop('checked')) && (!$('#lebensmittel').prop('checked'))) {
 
                     console.log("success");
                     $('g[id^="map-"]').fadeTo(1000, 0.5);
@@ -141,7 +141,7 @@ $(document).ready(function () { "use strict";
                         var n = num.toString();
 
 
-                        if (((data.mieter[i].dienstleistung === "true") && ($('#dienstleistung').is(':checked'))) || ((data.mieter[i].einzelhandel === "true") && ($('#einzelhandel').is(':checked'))) || ((data.mieter[i].gastronomie === "true") && ($('#gastronomie').is(':checked'))) || ((data.mieter[i].lebensmittel === "true") && ($('#lebensmittel').is(':checked')))) {
+                        if (((data.mieter[i].dienstleistung === "true") && ($('#dienstleistung').is(':checked'))) || ((data.mieter[i].gesundheit === "true") && ($('#gesundheit').is(':checked'))) || ((data.mieter[i].gastronomie === "true") && ($('#gastronomie').is(':checked'))) || ((data.mieter[i].warenhaeuser === "true") && ($('#warenhaeuser').is(':checked'))) || ((data.mieter[i].hartwaren === "true") && ($('#hartwaren').is(':checked'))) || ((data.mieter[i].textil === "true") && ($('#textil').is(':checked'))) || ((data.mieter[i].schuhe === "true") && ($('#schuhe').is(':checked'))) || ((data.mieter[i].lebensmittel === "true") && ($('#lebensmittel').is(':checked')))) {
 
                             // $('.map-'+ n).css('opacity',1.0);
                             $('#map-' + n).fadeTo(1000, 1.0);
