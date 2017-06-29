@@ -3,7 +3,7 @@ var minifyCss = require("gulp-minify-css");
 
  var gulp = require('gulp');
 var babel = require('gulp-babel');
-
+const imagemin = require('gulp-imagemin');
 
 var jshint = require("gulp-jshint");
  
@@ -30,3 +30,19 @@ gulp.task('jsLint', function () {
     .pipe(jshint())
     .pipe(jshint.reporter()); // Dump results
 });
+
+
+gulp.task('imageMin', () =>
+    gulp.src('./assets/img/*')
+        .pipe(imagemin([
+    imagemin.gifsicle({interlaced: true}),
+    imagemin.jpegtran({progressive: true}),
+    imagemin.optipng({optimizationLevel: 5})
+    ],{verbose: true}
+                      
+                      ))
+        .pipe(gulp.dest('*/dist/'))
+);
+
+
+
