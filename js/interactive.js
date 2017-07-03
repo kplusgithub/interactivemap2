@@ -48,8 +48,8 @@ $(document).ready(function () { "use strict";
 
 
             var anzahlbase= 53;
-            var anzahleg=122;
-            var anzahlog=146;
+            var anzahleg=114;
+            var anzahlog=142;
 
             egdiff=(anzahlbase+1)%modulo;
 
