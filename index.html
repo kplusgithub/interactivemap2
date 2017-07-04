@@ -201,14 +201,22 @@
 		Your browser does not support the video tag.
 	</video>-->
 
-<div class="parent">
+<div class="parent hidden-xs hidden-md">
 
 <img class="image1" src="assets/img/header02.jpg" width="100%">
 	<div id="animateimg" class="image2 pattern" style="width: 300px; height: 100%;"></div>
 	<div id="animateimg1" class="image3 pattern" style="width: 300px; height: 100%;"></div>
 	<div id="animateimg2" class="image4 pattern" style="width: 300px; height: 100%;"></div>
-	<div  class="imageHead white-primary"> <h1 class="headline-light" style="font-size: 12em;margin-left: 10%">PROMENADEN</h1><h1  class="headline-light" style="font-size: 12em;margin-left: 10%">LEIPZIG</h1></div>
+
+	<div  class="imageHead white-primary"> <h1 class="headline-light" style="font-size: 12em;margin-left: 20%">PROMENADEN</h1><h1  class="headline-light" style="font-size: 12em;margin-left: 20%">LEIPZIG</h1></div>
+
+
+
 </div>
+
+	<img class="image1 visible-md visible-xs" src="assets/img/header02_a.jpg" width="100%">
+
+
    <!-- <div class="headline">
         <div class="container" style="background:none;">
 
@@ -1748,7 +1756,7 @@ marker.bindPopup("<h6>PROMENADEN HAUPTBAHNHOF</h6>").openPopup();
             function animateDivers() {
                 $('#animateimg').animate({'left':'20%'},16000).animate({'left':'0%'},16000, animateDivers);
                 $('#animateimg1').animate({'left':'10%'},16000).animate({'left':'20%'},16000, animateDivers);
-                $('#animateimg2').animate({'left':'80%'},16000).animate({'left':'50%'},16000, animateDivers);
+                $('#animateimg2').animate({'left':'60%'},16000).animate({'left':'30%'},16000, animateDivers);
             }
 
             animateDivers();
