@@ -4,6 +4,47 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+
+.imageHead {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.image2 {
+    position: absolute;
+    top: 30px;
+    left: 10%;
+}
+
+
+.image3 {
+    position: absolute;
+    top: 30px;
+    left: 20%;
+}
+
+.image4 {
+    position: absolute;
+    top: 30px;
+    left: 70%;
+}
+
+
+
 .content-center {
 
     margin-left:auto;

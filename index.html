@@ -55,6 +55,8 @@
 
 
 
+
+
     <!-- MAPPING
     * #area1 - #area10 sind die schaltflächen, 
     *.a1 - .a10 sind die inhalte zu den flächen die ein und ausgeblendet werden, das Skript checkt wenn auf eine areaID geklickt wird und verändert (show hide) die class a1 a2.. welche divs zugeorndet sind welche die Inhalte per htmlinject aufruft.
@@ -128,6 +130,16 @@
     </style>
 
 
+
+
+
+
+
+
+
+
+
+
 </head>
 
 
@@ -153,7 +165,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li>
-                    <a href="#miet">MIETÜBERSICHT</a>
+                    <a href="#miet">MIETERÜBERSICHT</a>
                 </li>
                 <li>
                     <a href="#schnitt">SCHNITT</a>
@@ -189,8 +201,14 @@
 		Your browser does not support the video tag.
 	</video>-->
 
-<img src="assets/img/header02.jpg" width="100%">
+<div class="parent">
 
+<img class="image1" src="assets/img/header02.jpg" width="100%">
+	<div id="animateimg" class="image2 pattern" style="width: 300px; height: 100%;"></div>
+	<div id="animateimg1" class="image3 pattern" style="width: 300px; height: 100%;"></div>
+	<div id="animateimg2" class="image4 pattern" style="width: 300px; height: 100%;"></div>
+	<div  class="imageHead white-primary"> <h1 class="headline-light" style="font-size: 12em;margin-left: 10%">PROMENADEN</h1><h1  class="headline-light" style="font-size: 12em;margin-left: 10%">LEIPZIG</h1></div>
+</div>
    <!-- <div class="headline">
         <div class="container" style="background:none;">
 
@@ -206,8 +224,8 @@
 
 	<div class="row" >
 
-		<h1 class="headline-light grey-primary"  > NÄCHSTE STATION</h1>
-		<h1 class="headline-bold grey-primary" > GENUSS 2017</h1>
+		<h1 class="headline-light grey-primary float-center gap-top-60"    > NÄCHSTE STATION</h1>
+		<h1 class="headline-bold grey-primary float-center" > GENUSS 2017</h1>
 
 	</div>
     <!--<hr class="featurette-divider"> -->
@@ -303,37 +321,34 @@
 	<!--MOBILE_END-->
 	<div class="row gap-top-60" id="miet">
 
-		<h2 class="headline-bold grey-secondary float-center">MIETÜBERSICHT</h2>
+		<h2 class="headline-bold grey-secondary float-center">MIETERÜBERSICHT</h2>
 		<h2 class="headline-light grey-secondary float-center">IN GUTER NACHBARSCHAFT</h2>
 
 
-		<div  class="myCarousel carousel slide gap-top-60">
+		<div  class="myCarousel carousel slide gap-top-60" style="max-height:750px;">
 			<!-- Indicators -->
 			<ol class="carousel-indicators">
 				<li class="item1 active"></li>
 				<li class="item2"></li>
 				<li class="item3"></li>
-				<li class="item4"></li>
+
 			</ol>
 
 			<!-- Wrapper for slides -->
-			<div class="carousel-inner" role="listbox">
-				<div class="item active">
-					<img src="assets/img/area1_1.jpg" alt="Chania" width="auto" height="345">
+			<div class="carousel-inner" role="listbox" style="max-height:750px;">
+				<div class="item active" >
+					<img src="assets/img/logomap_ug.jpg" alt="Chania" width="auto" height="645">
 				</div>
 
 				<div class="item">
-					<img src="assets/img/area2_1.jpg" alt="Chania" width="auto" height="345">
+					<img src="assets/img/logomap_eg.jpg" alt="Chania" width="auto" height="645">
 				</div>
 
 				<div class="item">
-					<img src="assets/img/area5_1.jpg" alt="Flower" width="auto" height="345">
+					<img src="assets/img/logomap_og.jpg" alt="Flower" width="auto" height="645">
 				</div>
 
-				<div class="item">
-					<img src="assets/img/area4_1.jpg" alt="Flower" width="auto" height="345">
-				</div>
-			</div>
+
 
 			<!-- Left and right controls -->
 			<a class="left carousel-control" href="#myCarousel" role="button">
@@ -406,23 +421,23 @@
 		<div id="slidercontainer" class="gap-top-120 padding-center-120">
 
 		<!-- DESKTOP-->
-		<div class="rota180 hidden-xs" style="height:100px;margin-top:-100px;width: 100%;">
+		<div class="rota180 hidden-xs" style="height:200px;margin-top:-100px;width: 100%;">
 
 
 			<div class="col-xs-2 col-xs-15">
-				<div  class="strategie01 content-center" style="background:#98bf21;height:50px;width:100px;"></div>
+				<div  class="strategie01 content-center" style="background:#98bf21;height:100px;width:100px;"></div>
 			</div>
 			<div class="col-xs-2 col-xs-15">
-				<div  class="strategie02 content-center" style="background:#98bf21;height:90px;width:100px;"></div>
+				<div  class="strategie02 content-center" style="background:#98bf21;height:180px;width:100px;"></div>
 			</div>
 			<div class="col-xs-2 col-xs-15">
-				<div  class="strategie03 content-center" style="background:#98bf21;height:70px;width:100px;"></div>
+				<div  class="strategie03 content-center" style="background:#98bf21;height:140px;width:100px;"></div>
 			</div>
 			<div class="col-xs-2 col-xs-15">
-				<div  class="strategie04 content-center" style="background:#98bf21;height:40px;width:100px;"></div>
+				<div  class="strategie04 content-center" style="background:#98bf21;height:80px;width:100px;"></div>
 			</div>
 			<div class="col-xs-2 col-xs-15">
-				<div class="strategie05 content-center" style="background:#98bf21;height:20px;width:100px;"></div>
+				<div class="strategie05 content-center" style="background:#98bf21;height:40px;width:100px;"></div>
 			</div>
 
 
@@ -1635,6 +1650,7 @@
 
 </div>
 
+</div>
 
 <!-- Footer -->
 <div class="container" id="kontakt">
@@ -1722,7 +1738,23 @@ marker.bindPopup("<h6>PROMENADEN HAUPTBAHNHOF</h6>").openPopup();
 
 </script>
 
+	<script>
 
+
+        $(document).ready(function() {
+
+
+
+            function animateDivers() {
+                $('#animateimg').animate({'left':'20%'},16000).animate({'left':'0%'},16000, animateDivers);
+                $('#animateimg1').animate({'left':'10%'},16000).animate({'left':'20%'},16000, animateDivers);
+                $('#animateimg2').animate({'left':'80%'},16000).animate({'left':'50%'},16000, animateDivers);
+            }
+
+            animateDivers();
+        });
+
+	</script>
 
 
 
