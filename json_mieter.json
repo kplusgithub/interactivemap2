@@ -556,8 +556,8 @@
           {
            
            
-           "lebensmittel": "true",
-           "einzelhandel": "true",
+           "lebensmittel": "false",
+           "einzelhandel": "false",
            "gastronomie": "false",
            "dienstleistung": "true",
            "vermietet": "false",
@@ -820,9 +820,9 @@
         {
            
            
-           "lebensmittel": "true",
+           "lebensmittel": "false",
            "einzelhandel": "false",
-           "gastronomie": "false",
+           "gastronomie": "true",
            "dienstleistung": "false",
            "vermietet": "false",
            "reserviert": "true",
@@ -834,7 +834,7 @@
            
            "lebensmittel": "false",
            "einzelhandel": "false",
-           "gastronomie": "false",
+           "gastronomie": "true",
            "dienstleistung": "false",
            "vermietet": "false",
            "reserviert": "true",
