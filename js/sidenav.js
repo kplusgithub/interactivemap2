@@ -10,7 +10,7 @@ $(document).ready(function () {
 
 
     $(window).scroll(function () {
-        var threshold = 5500;   //THIS MUST BE CHANGED
+        var threshold = 7500;   //THIS MUST BE CHANGED
 
 
         if ($(window).scrollTop() >= threshold)

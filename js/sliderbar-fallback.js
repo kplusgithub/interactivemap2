@@ -15,8 +15,8 @@ jQuery("#Slider11").slider({
 
         $(".strategie01").css({height: 100 - ui*0.4});
         $(".strategie02").css({height: 160 + ui*0.20});
-        $(".strategie03").css({height: 140 - ui*0.28});
-        $(".strategie04").css({height: 80 - ui*0.4});
+        $(".strategie03").css({height: 140 - ui*0.18});
+        $(".strategie04").css({height: 80 + ui*0.05});
         $(".strategie05").css({height: 40 - ui*0.08});
     }
 

@@ -1109,8 +1109,8 @@
            
            
            "lebensmittel": "false",
-           "einzelhandel": "false",
-           "gastronomie": "true",
+           "einzelhandel": "true",
+           "gastronomie": "false",
            "dienstleistung": "false",
            "vermietet": "true",
            "reserviert": "false",
@@ -1217,8 +1217,8 @@
            
            
            "lebensmittel": "false",
-           "einzelhandel": "false",
-           "gastronomie": "true",
+           "einzelhandel": "true",
+           "gastronomie": "false",
            "dienstleistung": "false",
            "vermietet": "true",
            "reserviert": "false",

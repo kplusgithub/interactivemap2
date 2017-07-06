@@ -53,7 +53,7 @@ $("#slider2").slider({
         $("#strategie03").css({height: 70 - ui.value*0.18});
 
 
-        $("#strategie04").css({height: 40 - ui.value*0.1});
+        $("#strategie04").css({height: 40 + ui.value*0.01});
 
         $("#strategie05").css({height: 20 - ui.value*0.02});
 
