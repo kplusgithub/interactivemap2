@@ -35,7 +35,7 @@
            "vermietet": "false",
            "reserviert": "false",
            "id": "3",
-           "name": "Fotofix"
+           "name": " "
        },
           {
            
@@ -136,14 +136,14 @@
           {
            
            
-           "lebensmittel": "true",
-           "einzelhandel": "false",
+           "lebensmittel": "false",
+           "einzelhandel": "true",
            "gastronomie": "false",
            "dienstleistung": "false",
-           "vermietet": "false",
-           "reserviert": "true",
+           "vermietet": "true",
+           "reserviert": "false",
            "id": "12",
-           "name": "Bio Company Alnatura"
+           "name": "Deichmann"
        },
           {
            
@@ -203,7 +203,7 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "17",
-           "name": "Triumph"
+           "name": "Herzog & Bräuer"
        },
           {
            
@@ -239,7 +239,7 @@
            "vermietet": "false",
            "reserviert": "false",
            "id": "20",
-           "name": "Tiger Hartwaren"
+           "name": "Geschenke"
        },
           {
            
@@ -251,7 +251,7 @@
            "vermietet": "false",
            "reserviert": "false",
            "id": "21",
-           "name": "Tiger Hartwaren"
+           "name": "Game Stop"
        },
           {
            
@@ -273,9 +273,9 @@
            "gastronomie": "false",
            "dienstleistung": "false",
            "vermietet": "false",
-           "reserviert": "true",
+           "reserviert": "false",
            "id": "23",
-           "name": "Colloseum"
+           "name": "Reformhaus"
        },
           {
            
@@ -308,7 +308,7 @@
            "einzelhandel": "false",
            "gastronomie": "true",
            "dienstleistung": "false",
-           "vermietet": "true",
+           "vermietet": "false",
            "reserviert": "false",
            "id": "26",
            "name": "Bäckerei"
@@ -323,7 +323,7 @@
            "vermietet": "false",
            "reserviert": "true",
            "id": "27",
-           "name": "CAMP DAVID"
+           "name": "BLUME 2000"
        },
           {
            
@@ -347,7 +347,7 @@
            "vermietet": "false",
            "reserviert": "true",
            "id": "29",
-           "name": "Käsefeinkost"
+           "name": "De Goey"
        },
           {
            
@@ -357,9 +357,9 @@
            "gastronomie": "false",
            "dienstleistung": "false",
            "vermietet": "false",
-           "reserviert": "true",
+           "reserviert": "false",
            "id": "30",
-           "name": "Käsefeinkost"
+           "name": " "
        },
           {
            
@@ -479,7 +479,7 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "40",
-           "name": "Game Stop"
+           "name": "Sympatico"
        },
           {
            
@@ -503,7 +503,7 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "42",
-           "name": "Trendy"
+           "name": "T.H. Kleen"
        },
           {
            
@@ -521,13 +521,13 @@
            
            
            "lebensmittel": "false",
-           "einzelhandel": "true",
+           "einzelhandel": "false",
            "gastronomie": "false",
-           "dienstleistung": "false",
+           "dienstleistung": "true",
            "vermietet": "false",
            "reserviert": "false",
            "id": "44",
-           "name": "NN"
+           "name": "Dienstleistung"
        },
           {
            
@@ -605,13 +605,13 @@
            
            
            "lebensmittel": "false",
-           "einzelhandel": "true",
+           "einzelhandel": "false",
            "gastronomie": "false",
-           "dienstleistung": "false",
+           "dienstleistung": "true",
            "vermietet": "false",
            "reserviert": "false",
            "id": "51",
-           "name": "Care Energy"
+           "name": "Dienstleistung"
        },
           {
            
@@ -719,19 +719,19 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "60",
-           "name": "BONITA DOB"
+           "name": "BONITA"
        },
         {
            
            
            "lebensmittel": "false",
-           "einzelhandel": "false",
+           "einzelhandel": "true",
            "gastronomie": "false",
            "dienstleistung": "false",
            "vermietet": "true",
            "reserviert": "false",
            "id": "61",
-           "name": "ORO VIVO Juweliere"
+           "name": "Parfümerie Thiemann"
        },
         {
            
@@ -800,8 +800,8 @@
            "einzelhandel": "false",
            "gastronomie": "true",
            "dienstleistung": "false",
-           "vermietet": "true",
-           "reserviert": "false",
+           "vermietet": "false",
+           "reserviert": "true",
            "id": "67",
            "name": "Curry"
        },
@@ -887,7 +887,7 @@
            "vermietet": "false",
            "reserviert": "true",
            "id": "74",
-           "name": "Pommes"
+           "name": "Pommes Frites"
        },
         {
            
@@ -923,7 +923,7 @@
            "vermietet": "false",
            "reserviert": "true",
            "id": "77",
-           "name": "Döner"
+           "name": "Döner Tamers"
        },
         {
            
@@ -944,8 +944,8 @@
            "einzelhandel": "true",
            "gastronomie": "false",
            "dienstleistung": "false",
-           "vermietet": "false",
-           "reserviert": "true",
+           "vermietet": "true",
+           "reserviert": "false",
            "id": "79",
            "name": "TOM TAILOR"
        },
@@ -959,7 +959,7 @@
            "vermietet": "false",
            "reserviert": "true",
            "id": "80",
-           "name": "Forever 13"
+           "name": "Forever 18"
        },
         {
            
@@ -1078,6 +1078,7 @@
            "dienstleistung": "false",
            "vermietet": "true",
            "reserviert": "false",
+           "reserviert": "false",
            "id": "90",
            "name": "Snack'n coffee"
        },
@@ -1089,7 +1090,7 @@
            "gastronomie": "true",
            "dienstleistung": "false",
            "vermietet": "false",
-           "reserviert": "true",
+           "reserviert": "false",
            "id": "91",
            "name": "Immergrün"
        },
@@ -1103,7 +1104,7 @@
            "vermietet": "false",
            "reserviert": "true",
            "id": "92",
-           "name": "OVIDIO Eiscafe"
+           "name": "Campus Suite"
        },
         {
            
@@ -1115,7 +1116,7 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "93",
-           "name": "Blumen"
+           "name": "Blumen Hanisch"
        }, 
         {
            
@@ -1125,7 +1126,7 @@
            "gastronomie": "false",
            "dienstleistung": "true",
            "vermietet": "false",
-           "reserviert": "false",
+           "reserviert": "true",
            "id": "94",
            "name": "Jamie Oliver"
        },
@@ -1148,10 +1149,10 @@
            "einzelhandel": "true",
            "gastronomie": "false",
            "dienstleistung": "false",
-           "vermietet": "false",
+           "vermietet": "true",
            "reserviert": "false",
            "id": "96",
-           "name": "Deutsche Bank 24"
+           "name": "Deutsche Bank"
        },
         {
            
@@ -1163,7 +1164,7 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "97",
-           "name": "Kleen Tabakwaren"
+           "name": "Haarshop 13"
        },
         {
            
@@ -1173,7 +1174,7 @@
            "gastronomie": "false",
            "dienstleistung": "false",
            "vermietet": "false",
-           "reserviert": "true",
+           "reserviert": "false",
            "id": "98",
            "name": "LA Nails"
        },
@@ -1184,8 +1185,8 @@
            "einzelhandel": "true",
            "gastronomie": "false",
            "dienstleistung": "false",
-           "vermietet": "true",
-           "reserviert": "false",
+           "vermietet": "false",
+           "reserviert": "true",
            "id": "99",
            "name": "ORO VIVO"
        },
@@ -1208,7 +1209,7 @@
            "einzelhandel": "true",
            "gastronomie": "false",
            "dienstleistung": "false",
-           "vermietet": "true",
+           "vermietet": "false",
            "reserviert": "false",
            "id": "101",
            "name": "Bestseller"
@@ -1220,8 +1221,8 @@
            "einzelhandel": "true",
            "gastronomie": "false",
            "dienstleistung": "false",
-           "vermietet": "true",
-           "reserviert": "false",
+           "vermietet": "false",
+           "reserviert": "true",
            "id": "102",
            "name": "Görtz"
        },
@@ -1268,7 +1269,7 @@
            "einzelhandel": "true",
            "gastronomie": "false",
            "dienstleistung": "false",
-           "vermietet": "false",
+           "vermietet": "true",
            "reserviert": "false",
            "id": "106",
            "name": "Calzedonia"
@@ -1283,7 +1284,7 @@
            "vermietet": "false",
            "reserviert": "false",
            "id": "107",
-           "name": "Roland Schuhe"
+           "name": "Soestrene Grene"
        },
        {
            
@@ -1319,7 +1320,7 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "110",
-           "name": "K-Kiosk (Lotterie & Tabak)"
+           "name": "Cigo"
        },
        {
            
@@ -1388,8 +1389,8 @@
            "einzelhandel": "false",
            "gastronomie": "true",
            "dienstleistung": "false",
-           "vermietet": "true",
-           "reserviert": "false",
+           "vermietet": "false",
+           "reserviert": "true",
            "id": "116",
            "name": "Starbucks"
        },
@@ -1412,7 +1413,7 @@
            "einzelhandel": "true",
            "gastronomie": "false",
            "dienstleistung": "false",
-           "vermietet": "false",
+           "vermietet": "true",
            "reserviert": "false",
            "id": "118",
            "name": "PSG Buch & Presse"
@@ -1460,10 +1461,10 @@
            "einzelhandel": "true",
            "gastronomie": "false",
            "dienstleistung": "false",
-           "vermietet": "true",
-           "reserviert": "false",
+           "vermietet": "false",
+           "reserviert": "true",
            "id": "122",
-           "name": "Deichmann"
+           "name": "Alnatura"
        },
        {
            
@@ -1496,7 +1497,7 @@
            "einzelhandel": "false",
            "gastronomie": "true",
            "dienstleistung": "false",
-           "vermietet": "true",
+           "vermietet": "false",
            "reserviert": "false",
            "id": "125",
            "name": "Burger King"
@@ -1619,7 +1620,7 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "135",
-           "name": "L'Osteria Block House"
+           "name": "L'Osteria"
        },
        {
            
@@ -1641,7 +1642,7 @@
            "gastronomie": "true",
            "dienstleistung": "false",
            "vermietet": "false",
-           "reserviert": "false",
+           "reserviert": "true",
            "id": "137",
            "name": "Starbucks"
        },
