@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>iLeasing</title>
+    <title>Promenaden Leipzig</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -98,17 +98,17 @@
 
 
 			opacity:1;
-			font-size-adjust: 1.02;
+			font-size-adjust: 0.65;
 			box-shadow: 50px 50px 5px #000000;
 			transition: all 200ms ease-in;
-			transform: scale(1.04);
+			transform: scale(1.01);
 			z-index: 99;
 			-moz-transition: all 200ms ease-in;
-			-moz-transform: scale(1.04);
+			-moz-transform: scale(1.01);
 			-webkit-transition: all 200ms ease-in;
-			-webkit-transform: scale(1.04);
+			-webkit-transform: scale(1.01);
 			-ms-transition: all 200ms ease-in;
-			-ms-transform: scale(1.04);
+			-ms-transform: scale(1.01);
 
 			-ms-transform-origin: 50% 50%;
 			-webkit-transform-origin: 50% 50%;
@@ -280,9 +280,9 @@
 <div class="parent hidden-xs hidden-md">
 
 <img class="image1" src="assets/img/header02.jpg" width="100%" style="margin-top:51px;">
-	<div id="animateimg" class="image2 pattern" style="width: 300px; height: 100%;"></div>
-	<div id="animateimg1" class="image3 pattern" style="width: 300px; height: 100%;"></div>
-	<div id="animateimg2" class="image4 pattern" style="width: 300px; height: 100%;"></div>
+	<div id="animateimg" class="image2 pattern-alternative" style="width: 980px; height: 100%;"></div>
+	<div id="animateimg1" class="image3 pattern-alternative" style="width: 980px; height: 100%;"></div>
+	<div id="animateimg2" class="image4 pattern-alternative" style="width: 980px; height: 100%;"></div>
 
 <!--	<div  class="imageHead white-primary"> <h1 class="headline-light" style="font-size: 12em;font-size: 6vw;margin-left: 20%">PROMENADEN</h1><h1  class="headline-light" style="font-size: 12em;font-size: 6vw;margin-left: 20%">LEIPZIG</h1></div>-->
 
@@ -898,7 +898,7 @@
 
 	<div class="header-green row" >
 
-		<h1 class="headline-light white-primary"  >WILLKOMMEN IN DEN PROMENADEN HAUPTBAHNHOF LEIPZIG </h1>
+		<h1 class="headline-light white-primary"  style="margin-bottom:0;">WILLKOMMEN IN DEN PROMENADEN HAUPTBAHNHOF LEIPZIG </h1>
 		<h1 class="headline-bold white-primary hidden-xs" > SHOP & DINE 2020</h1>
 
 	</div>
@@ -935,7 +935,7 @@
             <ul class="nav nav-stacked" id="sidebar">
                 <li class="active">
                     <div class="checkbox setting col-md-1" style="padding-left:0px;">
-                        <label><input type="checkbox" id="dienstleistung" value="">
+                        <label><input type="checkbox" id="dienstleistung" value="" style="cursor: pointer;">
                             <div class="track"></div>
                             <div class="toggle"></div>
                             DIENSTLEISTUNG</label>
@@ -943,7 +943,7 @@
                 </li>
                 <li>
                     <div class="checkbox setting col-md-1" style="margin-top:10px;padding-left:0px;">
-                        <label><input type="checkbox" id="gastronomie" value="">
+                        <label><input type="checkbox" id="gastronomie" value="" style="cursor: pointer;">
                             <div class="track"></div>
                             <div class="toggle"></div>
 							GASTRONOMIE</label>
@@ -951,7 +951,7 @@
                 </li>
                 <li>
                     <div class="checkbox setting col-md-1" style="margin-top:10px;padding-left:0px;">
-                        <label><input type="checkbox" id="lebensmittel" value="">
+                        <label><input type="checkbox" id="lebensmittel" value="" style="cursor: pointer;">
                             <div class="track"></div>
                             <div class="toggle"></div>
                             LEBENSMITTEL</label>
@@ -959,7 +959,7 @@
                 </li>
 				<li>
 					<div class="checkbox setting col-md-1" style="margin-top:10px;padding-left:0px;">
-						<label><input type="checkbox" id="einzelhandel" value="">
+						<label><input type="checkbox" id="einzelhandel" value="" style="cursor: pointer;">
 							<div class="track"></div>
 							<div class="toggle"></div>
 							EINZELHANDEL</label>
@@ -1983,7 +1983,7 @@
 
 <script>var mymap = L.map('mapid').setView([51.3457051, 12.382229], 13);
 
-
+mymap.scrollWheelZoom.disable();
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiYW5vbnltb3MiLCJhIjoiY2o0Zmp5cDFqMWF6YjJxbGdkeGdvNXdtOSJ9.zEy6jM_Xy0vJy1w66Pq_5w', {
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
     maxZoom: 18,
@@ -2043,4 +2043,4 @@ marker.bindPopup("<h6>PROMENADEN HAUPTBAHNHOF</h6>").openPopup();
 </body>
 
 </html>
-                                
+                                               
