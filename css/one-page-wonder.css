@@ -5,6 +5,18 @@
  */
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 1200px) {
     .navbar-header {
         float: none;
@@ -73,6 +85,11 @@
     left: 70%;
 }
 
+.image5 {
+    position: absolute;
+    top: 0;
+    left: 0%;
+}
 
 
 .content-center {

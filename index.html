@@ -200,10 +200,6 @@
 
 
 
-
-
-
-
 </head>
 
 
@@ -270,19 +266,42 @@
 
 <!-- Full Width Image Header -->
 
-<header id="header" >
+<header id="header">
 
 <!--	<video  autoplay loop style="width: 100%">
 		<source  src="./assets/img/header.mp4" type="video/mp4" />
 		Your browser does not support the video tag.
 	</video>-->
 
-<div class="parent hidden-xs hidden-md">
+<div class=" parent hidden-xs hidden-md " >
 
-<img class="image1" src="assets/img/header02.jpg" width="100%" style="margin-top:51px;">
-	<div id="animateimg" class="image2 pattern-alternative" style="width: 980px; height: 100%;"></div>
+	<!--<img class="image1" src="assets/img/header02.jpg" width="100%" style="margin-top:51px;">-->
+
+
+
+
+
+<img class="image1" src="assets/img/header02_dark.jpg" width="100%" style="margin-top:51px;display: block">
+
+<img class="image5" src="assets/img/header_art_5.jpg"   width="100%"  style="margin-top:0px;display: block;opacity:1;"  id="animateimg4">
+
+<img class="image5" src="assets/img/header_art_4.jpg"   width="100%"  style="margin-top:0px;display: block;opacity:1;"  id="animateimg3">
+
+<img class="image5" src="assets/img/header_art_3.jpg"   width="100%"  style="margin-top:0px;display: block;opacity:1;"  id="animateimg2">
+
+<img class="image5" src="assets/img/header_art_2.jpg"   width="100%"  style="margin-top:0px;display: block;opacity:1;"  id="animateimg1">
+
+<img class="image5" src="assets/img/header_art_1.jpg"   width="100%"  style="margin-top:0px;display: block;opacity:1;"  id="animateimg">
+
+
+
+<!--	<div id="animateimg" class="image2 pattern-alternative" style="width: 980px; height: 100%;"></div>
 	<div id="animateimg1" class="image3 pattern-alternative" style="width: 980px; height: 100%;"></div>
-	<div id="animateimg2" class="image4 pattern-alternative" style="width: 980px; height: 100%;"></div>
+	<div id="animateimg2" class="image4 pattern-alternative" style="width: 980px; height: 100%;"></div>-->
+
+
+
+
 
 <!--	<div  class="imageHead white-primary"> <h1 class="headline-light" style="font-size: 12em;font-size: 6vw;margin-left: 20%">PROMENADEN</h1><h1  class="headline-light" style="font-size: 12em;font-size: 6vw;margin-left: 20%">LEIPZIG</h1></div>-->
 
@@ -1008,7 +1027,7 @@
 			<h2 class="headline-bold grey-secondary float-center">INTERAKTIVE GRUNDRISSE</h2>
 			<h2 class="headline-light grey-secondary float-center">FINDEN SIE IHREN PLATZ - EINFACH UND ÜBERSICHTLICH!</h2>
 
-            <p class="grey-secondary" style="margin-top:5%;padding-bottom:30px;font-size:24px;">ERDGESCHOSS</p>
+            <p class="grey-secondary" style="margin-top:12%;padding-bottom:30px;font-size:24px;">ERDGESCHOSS</p>
 
 
 			<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -2014,11 +2033,23 @@ marker.bindPopup("<h6>PROMENADEN HAUPTBAHNHOF</h6>").openPopup();
 
 
 
-            function animateDivers() {
+            /*function animateDivers() {
                 $('#animateimg').animate({'left':'20%'},16000).animate({'left':'0%'},16000, animateDivers);
                 $('#animateimg1').animate({'left':'10%'},16000).animate({'left':'20%'},16000, animateDivers);
                 $('#animateimg2').animate({'left':'60%'},16000).animate({'left':'30%'},16000, animateDivers);
+            }*/
+
+
+            function animateDivers() {
+                $('#animateimg').animate({'opacity':'1'},0).animate({'opacity':'0'},2000 );
+                $('#animateimg1').animate({'opacity':'1'},1500).animate({'opacity':'0'},3000 );
+                $('#animateimg2').animate({'opacity':'1'},2500).animate({'opacity':'0'},4000 );
+                $('#animateimg3').animate({'opacity':'1'},3500).animate({'opacity':'0'},5000 );
+                $('#animateimg4').animate({'opacity':'1'},4500).animate({'opacity':'0'},8000 );
+
             }
+
+
 
             animateDivers();
         });
