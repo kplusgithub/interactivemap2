@@ -2,12 +2,12 @@
 temp=0;
 
     function testScroll(evesa) {
-        if (window.pageYOffset > 400 && window.pageYOffset < 420 ) {
+        if (window.pageYOffset > 400) {
                     temp+=1;
             console.log("Haltepunkt");
         console.log(temp);
 
-
+        if(temp==1) {
         $('.count-1').each(function () {
             $(this).prop('Counter', 0).animate({
                 Counter: $(this).text()
@@ -23,6 +23,7 @@ temp=0;
 
 
         });
+        }
 
         }
 
