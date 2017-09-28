@@ -23,7 +23,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "2",
-           "name": "Schuh- & Schlüsseldienst"
+           "name": "Schuh- & Schlüsseldienst",
+            "qm": "7" 
        },
           {
            
@@ -35,7 +36,8 @@
            "vermietet": "false",
            "reserviert": "false",
            "id": "3",
-           "name": " "
+           "name": "Test",
+            "qm": "7" 
        },
           {
            

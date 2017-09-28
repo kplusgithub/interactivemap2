@@ -1,10 +1,54 @@
 <h2> Halle 3.1</h2>
 
-<img src="../interactivemap/assets/img/area3_1.jpg" alt="" width="100%">
+<img src="../interactivemap/assets/img/ug/050.jpg" alt="" width="100%">
 
-<p> Lorem Ipsum</p>
-<p> Lorem Ipsum</p>
-<p> Lorem Ipsum</p>
-<p> Lorem Ipsum</p>
-<p> Lorem Ipsum</p>
+
+
+<table class="table  grey-secondary text gap-top-60 hidden-xs" id="ugheader" style="font-size: 12px">
+    <tbody>
+
+    </tbody>
+
+</table>
+
+
+
+
+<a href="./content/pdf/expose.pdf" download="Expose" ><img src="./assets/img/pdf.svg" ></a>
+
+
+
+
+
+
+<script> $.getJSON('json_mieter.json', function(data) {
+
+
+
+
+  //HIER WIRD DIE MIETERNUMMER EINGETRAGEN
+ id=3;
+
+
+
+
+
+    var contentqm = "<tr>";
+    var contentarea = "<tr>";
+
+    contentarea += '<td>' +'<h1>'+ data.mieter[id-1].name + '</h1>' +'</td>';
+
+   contentarea += '</tr>' + '<tr>';
+
+    contentarea += '<td>' + '<h4>'+  + data.mieter[id-1].qm +' Quadradmeter' + '</h4>'+ '</td>';
+
+    contentarea += '</tr>' + '<tr>';
+
+    $('#ugheader tbody').append(contentarea);
+
+
+
+});
+
+</script>
 
