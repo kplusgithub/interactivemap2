@@ -626,7 +626,35 @@
     <div class="row gap-top-120 hidden-xs" ></div>
 	<div class="row gap-top-120 hidden-xs" ></div>
 	<div id="gapanalyse"></div>
-<div class="row" id="lageplan">
+
+<!-- KREISDIAGRAMM-->
+
+
+
+	<div class="row"> <img src="assets/img/kreisdiagram.svg">
+	 </div>
+
+	<div class="row gap-top-60">
+
+		<div class="col-md-6">
+			<p class="subheader grey-secondary">BRANCHENAUFTEILUNG 2017</p>
+		</div>
+
+		<div class="col-md-6">
+			<p class="subheader grey-secondary">BESUCHSMOTIVE 2020</p>
+		</div>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="row gap-top-120" id="lageplan">
 
 		<h2 class="headline-bold grey-secondary float-center">LAGEPLAN</h2>
 		<h2 class="headline-light grey-secondary float-center">IHR NEUER STANDORT</h2>
@@ -754,7 +782,7 @@
 </div>
 
 
-	<!-- page5 -->
+	<!-- page5  ETAGENCLUSTER-->
 
 
 	<div class="row gap-top-60" id="cluster">
@@ -767,11 +795,11 @@
 		<img src="assets/img/schnitt.png" class="img-responsive" style="padding-right:60px;padding-left:60px;">
 
 		<div class="hidden-md hidden-xs">
-			<p class="title-bold white-primary float-center" style="position: absolute;top:90px;width:100%;">GLEISEBENE
+			<p class="title-bold white-primary float-center" id="etage01" style="position: absolute;top:90px;width:100%;">GLEISEBENE
 				<span class="title-light">ANKOMMEN UND VERWEILEN</span></p>
-			<p class="title-bold white-primary float-center" style="position: absolute;top:205px;width:100%;">
+			<p class="title-bold white-primary float-center"  id="etage02" style="position: absolute;top:205px;width:100%;">
 				OBERGESCHOSS <span class="title-light">NAHVERSORGUNG</span></p>
-			<p class="title-bold white-primary float-center" style="position: absolute;top:320px;width:100%;">
+			<p class="title-bold white-primary float-center"  id="etage03" style="position: absolute;top:320px;width:100%;">
 				ERDGESCHOSS <span class="title-light">VERZEHR & SHOPPING</span></p>
 		</div>
 
@@ -786,6 +814,63 @@
 		</div>
 
 	</div>
+
+
+ <!--MODALS  -->
+
+	<div class="modal fade" role="dialog" id="etage01modal">
+		<div class="modal-dialog  modal-lg">
+			<div class="modal-content">
+
+				<img src="assets/img/grundriss_obergeschoss_area.svg">
+
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="modal fade" role="dialog" id="etage02modal">
+		<div class="modal-dialog  modal-lg">
+			<div class="modal-content">
+
+				<img src="assets/img/grundriss_erdgeschoss_area.svg">
+
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="modal fade" role="dialog" id="etage03modal">
+		<div class="modal-dialog  modal-lg">
+			<div class="modal-content">
+
+				<img src="assets/img/grundriss_basement_areas.svg">
+
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 	<hr class="featurette-divider" style="margin-top:8%;color:black;" id="ausblick">
@@ -2245,6 +2330,12 @@ marker.bindPopup("<h6>PROMENADEN HAUPTBAHNHOF</h6>").openPopup();
 
 	</script>
 
+
+
+
+
+
+
 <script src="js/counter.js"></script>
 
 <script src="../interactivemap/js/sliderbar-fallback.js" type="text/javascript" charset="utf-8"></script>
@@ -2256,7 +2347,7 @@ marker.bindPopup("<h6>PROMENADEN HAUPTBAHNHOF</h6>").openPopup();
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <!--<script src="../interactivemap/js/sliderbar.js "> </script>-->
 
-
+<script src="../interactivemap/js/modal.js"></script>
 <script src="../interactivemap/js/toggletext.js"></script>
 <script src="../interactivemap/js/interactive.js"></script>
 <script src="../interactivemap/js/colormap.js"></script>
