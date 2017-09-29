@@ -28,7 +28,11 @@ var gappa =document.getElementById("gapanalyse");
 
 
 var treshold =200;
-
+var statechange =1;
+var statechange1 =1;
+var statechange2 =1;
+var statechange3 =1;
+var statechange4 =1;
 $(nextElem).hide();
 $(nextElem1).hide();
 $(nextElem2).hide();
@@ -41,12 +45,18 @@ if (nextElem){
 
         $(nextElem).fadeToggle("slow");
         gapanalyse += 200;
-
-
+        statechange *= -1;
 
        // gappa.style.marginTop = gapanalyse.toString() + "px";
-        if(gapanalyse > treshold) {
+        if(gapanalyse > treshold && statechange == -1) {
         gappa.style.marginTop = "400px";}
+
+        if( statechange == 1){
+            gapanalyse -=400;
+        }
+        if(gapanalyse < treshold)
+        {  gappa.style.marginTop = "40px";}
+
     })
 };
 
@@ -55,11 +65,15 @@ if (nextElem1){
 
         $(nextElem1).fadeToggle("slow");
         gapanalyse += 200;
-        if(gapanalyse > treshold) {
-            gappa.style.marginTop = "400px";
-            gapanalyse = 0;
+        statechange1 *= -1;
+        if(gapanalyse > treshold && statechange1 == -1) {
+            gappa.style.marginTop = "400px";}
+
+        if( statechange1 == 1){
+            gapanalyse -=400;
         }
-            else {gappa.style.marginTop = "40px"}
+        if(gapanalyse < treshold)
+        {  gappa.style.marginTop = "40px";}
     })
 };
 
@@ -68,8 +82,18 @@ if (nextElem2){
 
         $(nextElem2).fadeToggle("slow");
         gapanalyse += 200;
-        if(gapanalyse > treshold) {
+        statechange2 *= -1;
+        if(gapanalyse > treshold && statechange2 == -1) {
             gappa.style.marginTop = "400px";}
+
+        if( statechange2 == 1){
+            gapanalyse -=400;
+        }
+
+        if(gapanalyse < treshold)
+        {  gappa.style.marginTop = "40px";}
+
+
     })
 };
 
@@ -78,8 +102,15 @@ if (nextElem3){
 
         $(nextElem3).fadeToggle("slow");
         gapanalyse += 200;
-        if(gapanalyse > treshold) {
+        statechange3 *= -1;
+        if(gapanalyse > treshold && statechange3 == -1) {
             gappa.style.marginTop = "400px";}
+
+        if( statechange3 == 1){
+            gapanalyse -=400;
+        }
+        if(gapanalyse < treshold)
+        {  gappa.style.marginTop = "40px";}
     })
 };
 
@@ -88,8 +119,15 @@ if (nextElem4){
 
         $(nextElem4).fadeToggle("slow");
         gapanalyse += 200;
-        if(gapanalyse > treshold) {
+        statechange4 *= -1;
+        if(gapanalyse > treshold && statechange4 == -1) {
             gappa.style.marginTop = "400px";}
+
+        if( statechange4 == 1){
+            gapanalyse -=400;
+        }
+        if(gapanalyse < treshold)
+        {  gappa.style.marginTop = "40px";}
     })
 };
 
