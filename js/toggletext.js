@@ -49,7 +49,7 @@ if (nextElem){
 
        // gappa.style.marginTop = gapanalyse.toString() + "px";
         if(gapanalyse > treshold && statechange == -1) {
-        gappa.style.marginTop = "400px";}
+        gappa.style.marginTop = "700px";}
 
         if( statechange == 1){
             gapanalyse -=400;
@@ -67,7 +67,7 @@ if (nextElem1){
         gapanalyse += 200;
         statechange1 *= -1;
         if(gapanalyse > treshold && statechange1 == -1) {
-            gappa.style.marginTop = "400px";}
+            gappa.style.marginTop = "700px";}
 
         if( statechange1 == 1){
             gapanalyse -=400;
@@ -84,7 +84,7 @@ if (nextElem2){
         gapanalyse += 200;
         statechange2 *= -1;
         if(gapanalyse > treshold && statechange2 == -1) {
-            gappa.style.marginTop = "400px";}
+            gappa.style.marginTop = "700px";}
 
         if( statechange2 == 1){
             gapanalyse -=400;
@@ -104,7 +104,7 @@ if (nextElem3){
         gapanalyse += 200;
         statechange3 *= -1;
         if(gapanalyse > treshold && statechange3 == -1) {
-            gappa.style.marginTop = "400px";}
+            gappa.style.marginTop = "700px";}
 
         if( statechange3 == 1){
             gapanalyse -=400;
@@ -121,7 +121,7 @@ if (nextElem4){
         gapanalyse += 200;
         statechange4 *= -1;
         if(gapanalyse > treshold && statechange4 == -1) {
-            gappa.style.marginTop = "400px";}
+            gappa.style.marginTop = "700px";}
 
         if( statechange4 == 1){
             gapanalyse -=400;

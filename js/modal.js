@@ -16,3 +16,12 @@ $('[id="etage03"]').click(function()
     $("#etage03modal").modal();
 
 });
+
+
+
+
+$('[id="hotspot01"]').click(function()
+{
+    $("#hotspot01modal").modal();
+
+});
