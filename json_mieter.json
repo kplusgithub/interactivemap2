@@ -11,7 +11,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "1",
-           "name": "Dr. Eckert Zeitschriften"
+           "name": "Dr. Eckert Zeitschriften",
+           "qm": "7"
        },
           {
            
@@ -24,7 +25,7 @@
            "reserviert": "false",
            "id": "2",
            "name": "Schuh- & Schlüsseldienst",
-            "qm": "7" 
+           "qm": "7" 
        },
           {
            
@@ -49,7 +50,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "4",
-           "name": "Ditsch Bäckerei"
+           "name": "Ditsch Bäckerei",
+           "qm": "7" 
        },
           {
            
@@ -73,7 +75,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "6",
-           "name": "LUKAS Bäckerei"
+           "name": "LUKAS Bäckerei",
+           "qm": "7" 
        },
           {
            
@@ -85,7 +88,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "7",
-           "name": "Reisezentrum Deutsche Bahn"
+           "name": "Reisezentrum Deutsche Bahn",
+           "qm": "7" 
        },
           {
            
@@ -97,7 +101,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "8",
-           "name": "Reisezentrum Deutsche Bahn"
+           "name": "Reisezentrum Deutsche Bahn",
+           "qm": "7" 
        },
           {
            
@@ -109,7 +114,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "9",
-           "name": "O² / BASE"
+           "name": "O² / BASE",
+           "qm": "7" 
        },
           {
            
@@ -121,7 +127,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "10",
-           "name": "ALDI MARKT"
+           "name": "ALDI MARKT",
+           "qm": "7" 
        },
           {
            
@@ -133,7 +140,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "11",
-           "name": "ALDI MARKT"
+           "name": "ALDI MARKT",
+           "qm": "7" 
        },
           {
            
@@ -145,7 +153,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "12",
-           "name": "Deichmann"
+           "name": "Deichmann",
+           "qm": "7" 
        },
           {
            
@@ -157,7 +166,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "13",
-           "name": "Tchibo"
+           "name": "Tchibo",
+           "qm": "7" 
        },
           {
            
@@ -169,7 +179,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "14",
-           "name": "THE BODY SHOP"
+           "name": "THE BODY SHOP",
+           "qm": "7" 
        },
           {
            
@@ -181,7 +192,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "15",
-           "name": "Hunkemöller"
+           "name": "Hunkemöller",
+           "qm": "7" 
        },
           {
            
@@ -193,7 +205,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "16",
-           "name": "Party Fiesta"
+           "name": "Party Fiesta",
+           "qm": "7" 
        },
           {
            
@@ -205,7 +218,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "17",
-           "name": "Herzog & Bräuer"
+           "name": "Herzog & Bräuer",
+           "qm": "7" 
        },
           {
            
@@ -217,7 +231,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "18",
-           "name": "Gerry Weber"
+           "name": "Gerry Weber",
+           "qm": "7" 
        },
           {
            
@@ -229,7 +244,8 @@
            "vermietet": "false",
            "reserviert": "false",
            "id": "19",
-           "name": "Monsoon"
+           "name": "Monsoon",
+           "qm": "7" 
        },
           {
            
@@ -241,7 +257,8 @@
            "vermietet": "false",
            "reserviert": "false",
            "id": "20",
-           "name": "Geschenke"
+           "name": "Geschenke",
+           "qm": "7" 
        },
           {
            
@@ -253,7 +270,8 @@
            "vermietet": "false",
            "reserviert": "false",
            "id": "21",
-           "name": "Game Stop"
+           "name": "Game Stop",
+           "qm": "7" 
        },
           {
            
@@ -265,7 +283,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "22",
-           "name": "NANU NANA"
+           "name": "NANU NANA",
+           "qm": "7" 
        },
           {
            
@@ -277,7 +296,8 @@
            "vermietet": "false",
            "reserviert": "false",
            "id": "23",
-           "name": "Reformhaus"
+           "name": "Reformhaus",
+           "qm": "7" 
        },
           {
            
@@ -289,7 +309,8 @@
            "vermietet": "false",
            "reserviert": "false",
            "id": "24",
-           "name": "Obst"
+           "name": "Obst",
+           "qm": "7" 
        },
           {
            
@@ -301,7 +322,8 @@
            "vermietet": "false",
            "reserviert": "false",
            "id": "25",
-           "name": "Metzger"
+           "name": "Metzger",
+           "qm": "7" 
        },
           {
            
@@ -313,7 +335,8 @@
            "vermietet": "false",
            "reserviert": "false",
            "id": "26",
-           "name": "Bäckerei"
+           "name": "Bäckerei",
+           "qm": "7" 
        },
           {
            
@@ -325,7 +348,8 @@
            "vermietet": "false",
            "reserviert": "true",
            "id": "27",
-           "name": "BLUME 2000"
+           "name": "BLUME 2000",
+           "qm": "7" 
        },
           {
            
@@ -337,7 +361,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "28",
-           "name": "REWE"
+           "name": "REWE",
+           "qm": "7" 
        },
           {
            
@@ -349,7 +374,8 @@
            "vermietet": "false",
            "reserviert": "true",
            "id": "29",
-           "name": "De Goey"
+           "name": "De Goey",
+           "qm": "7" 
        },
           {
            
@@ -361,7 +387,8 @@
            "vermietet": "false",
            "reserviert": "false",
            "id": "30",
-           "name": " "
+           "name": " ",
+           "qm": "7" 
        },
           {
            
@@ -373,7 +400,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "31",
-           "name": "Halloren"
+           "name": "Halloren",
+           "qm": "7" 
        },
           {
            
@@ -385,7 +413,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "32",
-           "name": "Jolifin"
+           "name": "Jolifin",
+           "qm": "7" 
        },
           {
            
@@ -397,7 +426,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "33",
-           "name": "Coffee Fellows"
+           "name": "Coffee Fellows",
+           "qm": "7" 
        },
           {
            
@@ -409,7 +439,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "34",
-           "name": "McPaper"
+           "name": "McPaper",
+           "qm": "7" 
        },
           {
            
@@ -421,7 +452,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "35",
-           "name": "McTREK"
+           "name": "McTREK",
+           "qm": "7" 
        },
           {
            
@@ -433,7 +465,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "36",
-           "name": "Liberty women"
+           "name": "Liberty women",
+           "qm": "7" 
        },
           {
            
@@ -445,7 +478,8 @@
            "vermietet": "false",
            "reserviert": "false",
            "id": "37",
-           "name": "Leder Schneider"
+           "name": "Leder Schneider",
+           "qm": "7" 
        },
           {
            
@@ -457,7 +491,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "38",
-           "name": "Parfümerie Bauer"
+           "name": "Parfümerie Bauer",
+           "qm": "7" 
        },
           {
            
@@ -469,7 +504,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "39",
-           "name": "Gabor Schuhe"
+           "name": "Gabor Schuhe",
+           "qm": "7" 
        },
           {
            
@@ -481,7 +517,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "40",
-           "name": "Sympatico"
+           "name": "Sympatico",
+           "qm": "7" 
        },
           {
            
@@ -493,7 +530,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "41",
-           "name": "Yves Rocher"
+           "name": "Yves Rocher",
+           "qm": "7" 
        },
           {
            
@@ -505,7 +543,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "42",
-           "name": "T.H. Kleen"
+           "name": "T.H. Kleen",
+           "qm": "7" 
        },
           {
            
@@ -517,7 +556,8 @@
            "vermietet": "false",
            "reserviert": "false",
            "id": "43",
-           "name": "Eiskiosk"
+           "name": "Eiskiosk",
+           "qm": "7" 
        },
           {
            
@@ -529,7 +569,8 @@
            "vermietet": "false",
            "reserviert": "false",
            "id": "44",
-           "name": "Dienstleistung"
+           "name": "Dienstleistung",
+           "qm": "7" 
        },
           {
            
@@ -541,7 +582,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "45",
-           "name": "REWE to go"
+           "name": "REWE to go",
+           "qm": "7" 
        },
           {
            
@@ -553,7 +595,8 @@
            "vermietet": "false",
            "reserviert": "false",
            "id": "46",
-           "name": "Autovermiertung"
+           "name": "Autovermiertung",
+           "qm": "7" 
        },
           {
            
@@ -565,7 +608,8 @@
            "vermietet": "false",
            "reserviert": "false",
            "id": "47",
-           "name": "Autovermiertung"
+           "name": "Autovermiertung",
+           "qm": "7" 
        },
           {
            
@@ -577,7 +621,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "48",
-           "name": "Deutsche Post"
+           "name": "Deutsche Post",
+           "qm": "7" 
        },
           {
            
@@ -589,7 +634,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "49",
-           "name": "Deutsche Post"
+           "name": "Deutsche Post",
+           "qm": "7" 
        },
           {
            
@@ -601,7 +647,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "50",
-           "name": "FOTOFIX"
+           "name": "FOTOFIX",
+           "qm": "7" 
        },
           {
            
@@ -613,7 +660,8 @@
            "vermietet": "false",
            "reserviert": "false",
            "id": "51",
-           "name": "Dienstleistung"
+           "name": "Dienstleistung",
+           "qm": "7" 
        },
           {
            
@@ -625,7 +673,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "52",
-           "name": "Sanifair"
+           "name": "Sanifair",
+           "qm": "7" 
        },
         {
            
@@ -637,7 +686,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "53",
-           "name": "Abellio"
+           "name": "Abellio",
+           "qm": "7" 
        },
         {
            
@@ -649,7 +699,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "54",
-           "name": "Apotheke Tepe"
+           "name": "Apotheke Tepe",
+           "qm": "7" 
        },
         {
            
@@ -661,7 +712,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "55",
-           "name": "Engbers"
+           "name": "Engbers",
+           "qm": "7" 
        },
         {
            
@@ -673,7 +725,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "56",
-           "name": "Barrique"
+           "name": "Barrique",
+           "qm": "7" 
        },
         {
            
@@ -685,7 +738,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "57", 
-           "name": "Tally Weijl"
+           "name": "Tally Weijl",
+           "qm": "7" 
        },
         {
            
@@ -697,7 +751,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "58",
-           "name": "Mustang Store"
+           "name": "Mustang Store",
+           "qm": "7" 
        },
         {
            
@@ -709,7 +764,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "59",
-           "name": "Orsay Junge Mode"
+           "name": "Orsay Junge Mode",
+           "qm": "7" 
        },
         {
            
@@ -721,7 +777,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "60",
-           "name": "BONITA"
+           "name": "BONITA",
+           "qm": "7" 
        },
         {
            
@@ -733,7 +790,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "61",
-           "name": "Parfümerie Thiemann"
+           "name": "Parfümerie Thiemann",
+           "qm": "7" 
        },
         {
            
@@ -745,7 +803,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "62",
-           "name": "Parfümerie Thiemann"
+           "name": "Parfümerie Thiemann",
+           "qm": "7" 
        },
         {
            
@@ -757,7 +816,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "63",
-           "name": "Masala - Indien Food"
+           "name": "Masala - Indien Food",
+           "qm": "7" 
        },
         {
            
@@ -769,7 +829,8 @@
            "vermietet": "false",
            "reserviert": "true",
            "id": "64",
-           "name": "Vitamui"
+           "name": "Vitamui",
+           "qm": "7" 
        },
         {
            
@@ -781,7 +842,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "65",
-           "name": "Fatih Servet Öncebe"
+           "name": "Fatih Servet Öncebe",
+           "qm": "7" 
        },
         {
            
@@ -793,7 +855,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "66",
-           "name": "Asiahung"
+           "name": "Asiahung",
+           "qm": "7" 
        },
         {
            
@@ -805,7 +868,8 @@
            "vermietet": "false",
            "reserviert": "true",
            "id": "67",
-           "name": "Curry"
+           "name": "Curry",
+           "qm": "7" 
        },
         {
            
@@ -817,7 +881,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "68",
-           "name": "Fleischerei Gretenkord"
+           "name": "Fleischerei Gretenkord",
+           "qm": "7" 
        },
         {
            
@@ -829,7 +894,8 @@
            "vermietet": "false",
            "reserviert": "true",
            "id": "69",
-           "name": "Burgermeister"
+           "name": "Burgermeister",
+           "qm": "7" 
        },
         {
            
@@ -841,7 +907,8 @@
            "vermietet": "false",
            "reserviert": "true",
            "id": "70",
-           "name": "Chipotle"
+           "name": "Chipotle",
+           "qm": "7" 
        },
         {
            
@@ -853,7 +920,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "71",
-           "name": "Ciao Bella"
+           "name": "Ciao Bella",
+           "qm": "7" 
        },
         {
            
@@ -865,7 +933,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "72",
-           "name": "Ditsch Brezel"
+           "name": "Ditsch Brezel",
+           "qm": "7" 
        },
         {
            
@@ -877,7 +946,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "73",
-           "name": "Asiagourmet"
+           "name": "Asiagourmet",
+           "qm": "7" 
        },
         {
            
@@ -889,7 +959,8 @@
            "vermietet": "false",
            "reserviert": "true",
            "id": "74",
-           "name": "Pommes Frites"
+           "name": "Pommes Frites",
+           "qm": "7" 
        },
         {
            
@@ -901,7 +972,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "75",
-           "name": "Mc Donald's"
+           "name": "Mc Donald's",
+           "qm": "7" 
        },
         {
            
@@ -913,7 +985,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "76",
-           "name": "NORDSEE"
+           "name": "NORDSEE",
+           "qm": "7" 
        },
         {
            
@@ -925,7 +998,8 @@
            "vermietet": "false",
            "reserviert": "true",
            "id": "77",
-           "name": "Döner Tamers"
+           "name": "Döner Tamers",
+           "qm": "7" 
        },
         {
            
@@ -937,7 +1011,8 @@
            "vermietet": "false",
            "reserviert": "false",
            "id": "78",
-           "name": "Pimkie"
+           "name": "Pimkie",
+           "qm": "7" 
        },
         {
            
@@ -949,7 +1024,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "79",
-           "name": "TOM TAILOR"
+           "name": "TOM TAILOR",
+           "qm": "7" 
        },
         {
            
@@ -961,7 +1037,8 @@
            "vermietet": "false",
            "reserviert": "true",
            "id": "80",
-           "name": "Forever 18"
+           "name": "Forever 18",
+           "qm": "7" 
        },
         {
            
@@ -973,7 +1050,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "81",
-           "name": "Fexcom"
+           "name": "Fexcom",
+           "qm": "7" 
        },
         {
            
@@ -985,7 +1063,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "82",
-           "name": "dm-Drogeriemarkt"
+           "name": "dm-Drogeriemarkt",
+           "qm": "7" 
        },
         {
            
@@ -997,7 +1076,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "83",
-           "name": "Reise-Bank"
+           "name": "Reise-Bank",
+           "qm": "7" 
        },
         {
            
@@ -1009,7 +1089,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "84",
-           "name": "SATURN"
+           "name": "SATURN",
+           "qm": "7" 
        },
         {
            
@@ -1021,7 +1102,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "85",
-           "name": "Fotofix & Geldautomat"
+           "name": "Fotofix & Geldautomat",
+           "qm": "7" 
        },
         {
            
@@ -1033,7 +1115,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "86",
-           "name": "claire's Accessoires"
+           "name": "claire's Accessoires",
+           "qm": "7" 
        },
         {
            
@@ -1045,7 +1128,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "87",
-           "name": "Le' Crobag"
+           "name": "Le' Crobag",
+           "qm": "7" 
        },
         {
            
@@ -1057,7 +1141,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "88",
-           "name": "Sparkasse (SB)"
+           "name": "Sparkasse (SB)",
+           "qm": "7" 
        },
         {
            
@@ -1069,7 +1154,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "89",
-           "name": "mobicom-debitel"
+           "name": "mobicom-debitel",
+           "qm": "7" 
        },
         {
            
@@ -1082,7 +1168,8 @@
            "reserviert": "false",
            "reserviert": "false",
            "id": "90",
-           "name": "Snack'n coffee"
+           "name": "Snack'n coffee",
+           "qm": "7" 
        },
         {
            
@@ -1094,7 +1181,8 @@
            "vermietet": "false",
            "reserviert": "false",
            "id": "91",
-           "name": "Immergrün"
+           "name": "Immergrün",
+           "qm": "7" 
        },
         {
            
@@ -1106,7 +1194,8 @@
            "vermietet": "false",
            "reserviert": "true",
            "id": "92",
-           "name": "Campus Suite"
+           "name": "Campus Suite",
+           "qm": "7" 
        },
         {
            
@@ -1118,7 +1207,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "93",
-           "name": "Blumen Hanisch"
+           "name": "Blumen Hanisch",
+           "qm": "7" 
        }, 
         {
            
@@ -1130,7 +1220,8 @@
            "vermietet": "false",
            "reserviert": "true",
            "id": "94",
-           "name": "Jamie Oliver"
+           "name": "Jamie Oliver",
+           "qm": "7" 
        },
         {
            
@@ -1142,7 +1233,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "95",
-           "name": "DB Reise & Touristik Gepäckschliessfach"
+           "name": "DB Reise & Touristik Gepäckschliessfach",
+           "qm": "7" 
        },
         {
            
@@ -1154,7 +1246,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "96",
-           "name": "Deutsche Bank"
+           "name": "Deutsche Bank",
+           "qm": "7" 
        },
         {
            
@@ -1166,7 +1259,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "97",
-           "name": "Haarshop 13"
+           "name": "Haarshop 13",
+           "qm": "7" 
        },
         {
            
@@ -1178,7 +1272,8 @@
            "vermietet": "false",
            "reserviert": "false",
            "id": "98",
-           "name": "LA Nails"
+           "name": "LA Nails",
+           "qm": "7" 
        },
         {
            
@@ -1190,7 +1285,8 @@
            "vermietet": "false",
            "reserviert": "true",
            "id": "99",
-           "name": "ORO VIVO"
+           "name": "ORO VIVO",
+           "qm": "7" 
        },
         {
            
@@ -1202,7 +1298,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "100",
-           "name": "Bären Company"
+           "name": "Bären Company",
+           "qm": "7" 
        },
         {
            
@@ -1214,7 +1311,8 @@
            "vermietet": "false",
            "reserviert": "false",
            "id": "101",
-           "name": "Bestseller"
+           "name": "Bestseller",
+           "qm": "7" 
        },
         {
            
@@ -1226,7 +1324,8 @@
            "vermietet": "false",
            "reserviert": "true",
            "id": "102",
-           "name": "Görtz"
+           "name": "Görtz",
+           "qm": "7" 
        },
         {
            
@@ -1238,7 +1337,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "103",
-           "name": "Dunkin' Donuts"
+           "name": "Dunkin' Donuts",
+           "qm": "7" 
        },
         {
            
@@ -1250,7 +1350,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "104",
-           "name": "Bjou Brigitte"
+           "name": "Bjou Brigitte",
+           "qm": "7" 
        },
         {
            
@@ -1262,7 +1363,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "105",
-           "name": "Hussel"
+           "name": "Hussel",
+           "qm": "7" 
        },
         {
            
@@ -1274,7 +1376,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "106",
-           "name": "Calzedonia"
+           "name": "Calzedonia",
+           "qm": "7" 
        },
        {
            
@@ -1286,7 +1389,8 @@
            "vermietet": "false",
            "reserviert": "false",
            "id": "107",
-           "name": "Soestrene Grene"
+           "name": "Soestrene Grene",
+           "qm": "7" 
        },
        {
            
@@ -1298,7 +1402,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "108",
-           "name": "Chelsea"
+           "name": "Chelsea",
+           "qm": "7" 
        },
        {
            
@@ -1310,7 +1415,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "109",
-           "name": "Elbenwald"
+           "name": "Elbenwald",
+           "qm": "7" 
        },
        {
            
@@ -1322,7 +1428,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "110",
-           "name": "Cigo"
+           "name": "Cigo",
+           "qm": "7" 
        },
        {
            
@@ -1334,7 +1441,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "111",
-           "name": "Viba sweet"
+           "name": "Viba sweet",
+           "qm": "7" 
        },
        {
            
@@ -1346,7 +1454,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "112",
-           "name": "Sparkasse"
+           "name": "Sparkasse",
+           "qm": "7" 
        },
        {
            
@@ -1358,7 +1467,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "113",
-           "name": "O2"
+           "name": "O2",
+           "qm": "7" 
        },
        {
            
@@ -1370,7 +1480,8 @@
            "vermietet": "false",
            "reserviert": "false",
            "id": "114",
-           "name": "Vapiano"
+           "name": "Vapiano",
+           "qm": "7" 
        },
        {
            
@@ -1382,7 +1493,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "115",
-           "name": "Blumen Hanisch"
+           "name": "Blumen Hanisch",
+           "qm": "7" 
        },
        {
            
@@ -1394,7 +1506,8 @@
            "vermietet": "false",
            "reserviert": "true",
            "id": "116",
-           "name": "Starbucks"
+           "name": "Starbucks",
+           "qm": "7" 
        },
        {
            
@@ -1406,7 +1519,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "117",
-           "name": "Kamps"
+           "name": "Kamps",
+           "qm": "7" 
        },
        {
            
@@ -1418,7 +1532,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "118",
-           "name": "PSG Buch & Presse"
+           "name": "PSG Buch & Presse",
+           "qm": "7" 
        },
        {
            
@@ -1430,7 +1545,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "119",
-           "name": "Subway"
+           "name": "Subway",
+           "qm": "7" 
        },
        {
            
@@ -1442,7 +1558,8 @@
            "vermietet": "false",
            "reserviert": "true",
            "id": "120",
-           "name": "Camp David"
+           "name": "Camp David",
+           "qm": "7" 
        },
        {
            
@@ -1454,7 +1571,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "121",
-           "name": "Esprit"
+           "name": "Esprit",
+           "qm": "7" 
        },
        {
            
@@ -1466,7 +1584,8 @@
            "vermietet": "false",
            "reserviert": "true",
            "id": "122",
-           "name": "Alnatura"
+           "name": "Alnatura",
+           "qm": "7" 
        },
        {
            
@@ -1478,7 +1597,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "123",
-           "name": "Rossmann"
+           "name": "Rossmann",
+           "qm": "7" 
        },
        {
            
@@ -1490,7 +1610,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "124",
-           "name": "Sparda Bank"
+           "name": "Sparda Bank",
+           "qm": "7" 
        },
        {
            
@@ -1502,7 +1623,8 @@
            "vermietet": "false",
            "reserviert": "false",
            "id": "125",
-           "name": "Burger King"
+           "name": "Burger King",
+           "qm": "7" 
        },
        {
            
@@ -1514,7 +1636,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "126",
-           "name": "Kentucky Fried Chicken"
+           "name": "Kentucky Fried Chicken",
+           "qm": "7" 
        },
        {
            
@@ -1526,7 +1649,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "127",
-           "name": "Mc Donald's"
+           "name": "Mc Donald's",
+           "qm": "7" 
        },
        {
            
@@ -1538,7 +1662,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "128",
-           "name": "Point Markt"
+           "name": "Point Markt",
+           "qm": "7" 
        },
        {
            
@@ -1550,7 +1675,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "129",
-           "name": "Super Cut"
+           "name": "Super Cut",
+           "qm": "7" 
        },
        {
            
@@ -1562,7 +1688,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "130",
-           "name": "Bierbar Gleis 8"
+           "name": "Bierbar Gleis 8",
+           "qm": "7" 
        },
        {
            
@@ -1574,7 +1701,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "131",
-           "name": "Lukas Bäckerei"
+           "name": "Lukas Bäckerei",
+           "qm": "7" 
        },
        {
            
@@ -1586,7 +1714,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "132",
-           "name": "Buchhaus Ludwig"
+           "name": "Buchhaus Ludwig",
+           "qm": "7" 
        },
        {
            
@@ -1598,7 +1727,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "133",
-           "name": "Pizza Hut"
+           "name": "Pizza Hut",
+           "qm": "7" 
        },
        {
            
@@ -1610,7 +1740,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "134",
-           "name": "Starbucks"
+           "name": "Starbucks",
+           "qm": "7" 
        },
        {
            
@@ -1622,7 +1753,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "135",
-           "name": "L'Osteria"
+           "name": "L'Osteria",
+           "qm": "7" 
        },
        {
            
@@ -1634,7 +1766,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "136",
-           "name": "Subway"
+           "name": "Subway",
+           "qm": "7" 
        },
        {
            
@@ -1646,7 +1779,8 @@
            "vermietet": "false",
            "reserviert": "true",
            "id": "137",
-           "name": "Starbucks"
+           "name": "Starbucks",
+           "qm": "7" 
        },
        {
            
@@ -1658,7 +1792,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "138",
-           "name": "Friseur Klier"
+           "name": "Friseur Klier",
+           "qm": "7" 
        },
        {
            
@@ -1670,7 +1805,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "139",
-           "name": "Sanifair"
+           "name": "Sanifair",
+           "qm": "7" 
        },
        {
            
@@ -1682,7 +1818,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "140",
-           "name": "Zoo Richter"
+           "name": "Zoo Richter",
+           "qm": "7" 
        },
        {
            
@@ -1694,7 +1831,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "141",
-           "name": "Saturn"
+           "name": "Saturn",
+           "qm": "7" 
        },
        {
            
@@ -1706,7 +1844,8 @@
            "vermietet": "false",
            "reserviert": "true",
            "id": "142",
-           "name": "DB Lounge"
+           "name": "DB Lounge",
+           "qm": "7" 
        },
        {
            
@@ -1718,7 +1857,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "143",
-           "name": "LUKAS Bäckerei"
+           "name": "LUKAS Bäckerei",
+           "qm": "7" 
        },
        {
            
@@ -1730,7 +1870,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "144",
-           "name": "LUKAS Bäckerei"
+           "name": "LUKAS Bäckerei",
+           "qm": "7" 
        },
        {
            
@@ -1742,7 +1883,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "145",
-           "name": "LUKAS Bäckerei"
+           "name": "LUKAS Bäckerei",
+           "qm": "7" 
        },
        {
            
@@ -1754,7 +1896,8 @@
            "vermietet": "true",
            "reserviert": "false",
            "id": "146",
-           "name": "hansen-obst"
+           "name": "hansen-obst",
+           "qm": "7" 
        }
        
   
