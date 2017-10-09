@@ -13,15 +13,15 @@ $.getJSON('json_mieter.json', function(data) {
 
         if (data.mieter[i].vermietet === "true") {
 
-            $('#map-' + na).css({"fill": "red"});
+            $('#map-' + na).css({"fill": "#404040"});
         }
         else if (data.mieter[i].reserviert === "true") {
 
-            $('#map-' + na).css({"fill": "orange"});
+            $('#map-' + na).css({"fill": "#404040"});
         }
         else {
 
-            $('#map-' + na).css({"fill": "green"});
+            $('#map-' + na).css({"fill": "#96C31E"});
 
         }
     }
