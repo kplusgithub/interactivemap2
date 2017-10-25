@@ -1,24 +1,26 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1552 464" style="enable-background:new 0 0 1552 464;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FBED22;}
 	.st1{fill:#8AA80C;}
 	.st2{fill:#CACF18;}
 	.st3{fill:none;}
-	.st4{font-family:'Lato-Light','Helvetica';}
+	.st4{font-family:'Helvetica';}
 	.st5{font-size:18px;}
-	.st6{fill:#FCEE1D;}
-	.st7{fill:#ECE41F;}
-	.st8{fill:#DAD91B;}
-	.st9{fill:#98B20F;}
-	.st10{fill:#B9C616;}
-	.st11{fill:#757575;}
-	.st12{font-family:'Lato-Regular','Helvetica';}
-	.st13{font-size:24px;}
+	.st6{fill:#DEDEDE;}
+	.st7{fill:#BCBCBC;}
+	.st8{fill:#9B9B9B;}
+	.st9{fill:#212121;}
+	.st10{fill:#424242;}
+	.st11{fill:#636363;}
+	.st12{fill:#7A7A7A;}
+	.st13{fill:#757575;}
+	.st14{font-family:'Helvetica';}
+	.st15{font-size:24px;}
 </style>
-<g id="Ebene_1">
+<g id="Ebene_1_1_">
 	<g>
 		<path class="st0" d="M1196.2,299.8c34.6-59.7,37.1-135.8-0.1-199.8S1091.6,0.5,1022.6,1l0.5,199.6L1196.2,299.8z"/>
 		<path class="st1" d="M1196.2,299.8l-173.1-99.3L851.9,300l0,0c55.2,95,177,127.3,272,72.1C1155.1,354,1179.4,328.8,1196.2,299.8z"
@@ -52,26 +54,22 @@
 		<rect x="218" y="292" class="st6" width="11" height="11"/>
 		<rect x="218" y="259" class="st7" width="11" height="11"/>
 		<rect x="218" y="226" class="st8" width="11" height="11"/>
-		<rect x="218" y="94" class="st1" width="11" height="11"/>
-		<rect x="218" y="127" class="st9" width="11" height="11"/>
-		<rect x="218" y="160" class="st10" width="11" height="11"/>
-		<rect x="218" y="193" class="st2" width="11" height="11"/>
+		<rect x="218" y="94" class="st9" width="11" height="11"/>
+		<rect x="218" y="127" class="st10" width="11" height="11"/>
+		<rect x="218" y="160" class="st11" width="11" height="11"/>
+		<rect x="218" y="193" class="st12" width="11" height="11"/>
 	</g>
 	<polygon class="st1" points="759,212 759,167 781.5,189.5 	"/>
 	<rect x="307" y="445" class="st3" width="396" height="55"/>
-	<text transform="matrix(1 0 0 1 334.5298 462.6875)" class="st11 st12 st13">BRANCHENAUFTEILUNG 2017 </text>
+	<text transform="matrix(1 0 0 1 334.5298 462.6875)" class="st13 st14 st15">BRANCHENAUFTEILUNG 2010 </text>
 	<rect x="825" y="445" class="st3" width="396" height="55"/>
-	<text transform="matrix(1 0 0 1 892.8257 462.6875)" class="st11 st12 st13">BESUCHSMOTIVE 2020</text>
+	<text transform="matrix(1 0 0 1 892.8257 462.6875)" class="st13 st14 st15">BESUCHSMOTIVE 2020</text>
 </g>
-<g id="Ebene_2">
-	<g>
-		<circle class="st8" cx="504" cy="199" r="199"/>
-		<path class="st6" d="M415.9,377.5c26.6,13.1,56.5,20.5,88.1,20.5c47.3,0,90.8-16.5,124.9-44.1L504,199L415.9,377.5z"/>
-		<path class="st1" d="M306.9,226.7c9.2,66.2,51,122,108.7,150.6l0.4-0.3l88-178L306.9,226.7z"/>
-		<path class="st9" d="M316,133.6c-7.1,20.5-11,42.5-11,65.4c0,9.5,0.7,18.9,2,28l0,0l197-28L316,133.6z"/>
-		<path class="st10" d="M316,134l188,65L372.7,49.4c-25.6,22.5-45.4,51.5-56.8,84.5L316,134z"/>
-		<path class="st2" d="M451.6,7c-29.4,8-56.1,22.6-78.5,42.1l0.6,0.7L504,199L451.6,7z"/>
-		<path class="st7" d="M609.3,30.1L504,199l124.7,155.1C674,317.6,703,261.7,703,199C703,127.8,665.6,65.3,609.3,30.1z"/>
-	</g>
-</g>
+<circle class="st8" cx="504" cy="199" r="199"/>
+<path class="st6" d="M415.9,377.5c26.6,13.1,56.5,20.5,88.1,20.5c47.3,0,90.8-16.5,124.9-44.1L504,199L415.9,377.5z"/>
+<path class="st9" d="M306.9,226.7c9.2,66.2,51,122,108.7,150.6l0.4-0.3l88-178L306.9,226.7z"/>
+<path class="st10" d="M316,133.6c-7.1,20.5-11,42.5-11,65.4c0,9.5,0.7,18.9,2,28l0,0l197-28L316,133.6z"/>
+<path class="st11" d="M316,134l188,65L372.7,49.4c-25.6,22.5-45.4,51.5-56.8,84.5L316,134z"/>
+<path class="st12" d="M451.6,7c-29.4,8-56.1,22.6-78.5,42.1l0.6,0.7L504,199L451.6,7z"/>
+<path class="st7" d="M609.3,30.1L504,199l124.7,155.1C674,317.6,703,261.7,703,199C703,127.8,665.6,65.3,609.3,30.1z"/>
 </svg>
