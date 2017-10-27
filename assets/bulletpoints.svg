@@ -9,9 +9,9 @@
 	.st3{fill:#93C01F;}
 	.st4{fill:#212121;}
 	.st5{fill:#B3B3B3;}
-	.st6{font-family:'HelveticaLTStd-Fractions';}
+	.st6{font-family:'Lato','Helvitca';}
 	.st7{font-size:7px;}
-	.st8{font-family:'Lato';}
+	.st8{font-family:'Lato','Helvitca';}
 	.st9{opacity:0.87;fill:#FFFFFF;enable-background:new    ;}
 	.st10{fill:none;}
 	.st11{opacity:0.87;}
