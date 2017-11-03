@@ -279,7 +279,19 @@
 
 
 
-<img class="image1" src="assets/img/header.jpg" width="100%" style="margin-top:51px;display: block">
+<!--<img class="image1" src="assets/img/header.jpg" width="100%" style="margin-top:51px;display: block">-->
+
+
+
+	<img class="image1" src="assets/img/header.jpg" width="100%" style="margin-top:51px;display: block">
+
+	<img class="image5" src="assets/img/header.jpg"   width="100%"  style="margin-top:0px;display: block;opacity:1;"  id="animateimg3">
+
+	<img class="image5" src="assets/img/header_02.jpg"   width="100%"  style="margin-top:0px;display: block;opacity:1;"  id="animateimg2">
+
+	<img class="image5" src="assets/img/header_03.jpg"   width="100%"  style="margin-top:0px;display: block;opacity:1;"  id="animateimg1">
+
+	<img class="image5" src="assets/img/header.jpg"   width="100%"  style="margin-top:0px;display: block;opacity:1;"  id="animateimg">
 
 
 
@@ -2350,6 +2362,24 @@ marker.bindPopup("<h6>INNENSTADT</h6>");
 
 </script>
 
+
+
+
+
+<script>
+    $(document).ready(function() {
+
+        function animateDivers() {
+            $('#animateimg').animate({'opacity':'1'},0).animate({'opacity':'0'},500 );
+            $('#animateimg1').animate({'opacity':'1'},200).animate({'opacity':'0'},1500);
+            $('#animateimg2').animate({'opacity':'1'},500).animate({'opacity':'0'},2000);
+            $('#animateimg3').animate({'opacity':'1'},1000).animate({'opacity':'0'},2000, animateDivers);
+
+
+        }
+        animateDivers();
+    });
+</script>
 
 
 
