@@ -3,19 +3,19 @@
 <svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 2258.6 1304.8" style="enable-background:new 0 0 2258.6 1304.8;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#EAEAB9;stroke:#FFFFFF;stroke-width:0.635;enable-background:new    ;}
-	.st1{fill:#EAEAB9;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
+	.st0{fill:#E0E0E0;stroke:#FFFFFF;stroke-width:0.635;}
+	.st1{fill:#E0E0E0;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
 	.st2{fill:none;}
 	.st3{enable-background:new    ;}
 	.st4{font-family:'Helvetica';}
 	.st5{font-size:60px;}
 	.st6{font-family:'Helvetica';}
 	.st7{font-size:30px;}
-	.st8{fill:#EAEAB9;}
+	.st8{fill:#E0E0E0;}
 	.st9{fill:#FF0000;}
 	.st10{fill:#353535;}
 	.st11{font-size:30.8872px;}
-	.st12{fill:#FF00FF;}
+	.st12{fill:#96C31E;}
 	.st13{fill:#0000FF;}
 </style>
 <g id="Ebene_1_1_">
@@ -305,7 +305,7 @@
 			534.2,785.3 534.1,785.4 533.9,785.6 494.9,824.6 494.9,824.6 494.8,824.7 487.8,831.7 487.8,833.3 		"/>
 	</g>
 	<rect x="57.1" y="461.8" class="st2" width="292.9" height="51.5"/>
-	<text transform="matrix(1 0 0 1 158.6959 484.7599)" class="st10 st4 st11">FOOD</text>
+	<text transform="matrix(1 0 0 1 111.6959 484.7599)" class="st10 st4 st11">GASTRONOMIE</text>
 	<rect x="56.9" y="527.2" class="st8" width="293.4" height="51.5"/>
 	<g>
 		<polygon class="st12" points="330.5,553.2 330.4,553.3 330.2,553.5 305.1,578.6 306.6,578.6 331,554.3 331.1,554.1 331.3,554 
@@ -395,7 +395,7 @@
 			62.9,578.6 91.2,550.3 		"/>
 	</g>
 	<rect x="57.4" y="542.6" class="st2" width="292.9" height="51.5"/>
-	<text transform="matrix(1 0 0 1 72.585 565.5558)" class="st10 st4 st11">BUCHHANDLUNG</text>
+	<text transform="matrix(1 0 0 1 83.585 565.5558)" class="st10 st4 st11">BUCHHANDLUNG</text>
 	<rect x="57.1" y="606.9" class="st8" width="293.4" height="51.5"/>
 	<g>
 		<polygon class="st13" points="348.3,658.4 350.6,656.1 350.6,654.6 346.8,658.4 		"/>
@@ -485,7 +485,7 @@
 			78.7,637.1 		"/>
 	</g>
 	<rect x="57.6" y="622.3" class="st2" width="292.9" height="51.5"/>
-	<text transform="matrix(1 0 0 1 141.8355 645.2658)" class="st10 st4 st11">SERVICE</text>
+	<text transform="matrix(1 0 0 1 145.8355 645.2658)" class="st10 st4 st11">SERVICE</text>
 	<g>
 		<polygon class="st9" points="1418.7,726.3 1418.7,726.3 1418.6,726.4 1379.3,765.8 1379.2,765.9 1379.2,765.9 1340,805.1 
 			1340,805.1 1300.8,844.2 1300.8,844.2 1300.7,844.4 1261.4,883.7 1261.2,883.8 1261.2,883.8 1242.8,902.3 1244.4,902.3 
@@ -510,7 +510,7 @@
 			1387.8,774.5 1387.8,774.5 1387.9,774.4 1427.3,735.1 1427.4,735 1427.4,735 1438.1,724.2 1438.1,722.6 1426.5,734.3 		"/>
 		<polygon class="st9" points="1438.1,746.2 1399.1,785.3 1399.1,785.3 1399,785.4 1359.8,824.6 1359.6,824.7 1359.5,824.9 
 			1320.3,864 1320.2,864.2 1320.2,864.2 1282.1,902.3 1283.7,902.3 1321.1,864.8 1321.3,864.7 1321.3,864.7 1360.3,825.7 
-			1360.4,825.5 1360.4,825.5 1360.6,825.4 1399.6,786.3 1399.6,786.3 1399.7,786.2 1438.1,747.8 1438.1,746.2 1438.1,746.2 		"/>
+			1360.4,825.5 1360.4,825.5 1360.6,825.4 1399.6,786.3 1399.6,786.3 1399.7,786.2 1438.1,747.8 1438.1,746.2 		"/>
 		<polygon class="st9" points="1434.3,820.8 1395.2,860 1395,860.1 1394.9,860.2 1355.8,899.3 1355.8,899.3 1355.7,899.4 
 			1352.9,902.3 1354.5,902.3 1356.4,900.3 1356.5,900.2 1356.6,900.1 1395.7,861 1395.8,860.9 1395.9,860.8 1435.1,821.6 
 			1435.3,821.4 1438.1,818.6 1438.1,817 1434.5,820.7 		"/>
