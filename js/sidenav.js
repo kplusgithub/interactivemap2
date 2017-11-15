@@ -25,7 +25,7 @@ $(document).ready(function () {
 
         }
         else {
-            $(".bottom").css({"bottom": 50});
+            $(".bottom").css({"bottom": 250});
             $('#sidebar').removeClass('bottom');
         }
     });
