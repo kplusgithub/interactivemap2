@@ -2,9 +2,161 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24a4f41f-b5d4-4813-a224-a6d518ee4573" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/schnitt.png" afterPath="$PROJECT_DIR$/assets/img/schnitt.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/schnitt_eg.png" afterPath="$PROJECT_DIR$/assets/img/schnitt_eg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/schnitt_og.png" afterPath="$PROJECT_DIR$/assets/img/schnitt_og.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/schnitt_ug.png" afterPath="$PROJECT_DIR$/assets/img/schnitt_ug.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/one-page-wonder.css" afterPath="$PROJECT_DIR$/css/one-page-wonder.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/bulletpoints.svg" afterPath="$PROJECT_DIR$/assets/img/bulletpoints.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/hotspots_eg.svg" afterPath="$PROJECT_DIR$/assets/img/hotspots_eg.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/hotspots_ug_01.svg" afterPath="$PROJECT_DIR$/assets/img/hotspots_ug_01.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/hotspots_ug_02.svg" afterPath="$PROJECT_DIR$/assets/img/hotspots_ug_02.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/kreisdiagram.svg" afterPath="$PROJECT_DIR$/assets/img/kreisdiagram.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area1.html" afterPath="$PROJECT_DIR$/content/area1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area10.html" afterPath="$PROJECT_DIR$/content/area10.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area100.html" afterPath="$PROJECT_DIR$/content/area100.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area101.html" afterPath="$PROJECT_DIR$/content/area101.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area102.html" afterPath="$PROJECT_DIR$/content/area102.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area103.html" afterPath="$PROJECT_DIR$/content/area103.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area104.html" afterPath="$PROJECT_DIR$/content/area104.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area105.html" afterPath="$PROJECT_DIR$/content/area105.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area106.html" afterPath="$PROJECT_DIR$/content/area106.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area107.html" afterPath="$PROJECT_DIR$/content/area107.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area108.html" afterPath="$PROJECT_DIR$/content/area108.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area109.html" afterPath="$PROJECT_DIR$/content/area109.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area11.html" afterPath="$PROJECT_DIR$/content/area11.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area110.html" afterPath="$PROJECT_DIR$/content/area110.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area111.html" afterPath="$PROJECT_DIR$/content/area111.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area112.html" afterPath="$PROJECT_DIR$/content/area112.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area113.html" afterPath="$PROJECT_DIR$/content/area113.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area114.html" afterPath="$PROJECT_DIR$/content/area114.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area115.html" afterPath="$PROJECT_DIR$/content/area115.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area116.html" afterPath="$PROJECT_DIR$/content/area116.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area117.html" afterPath="$PROJECT_DIR$/content/area117.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area118.html" afterPath="$PROJECT_DIR$/content/area118.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area119.html" afterPath="$PROJECT_DIR$/content/area119.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area12.html" afterPath="$PROJECT_DIR$/content/area12.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area120.html" afterPath="$PROJECT_DIR$/content/area120.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area121.html" afterPath="$PROJECT_DIR$/content/area121.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area122.html" afterPath="$PROJECT_DIR$/content/area122.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area123.html" afterPath="$PROJECT_DIR$/content/area123.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area124.html" afterPath="$PROJECT_DIR$/content/area124.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area125.html" afterPath="$PROJECT_DIR$/content/area125.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area126.html" afterPath="$PROJECT_DIR$/content/area126.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area127.html" afterPath="$PROJECT_DIR$/content/area127.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area128.html" afterPath="$PROJECT_DIR$/content/area128.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area129.html" afterPath="$PROJECT_DIR$/content/area129.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area13.html" afterPath="$PROJECT_DIR$/content/area13.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area130.html" afterPath="$PROJECT_DIR$/content/area130.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area131.html" afterPath="$PROJECT_DIR$/content/area131.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area132.html" afterPath="$PROJECT_DIR$/content/area132.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area133.html" afterPath="$PROJECT_DIR$/content/area133.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area134.html" afterPath="$PROJECT_DIR$/content/area134.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area135.html" afterPath="$PROJECT_DIR$/content/area135.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area136.html" afterPath="$PROJECT_DIR$/content/area136.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area137.html" afterPath="$PROJECT_DIR$/content/area137.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area138.html" afterPath="$PROJECT_DIR$/content/area138.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area139.html" afterPath="$PROJECT_DIR$/content/area139.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area14.html" afterPath="$PROJECT_DIR$/content/area14.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area140.html" afterPath="$PROJECT_DIR$/content/area140.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area141.html" afterPath="$PROJECT_DIR$/content/area141.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area142.html" afterPath="$PROJECT_DIR$/content/area142.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area15.html" afterPath="$PROJECT_DIR$/content/area15.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area16.html" afterPath="$PROJECT_DIR$/content/area16.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area17.html" afterPath="$PROJECT_DIR$/content/area17.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area18.html" afterPath="$PROJECT_DIR$/content/area18.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area19.html" afterPath="$PROJECT_DIR$/content/area19.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area2.html" afterPath="$PROJECT_DIR$/content/area2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area20.html" afterPath="$PROJECT_DIR$/content/area20.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area21.html" afterPath="$PROJECT_DIR$/content/area21.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area22.html" afterPath="$PROJECT_DIR$/content/area22.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area23.html" afterPath="$PROJECT_DIR$/content/area23.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area24.html" afterPath="$PROJECT_DIR$/content/area24.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area25.html" afterPath="$PROJECT_DIR$/content/area25.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area26.html" afterPath="$PROJECT_DIR$/content/area26.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area27.html" afterPath="$PROJECT_DIR$/content/area27.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area28.html" afterPath="$PROJECT_DIR$/content/area28.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area29.html" afterPath="$PROJECT_DIR$/content/area29.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area3.html" afterPath="$PROJECT_DIR$/content/area3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area30.html" afterPath="$PROJECT_DIR$/content/area30.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area31.html" afterPath="$PROJECT_DIR$/content/area31.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area32.html" afterPath="$PROJECT_DIR$/content/area32.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area33.html" afterPath="$PROJECT_DIR$/content/area33.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area34.html" afterPath="$PROJECT_DIR$/content/area34.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area35.html" afterPath="$PROJECT_DIR$/content/area35.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area36.html" afterPath="$PROJECT_DIR$/content/area36.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area37.html" afterPath="$PROJECT_DIR$/content/area37.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area38.html" afterPath="$PROJECT_DIR$/content/area38.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area39.html" afterPath="$PROJECT_DIR$/content/area39.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area4.html" afterPath="$PROJECT_DIR$/content/area4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area40.html" afterPath="$PROJECT_DIR$/content/area40.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area41.html" afterPath="$PROJECT_DIR$/content/area41.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area42.html" afterPath="$PROJECT_DIR$/content/area42.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area43.html" afterPath="$PROJECT_DIR$/content/area43.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area44.html" afterPath="$PROJECT_DIR$/content/area44.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area45.html" afterPath="$PROJECT_DIR$/content/area45.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area46.html" afterPath="$PROJECT_DIR$/content/area46.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area47.html" afterPath="$PROJECT_DIR$/content/area47.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area48.html" afterPath="$PROJECT_DIR$/content/area48.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area49.html" afterPath="$PROJECT_DIR$/content/area49.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area5.html" afterPath="$PROJECT_DIR$/content/area5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area50.html" afterPath="$PROJECT_DIR$/content/area50.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area51.html" afterPath="$PROJECT_DIR$/content/area51.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area52.html" afterPath="$PROJECT_DIR$/content/area52.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area53.html" afterPath="$PROJECT_DIR$/content/area53.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area54.html" afterPath="$PROJECT_DIR$/content/area54.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area55.html" afterPath="$PROJECT_DIR$/content/area55.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area56.html" afterPath="$PROJECT_DIR$/content/area56.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area57.html" afterPath="$PROJECT_DIR$/content/area57.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area58.html" afterPath="$PROJECT_DIR$/content/area58.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area59.html" afterPath="$PROJECT_DIR$/content/area59.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area6.html" afterPath="$PROJECT_DIR$/content/area6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area60.html" afterPath="$PROJECT_DIR$/content/area60.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area61.html" afterPath="$PROJECT_DIR$/content/area61.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area62.html" afterPath="$PROJECT_DIR$/content/area62.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area63.html" afterPath="$PROJECT_DIR$/content/area63.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area64.html" afterPath="$PROJECT_DIR$/content/area64.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area65.html" afterPath="$PROJECT_DIR$/content/area65.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area66.html" afterPath="$PROJECT_DIR$/content/area66.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area67.html" afterPath="$PROJECT_DIR$/content/area67.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area68.html" afterPath="$PROJECT_DIR$/content/area68.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area69.html" afterPath="$PROJECT_DIR$/content/area69.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area7.html" afterPath="$PROJECT_DIR$/content/area7.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area70.html" afterPath="$PROJECT_DIR$/content/area70.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area71.html" afterPath="$PROJECT_DIR$/content/area71.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area72.html" afterPath="$PROJECT_DIR$/content/area72.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area73.html" afterPath="$PROJECT_DIR$/content/area73.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area74.html" afterPath="$PROJECT_DIR$/content/area74.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area75.html" afterPath="$PROJECT_DIR$/content/area75.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area76.html" afterPath="$PROJECT_DIR$/content/area76.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area77.html" afterPath="$PROJECT_DIR$/content/area77.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area78.html" afterPath="$PROJECT_DIR$/content/area78.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area79.html" afterPath="$PROJECT_DIR$/content/area79.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area8.html" afterPath="$PROJECT_DIR$/content/area8.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area80.html" afterPath="$PROJECT_DIR$/content/area80.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area81.html" afterPath="$PROJECT_DIR$/content/area81.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area82.html" afterPath="$PROJECT_DIR$/content/area82.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area83.html" afterPath="$PROJECT_DIR$/content/area83.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area84.html" afterPath="$PROJECT_DIR$/content/area84.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area85.html" afterPath="$PROJECT_DIR$/content/area85.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area86.html" afterPath="$PROJECT_DIR$/content/area86.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area87.html" afterPath="$PROJECT_DIR$/content/area87.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area88.html" afterPath="$PROJECT_DIR$/content/area88.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area89.html" afterPath="$PROJECT_DIR$/content/area89.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area9.html" afterPath="$PROJECT_DIR$/content/area9.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area90.html" afterPath="$PROJECT_DIR$/content/area90.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area91.html" afterPath="$PROJECT_DIR$/content/area91.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area92.html" afterPath="$PROJECT_DIR$/content/area92.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area93.html" afterPath="$PROJECT_DIR$/content/area93.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area94.html" afterPath="$PROJECT_DIR$/content/area94.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area95.html" afterPath="$PROJECT_DIR$/content/area95.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area96.html" afterPath="$PROJECT_DIR$/content/area96.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area97.html" afterPath="$PROJECT_DIR$/content/area97.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area98.html" afterPath="$PROJECT_DIR$/content/area98.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/area99.html" afterPath="$PROJECT_DIR$/content/area99.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/sidenav.js" afterPath="$PROJECT_DIR$/js/sidenav.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/json_mieter.json" afterPath="$PROJECT_DIR$/json_mieter.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,11 +170,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="1798" column="52" lean-forward="false" selection-start-line="1798" selection-start-column="52" selection-end-line="1798" selection-end-column="52" />
+            <state relative-caret-position="403">
+              <caret line="2162" column="92" lean-forward="false" selection-start-line="2162" selection-start-column="92" selection-end-line="2162" selection-end-column="92" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -33,7 +185,7 @@
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#p#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#9767#14193#0" expanded="false" />
+                <element signature="e#9829#14255#0" expanded="false" />
                 <element signature="n#style#0;n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -69,15 +221,51 @@
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1510912917707" expanded="false" signature="9974:11271" ph="..." />
-                <marker date="1510912917707" expanded="false" signature="10123:11262" ph="..." />
-                <marker date="1510912917707" expanded="false" signature="11368:12811" ph="..." />
-                <marker date="1510912917707" expanded="false" signature="11507:12801" ph="..." />
-                <marker date="1510912917707" expanded="false" signature="36889:36920" ph="..." />
-                <marker date="1510912917707" expanded="false" signature="36981:36995" ph="..." />
-                <marker date="1510912917707" expanded="false" signature="37047:37078" ph="..." />
-                <marker date="1510912917707" expanded="true" signature="82949:82955" ph="©" />
+                <marker date="1512558914144" expanded="false" signature="10036:11333" ph="..." />
+                <marker date="1512558914144" expanded="false" signature="10185:11324" ph="..." />
+                <marker date="1512558914144" expanded="false" signature="11430:12873" ph="..." />
+                <marker date="1512558914144" expanded="false" signature="11569:12863" ph="..." />
+                <marker date="1512558914144" expanded="false" signature="36951:36982" ph="..." />
+                <marker date="1512558914144" expanded="false" signature="37043:37057" ph="..." />
+                <marker date="1512558914144" expanded="false" signature="37109:37140" ph="..." />
+                <marker date="1512558914144" expanded="true" signature="83106:83112" ph="©" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="area1.html" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/Desktop/weer/area1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1512565963771" expanded="true" signature="1054:1071" ph="..." />
+                <marker date="1512565963771" expanded="true" signature="1188:1205" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="area2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/weer/area2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1510737693184" expanded="true" signature="1070:1087" ph="..." />
+                <marker date="1510737693184" expanded="true" signature="1204:1221" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bulletpoints.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/img/bulletpoints.svg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="3439" column="84" lean-forward="false" selection-start-line="3439" selection-start-column="84" selection-end-line="3439" selection-end-column="84" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -85,8 +273,8 @@
       <file leaf-file-name="one-page-wonder.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/one-page-wonder.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+            <state relative-caret-position="17">
+              <caret line="36" column="23" lean-forward="false" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -95,10 +283,14 @@
       <file leaf-file-name="area1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/area1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="17">
               <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
               <folding>
-                <marker date="1510737631733" expanded="true" signature="962:1331" ph="{...}" />
+                <marker date="1512566026087" expanded="true" signature="844:1326" ph="..." />
+                <marker date="1512566026087" expanded="true" signature="891:1314" ph="{...}" />
+                <marker date="1512566026087" expanded="true" signature="945:1314" ph="{...}" />
+                <marker date="1512566026087" expanded="true" signature="1054:1071" ph="..." />
+                <marker date="1512566026087" expanded="true" signature="1188:1205" ph="..." />
               </folding>
             </state>
           </provider>
@@ -114,20 +306,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77316">
-              <caret line="4548" column="11" lean-forward="false" selection-start-line="4548" selection-start-column="11" selection-end-line="4548" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="sliderbar.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/sliderbar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
+            <state relative-caret-position="745">
               <caret line="55" column="42" lean-forward="false" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
               <folding />
             </state>
@@ -137,8 +319,8 @@
       <file leaf-file-name="sidenav.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/sidenav.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+            <state relative-caret-position="459">
+              <caret line="27" column="45" lean-forward="false" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -166,9 +348,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>HISTORISCHE GEPÄCKANNAHME</find>
-      <find>BESUCHERFREQUENZ</find>
-      <find>verweile</find>
       <find>modal</find>
       <find>pattern</find>
       <find>INFO</find>
@@ -196,6 +375,9 @@
       <find>hotspots</find>
       <find>axel weber</find>
       <find>svg</find>
+      <find>LAGEPLAN</find>
+      <find>bahnhof im wande</find>
+      <find>ECE</find>
     </findStrings>
     <replaceStrings>
       <replace>ast0</replace>
@@ -247,15 +429,16 @@
         <option value="$PROJECT_DIR$/js/toggletext.js" />
         <option value="$PROJECT_DIR$/js/area_content.js" />
         <option value="$PROJECT_DIR$/assets/img/bulletpoints_1.svg" />
-        <option value="$PROJECT_DIR$/assets/img/bulletpoints.svg" />
         <option value="$PROJECT_DIR$/content/area1.html" />
         <option value="$PROJECT_DIR$/js/modal.js" />
         <option value="$PROJECT_DIR$/js/colormap.js" />
         <option value="$PROJECT_DIR$/assets/img/icon_stichpunkte.svg" />
         <option value="$PROJECT_DIR$/json_mieter.json" />
-        <option value="$PROJECT_DIR$/js/sidenav.js" />
         <option value="$PROJECT_DIR$/css/one-page-wonder.css" />
+        <option value="$PROJECT_DIR$/assets/img/bulletpoints.svg" />
+        <option value="$PROJECT_DIR$/js/sidenav.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$USER_HOME$/Desktop/weer/area1.html" />
       </list>
     </option>
   </component>
@@ -321,6 +504,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -343,7 +527,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -496,11 +679,14 @@
       <workItem from="1510745173100" duration="621000" />
       <workItem from="1510842097666" duration="5227000" />
       <workItem from="1510912553124" duration="964000" />
+      <workItem from="1510933485872" duration="386000" />
+      <workItem from="1512551910134" duration="284000" />
+      <workItem from="1512552335984" duration="6853000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="477070000" />
+    <option name="totallyTimeSpent" value="484593000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -514,11 +700,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="0" width="2572" height="1400" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24980268" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298887" sideWeight="0.4747833" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33413848" sideWeight="0.5063141" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.4889677" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33413848" sideWeight="0.51262826" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.48737174" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930756" sideWeight="0.49368587" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -566,75 +753,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/interactive.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1666">
-          <caret line="98" column="50" lean-forward="true" selection-start-line="98" selection-start-column="50" selection-end-line="98" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8908">
-          <caret line="524" column="63" lean-forward="true" selection-start-line="524" selection-start-column="63" selection-end-line="524" selection-end-column="63" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#2;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#3;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#4;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#p#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#9767#14193#0" expanded="false" />
-            <element signature="n#style#0;n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#div#1;n#div#0;n#div#0;n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#p#0;n#div#0;n#div#0;n#div#2;n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#p#0;n#div#0;n#div#0;n#div#3;n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#p#0;n#div#0;n#div#0;n#div#4;n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#p#0;n#div#0;n#div#0;n#div#5;n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#p#0;n#div#0;n#div#0;n#div#6;n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#18;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#p#3;n#div#1;n#div#28;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#5;n#ul#0;n#div#0;n#div#30;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#rect#0;n#svg#0;n#div#0;n#li#5;n#ul#0;n#div#0;n#div#30;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#30;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#1;n#div#30;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#svg#0;n#div#1;n#div#30;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#2;n#div#1;n#div#30;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#3;n#div#1;n#div#30;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#svg#1;n#div#1;n#div#30;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#g#0;n#svg#1;n#div#1;n#div#30;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#4;n#div#1;n#div#30;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#5;n#div#1;n#div#30;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#2;n#div#1;n#div#30;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1510912917707" expanded="false" signature="9974:11271" ph="..." />
-            <marker date="1510912917707" expanded="false" signature="10123:11262" ph="..." />
-            <marker date="1510912917707" expanded="false" signature="11368:12811" ph="..." />
-            <marker date="1510912917707" expanded="false" signature="11507:12801" ph="..." />
-            <marker date="1510912917707" expanded="false" signature="36889:36920" ph="..." />
-            <marker date="1510912917707" expanded="false" signature="36981:36995" ph="..." />
-            <marker date="1510912917707" expanded="false" signature="37047:37078" ph="..." />
-            <marker date="1510912917707" expanded="true" signature="82949:82955" ph="©" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/one-page-wonder.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -815,23 +933,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/area_content.js" />
     <entry file="file://$PROJECT_DIR$/assets/img/bulletpoints_1.svg" />
-    <entry file="file://$PROJECT_DIR$/assets/img/bulletpoints.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="45" lean-forward="false" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/area1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding>
-            <marker date="1510737631733" expanded="true" signature="962:1331" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/interactive.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="745">
@@ -890,14 +991,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/sliderbar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="42" lean-forward="false" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/colormap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -921,26 +1014,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/sidenav.js">
+    <entry file="file://$PROJECT_DIR$/assets/img/bulletpoints.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        <state relative-caret-position="250">
+          <caret line="3439" column="84" lean-forward="false" selection-start-line="3439" selection-start-column="84" selection-end-line="3439" selection-end-column="84" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/one-page-wonder.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+        <state relative-caret-position="17">
+          <caret line="36" column="23" lean-forward="false" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/area1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <marker date="1512566026087" expanded="true" signature="844:1326" ph="..." />
+            <marker date="1512566026087" expanded="true" signature="891:1314" ph="{...}" />
+            <marker date="1512566026087" expanded="true" signature="945:1314" ph="{...}" />
+            <marker date="1512566026087" expanded="true" signature="1054:1071" ph="..." />
+            <marker date="1512566026087" expanded="true" signature="1188:1205" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/sliderbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="745">
+          <caret line="55" column="42" lean-forward="false" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/sidenav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="45" lean-forward="false" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="1798" column="52" lean-forward="false" selection-start-line="1798" selection-start-column="52" selection-end-line="1798" selection-end-column="52" />
+        <state relative-caret-position="403">
+          <caret line="2162" column="92" lean-forward="false" selection-start-line="2162" selection-start-column="92" selection-end-line="2162" selection-end-column="92" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -951,7 +1074,7 @@
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#p#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#9767#14193#0" expanded="false" />
+            <element signature="e#9829#14255#0" expanded="false" />
             <element signature="n#style#0;n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -987,14 +1110,36 @@
             <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1510912917707" expanded="false" signature="9974:11271" ph="..." />
-            <marker date="1510912917707" expanded="false" signature="10123:11262" ph="..." />
-            <marker date="1510912917707" expanded="false" signature="11368:12811" ph="..." />
-            <marker date="1510912917707" expanded="false" signature="11507:12801" ph="..." />
-            <marker date="1510912917707" expanded="false" signature="36889:36920" ph="..." />
-            <marker date="1510912917707" expanded="false" signature="36981:36995" ph="..." />
-            <marker date="1510912917707" expanded="false" signature="37047:37078" ph="..." />
-            <marker date="1510912917707" expanded="true" signature="82949:82955" ph="©" />
+            <marker date="1512558914144" expanded="false" signature="10036:11333" ph="..." />
+            <marker date="1512558914144" expanded="false" signature="10185:11324" ph="..." />
+            <marker date="1512558914144" expanded="false" signature="11430:12873" ph="..." />
+            <marker date="1512558914144" expanded="false" signature="11569:12863" ph="..." />
+            <marker date="1512558914144" expanded="false" signature="36951:36982" ph="..." />
+            <marker date="1512558914144" expanded="false" signature="37043:37057" ph="..." />
+            <marker date="1512558914144" expanded="false" signature="37109:37140" ph="..." />
+            <marker date="1512558914144" expanded="true" signature="83106:83112" ph="©" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/weer/area2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1510737693184" expanded="true" signature="1070:1087" ph="..." />
+            <marker date="1510737693184" expanded="true" signature="1204:1221" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/weer/area1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1512565963771" expanded="true" signature="1054:1071" ph="..." />
+            <marker date="1512565963771" expanded="true" signature="1188:1205" ph="..." />
           </folding>
         </state>
       </provider>
