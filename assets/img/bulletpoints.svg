@@ -3392,40 +3392,40 @@
 	c0-4.7,2.4-9.2,6.5-11.9l12.5-8.4l0,0l27-18.2c5-3.4,8-8.9,8-14.8v-30.5v-0.3v1.5c0-0.5-0.1-2.6-0.1-3.1l-0.3-1.9
 	c-0.9-4.5-3.6-8.5-7.6-11.2l-26.7-18c-0.1-0.1-0.2-0.1-0.3-0.2l-12.5-8.4c-4.1-2.7-6.5-7.2-6.5-11.9v-29l0,0v-29
 	c0-4.7,2.4-9.2,6.5-11.9l12.5-8.4l0,0l27-18.2c5-3.4,8-8.9,8-14.8V181v-0.3L254.8,182.1z"/>
-<text transform="matrix(1 0 0 1 157.8107 200.6085)" class="st5 st6 st7">21 </text>
-<text transform="matrix(1 0 0 1 169.2107 200.6085)" class="st5 st8 st7">BAHNSTEIGGLEISE</text>
-<text transform="matrix(1 0 0 1 172.3107 210.2085)" class="st5 st8 st7">UND</text>
+<text transform="matrix(1 0 0 1 160.8107 200.6085)" class="st5 st6 st7">21 </text>
+<text transform="matrix(1 0 0 1 172.2107 200.6085)" class="st5 st8 st7">BAHNSTEIGGLEISE</text>
+<text transform="matrix(1 0 0 1 175.3107 210.2085)" class="st5 st8 st7">UND</text>
 <text transform="matrix(1 0 0 1 188.1107 210.2085)" class="st5 st6 st7"> </text>
-<text transform="matrix(1 0 0 1 190.5107 210.2085)" class="st5 st8 st7">DIREKTE</text>
-<text transform="matrix(1 0 0 1 164.0107 219.8085)" class="st5 st8 st7">ANBINDUNG</text>
+<text transform="matrix(1 0 0 1 193.5107 210.2085)" class="st5 st8 st7">DIREKTE</text>
+<text transform="matrix(1 0 0 1 167.0107 219.8085)" class="st5 st8 st7">ANBINDUNG</text>
 <text transform="matrix(1 0 0 1 206.6107 219.8085)" class="st5 st6 st7"> </text>
-<text transform="matrix(1 0 0 1 209.1107 219.8085)" class="st5 st8 st7">ZUM</text>
-<text transform="matrix(1 0 0 1 172.5107 229.4085)" class="st5 st8 st7">MARKTPLATZ</text>
-<text transform="matrix(1 0 0 1 168.1018 406.1086)" class="st5 st6 st7">24</text>
-<text transform="matrix(1 0 0 1 177.0018 406.1086)" class="st5 st8 st7">H</text>
+<text transform="matrix(1 0 0 1 212.1107 219.8085)" class="st5 st8 st7">ZUM</text>
+<text transform="matrix(1 0 0 1 175.5107 229.4085)" class="st5 st8 st7">MARKTPLATZ</text>
+<text transform="matrix(1 0 0 1 172.1018 406.1086)" class="st5 st6 st7">24</text>
+<text transform="matrix(1 0 0 1 181.0018 406.1086)" class="st5 st8 st7">H</text>
 <text transform="matrix(1 0 0 1 182.2018 406.1086)" class="st5 st6 st7"> </text>
-<text transform="matrix(1 0 0 1 184.7018 406.1086)" class="st5 st8 st7">ÖFFNUNG</text>
-<text transform="matrix(1 0 0 1 158.2018 415.7086)" class="st5 st8 st7">FÜR</text>
+<text transform="matrix(1 0 0 1 188.7018 406.1086)" class="st5 st8 st7">ÖFFNUNG</text>
+<text transform="matrix(1 0 0 1 162.2018 415.7086)" class="st5 st8 st7">FÜR</text>
 <text transform="matrix(1 0 0 1 171.6018 415.7086)" class="st5 st6 st7"> </text>
-<text transform="matrix(1 0 0 1 174.1018 415.7086)" class="st5 st8 st7">GASTRONOMIE</text>
-<text transform="matrix(1 0 0 1 177.7018 425.3086)" class="st5 st8 st7">MÖGLICH</text>
+<text transform="matrix(1 0 0 1 178.1018 415.7086)" class="st5 st8 st7">GASTRONOMIE</text>
+<text transform="matrix(1 0 0 1 181.7018 425.3086)" class="st5 st8 st7">MÖGLICH</text>
 <g>
 	<path class="st4" d="M364.8,83.8c0-0.5-0.1-2.6-0.1-3.1l-0.3-1.9c-0.9-4.5-3.6-8.5-7.6-11.2l-26.7-18c-0.1-0.1-0.2-0.1-0.3-0.2
 		L317.3,41c-4.1-2.7-6.5-7.2-6.5-11.9V0h-3.7v29c0,4.7-2.4,9.2-6.5,11.9l-12.5,8.4c-0.1,0.1-0.2,0.1-0.3,0.2l-26.7,18
 		c-4,2.7-6.7,6.7-7.6,11.2l-0.3,1.9c-0.1,0.5-0.1,2.6-0.1,3.1v-1.5v0.3v30.7c0,5.8,3,11.4,8,14.8l27,18.2l0,0l12.5,8.4
 		c4.1,2.7,6.5,7.2,6.5,11.9v29h3.7v-29c0-4.7,2.4-9.2,6.5-11.9l12.5-8.4l0,0l27-18.2c5-3.4,8-8.9,8-14.8V82.6v-0.3"/>
 </g>
-<text transform="matrix(1 0 0 1 274.5465 114.442)" class="st5 st8 st7">DAS</text>
+<text transform="matrix(1 0 0 1 278.5465 114.442)" class="st5 st8 st7">DAS</text>
 <text transform="matrix(1 0 0 1 288.7465 114.442)" class="st5 st6 st7"> </text>
-<text transform="matrix(1 0 0 1 291.1465 114.442)" class="st5 st8 st7">GÜNSTIGSTE</text>
+<text transform="matrix(1 0 0 1 295.1465 114.442)" class="st5 st8 st7">GÜNSTIGSTE</text>
 <text transform="matrix(1 0 0 1 333.6465 114.442)" class="st5 st6 st7"> </text>
-<text transform="matrix(1 0 0 1 272.3465 124.042)" class="st5 st8 st7">PARKHAUS</text>
+<text transform="matrix(1 0 0 1 276.3465 124.042)" class="st5 st8 st7">PARKHAUS</text>
 <text transform="matrix(1 0 0 1 309.3465 124.042)" class="st5 st6 st7"> </text>
-<text transform="matrix(1 0 0 1 311.8465 124.042)" class="st5 st8 st7">IN</text>
+<text transform="matrix(1 0 0 1 315.8465 124.042)" class="st5 st8 st7">IN</text>
 <text transform="matrix(1 0 0 1 319.0465 124.042)" class="st5 st6 st7"> </text>
-<text transform="matrix(1 0 0 1 321.5465 124.042)" class="st5 st8 st7">DER</text>
+<text transform="matrix(1 0 0 1 325.5465 124.042)" class="st5 st8 st7">DER</text>
 <text transform="matrix(1 0 0 1 335.0465 124.042)" class="st5 st6 st7"> </text>
-<text transform="matrix(1 0 0 1 283.4465 133.642)" class="st5 st8 st7">INNENSTADT</text>
+<text transform="matrix(1 0 0 1 287.4465 133.642)" class="st5 st8 st7">INNENSTADT</text>
 <path class="st4" d="M474.8,182.1c0-0.5-0.1-2.6-0.1-3.1l-0.3-1.9c-0.9-4.5-3.6-8.5-7.6-11.2l-26.7-18c-0.1-0.1-0.2-0.1-0.3-0.2
 	l-12.5-8.4c-4.1-2.7-6.5-7.2-6.5-11.9V0h-3.7v127.3c0,4.7-2.4,9.2-6.5,11.9l-12.5,8.4c-0.1,0.1-0.2,0.1-0.3,0.2l-26.7,18
 	c-4,2.7-6.7,6.7-7.6,11.2l-0.3,1.9c-0.1,0.5-0.1,2.6-0.1,3.1v-1.5v0.3v30.7c0,5.8,3,11.4,8,14.8l27,18.2l0,0l12.5,8.4
@@ -3434,40 +3434,42 @@
 	c0-4.7,2.4-9.2,6.5-11.9l12.5-8.4l0,0l27-18.2c5-3.4,8-8.9,8-14.8v-30.5v-0.3v1.5c0-0.5-0.1-2.6-0.1-3.1l-0.3-1.9
 	c-0.9-4.5-3.6-8.5-7.6-11.2l-26.7-18c-0.1-0.1-0.2-0.1-0.3-0.2l-12.5-8.4c-4.1-2.7-6.5-7.2-6.5-11.9v-29l0,0v-29
 	c0-4.7,2.4-9.2,6.5-11.9l12.5-8.4l0,0l27-18.2c5-3.4,8-8.9,8-14.8V181v-0.3V182.1z"/>
-<text transform="matrix(1 0 0 1 374.9583 198.6918)" class="st5 st8 st7">DIREKTE</text>
+<text transform="matrix(1 0 0 1 377.9583 198.6918)" class="st5 st8 st7">DIREKTE</text>
 <text transform="matrix(1 0 0 1 402.6583 198.6918)" class="st5 st6 st7">  </text>
-<text transform="matrix(1 0 0 1 406.1583 198.6918)" class="st5 st8 st7">VERBINDUNG</text>
-<text transform="matrix(1 0 0 1 381.7583 208.2918)" class="st5 st8 st7">HAUPTBAHNHOF</text>
+<text transform="matrix(1 0 0 1 409.1583 198.6918)" class="st5 st8 st7">VERBINDUNG</text>
+<text transform="matrix(1 0 0 1 384.7583 208.2918)" class="st5 st8 st7">HAUPTBAHNHOF</text>
 <text transform="matrix(1 0 0 1 439.6583 208.2918)" class="st5 st6 st7"> </text>
 <text transform="matrix(1 0 0 1 442.0583 208.2918)" class="st5 st8 st7">-</text>
 <text transform="matrix(1 0 0 1 444.5583 208.2918)" class="st5 st6 st7"> </text>
-<text transform="matrix(1 0 0 1 390.0583 217.8918)" class="st5 st8 st7">FLUGHAFEN</text>
+<text transform="matrix(1 0 0 1 393.0583 217.8918)" class="st5 st8 st7">FLUGHAFEN</text>
 <text transform="matrix(1 0 0 1 431.2583 217.8918)" class="st5 st6 st7"> </text>
-<text transform="matrix(1 0 0 1 433.7583 217.8918)" class="st5 st8 st7">IN</text>
-<text transform="matrix(1 0 0 1 394.6583 227.4918)" class="st5 st6 st7">14 </text>
-<text transform="matrix(1 0 0 1 406.0583 227.4918)" class="st5 st8 st7">MINUTEN</text>
-<text transform="matrix(1 0 0 1 377.3582 410.1821)" class="st5 st8 st7">SONNTAGSÖFFNUNG</text>
-<text transform="matrix(1 0 0 1 384.0582 419.7821)" class="st5 st8 st7">FÜR</text>
+<text transform="matrix(1 0 0 1 436.7583 217.8918)" class="st5 st8 st7">IN</text>
+<text transform="matrix(1 0 0 1 395.6583 227.4918)" class="st5 st6 st7">14 </text>
+<text transform="matrix(1 0 0 1 407.0583 227.4918)" class="st5 st8 st7">MINUTEN</text>
+<text transform="matrix(1 0 0 1 380.3582 412.1821)" class="st5 st8 st7">SONNTAGSÖFFNUNG</text>
+<text transform="matrix(1 0 0 1 387.0582 421.7821)" class="st5 st8 st7">FÜR</text>
 <text transform="matrix(1 0 0 1 397.4583 419.7821)" class="st5 st6 st7"> </text>
-<text transform="matrix(1 0 0 1 399.9583 419.7821)" class="st5 st8 st7">REISEBEDARF</text>
-    <text transform="matrix(1 0 0 1 235.3582 282.1821)" class="st5 st8 st7" style="fill:black;font-size:22px;">70K BESUCHER</text>
-    <text transform="matrix(1 0 0 1 264.3582 310.1821)" class="st5 st8 st7" style="fill:black;font-size:22px">PRO TAG</text>
+<text transform="matrix(1 0 0 1 402.9583 421.7821)" class="st5 st8 st7">REISEBEDARF</text>
+    
+    <text transform="matrix(1 0 0 1 279.3582 282.1821)" class="st5 st8 st7" style="fill:black;font-size:30px;">70K </text>
+    <text transform="matrix(1 0 0 1 265.3582 308.1821)" class="st5 st8 st7" style="fill:black;font-size:16px;">BESUCHER</text>
+    <text transform="matrix(1 0 0 1 274.3582 330.1821)" class="st5 st8 st7" style="fill:black;font-size:16px">PRO TAG</text>
 <g>
 	<path class="st4" d="M585,279.4c0-0.5-0.1-2.6-0.1-3.1l-0.3-1.9c-0.9-4.5-3.6-8.5-7.6-11.2l-26.7-18c-0.1-0.1-0.2-0.1-0.3-0.2
 		l-12.5-8.4c-4.1-2.7-6.5-7.2-6.5-11.9V0h-3.7v224.7c0,4.7-2.4,9.2-6.5,11.9l-12.5,8.4c-0.1,0.1-0.2,0.1-0.3,0.2l-26.7,18
 		c-4,2.7-6.7,6.7-7.6,11.2l-0.3,1.9c-0.1,0.5-0.1,2.6-0.1,3.1v-1.5v0.3v30.7c0,5.8,3,11.4,8,14.8l27,18.2l0,0l12.5,8.4
 		c4.1,2.7,6.5,7.2,6.5,11.9V489h3.7V362.2c0-4.7,2.4-9.2,6.5-11.9l12.5-8.4l0,0l27-18.2c5-3.4,8-8.9,8-14.8v-30.7v-0.3"/>
 </g>
-<text transform="matrix(1 0 0 1 498.7878 311.6264)" class="st5 st6 st7">5</text>
-<text transform="matrix(1 0 0 1 503.1877 311.6264)" class="st5 st8 st7">MIN</text>
+<text transform="matrix(1 0 0 1 502.7878 311.6264)" class="st5 st6 st7">5</text>
+<text transform="matrix(1 0 0 1 507.1877 311.6264)" class="st5 st8 st7">MIN</text>
 <text transform="matrix(1 0 0 1 516.8878 311.6264)" class="st5 st6 st7"> </text>
 <text transform="matrix(1 0 0 1 516.8878 311.6264)" class="st5 st6 st7"> </text>
-<text transform="matrix(1 0 0 1 519.2878 311.6264)" class="st5 st8 st7">FUSSWEG</text>
-<text transform="matrix(1 0 0 1 490.8878 321.2264)" class="st5 st8 st7">IN</text>
+<text transform="matrix(1 0 0 1 523.2878 311.6264)" class="st5 st8 st7">FUSSWEG</text>
+<text transform="matrix(1 0 0 1 494.8878 321.2264)" class="st5 st8 st7">IN</text>
 <text transform="matrix(1 0 0 1 498.0878 321.2264)" class="st5 st6 st7"> </text>
-<text transform="matrix(1 0 0 1 500.5878 321.2264)" class="st5 st8 st7">DIE</text>
+<text transform="matrix(1 0 0 1 504.5878 321.2264)" class="st5 st8 st7">DIE</text>
 <text transform="matrix(1 0 0 1 511.6877 321.2264)" class="st5 st6 st7"> </text>
-<text transform="matrix(1 0 0 1 514.1877 321.2264)" class="st5 st8 st7">INNENSTADT</text>
+<text transform="matrix(1 0 0 1 518.1877 321.2264)" class="st5 st8 st7">INNENSTADT</text>
 <g>
 	<path class="st4" d="M144.7,279.4c0-0.5-0.1-2.6-0.1-3.1l-0.3-1.9c-0.9-4.5-3.6-8.5-7.6-11.2l-26.7-18c-0.1-0.1-0.2-0.1-0.3-0.2
 		l-12.5-8.4c-4.1-2.7-6.5-7.2-6.5-11.9V0H87v228.8c0,0.6-2.4,5.1-6.5,7.8L68,245c-0.1,0.1-0.2,0.1-0.3,0.2l-26.7,18
