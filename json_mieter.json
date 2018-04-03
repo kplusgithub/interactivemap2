@@ -1670,12 +1670,12 @@
            
            "lebensmittel": "false",
            "einzelhandel": "false",
-           "gastronomie": "false",
-           "dienstleistung": "true",
-           "vermietet": "true",
+           "gastronomie": "true",
+           "dienstleistung": "false",
+           "vermietet": "false",
            "reserviert": "false",
            "id": "129",
-           "name": "Super Cut",
+           "name": " ",
            "qm": "-" 
        },
        {
